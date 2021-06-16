@@ -27,4 +27,4 @@ Education and Training
   * M.A. in Statistics, Bowling Green State University, 2008
   * B.S. in Mathematics, Nanjing University, 2006
   * The High School Affiliated to Renmin University (中国人民大学附属中学), 2002
-  * Zhongguancun First Elementary School (中关村一小）, 1996
+  * Zhongguancun First Elementary School (中关村一小), 1996
