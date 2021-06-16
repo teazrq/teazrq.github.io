@@ -13,13 +13,10 @@ I am an Assistant Professor of Statistics at the University of Illinois Urbana-C
 Affiliations
 ======
 
-Department of Statistics, UIUC (2015 - )
-
-Carl R. Woese Institute for Genomic Biology (2016 - )
-
-Carle Illinois College of Medicine (2017 - )
-
-National Center for Supercomputing Applications (2018 - )
+  * Department of Statistics, UIUC (2015 - )
+  * Carl R. Woese Institute for Genomic Biology (2016 - )
+  * Carle Illinois College of Medicine (2017 - )
+  * National Center for Supercomputing Applications (2018 - )
 
 
 Education and Training
@@ -30,4 +27,4 @@ Education and Training
   * M.A. in Statistics, Bowling Green State University, 2008
   * B.S. in Mathematics, Nanjing University, 2006
   * The High School Affiliated to Renmin University (中国人民大学附属中学), 2002
-  * 中关村一小, Beijing, 1996
+  * Zhongguancun First Elementary School (中关村一小）, 1996
