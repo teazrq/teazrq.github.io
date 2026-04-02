@@ -1,0 +1,27 @@
+/* css styles */
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  padding: 12px 0;     /* controls thickness */
+  
+  font-size: 0.8em;   /* 80% of the normal text size */
+
+  background: #f8f9fa;
+  color: #333;
+  border-top: 0.5px solid #ccc;
+  z-index: 9999;
+
+  display: flex;               /* enables centering */
+  justify-content: center;     /* horizontal center */
+  align-items: center;         /* vertical center */
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+

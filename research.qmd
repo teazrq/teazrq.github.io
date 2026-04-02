@@ -1,0 +1,78 @@
+---
+title: "Research"
+---
+
+## Research Interests
+
+- Personalized Medicine
+- Reinforcement Learning
+- Random Forests and Trees
+- Survival Analysis
+- Sufficient Dimension Reduction
+- High-Dimensional Data
+- Biomedical Applications: Sepsis, Food and Nutrition, Infectious Diseases, Cancer Genetics/Genomics
+
+## Editorial Services
+
+- AE, [ACM Transactions on Probabilistic Machine Learning](https://dl.acm.org/journal/topml) (2025 - )
+- AE, [Journal of Computational and Graphical Statistics](https://www.tandfonline.com/journals/ucgs20) (2024 - )
+- AE, [Journal of the American Statistical Association](https://www.tandfonline.com/journals/uasa20) (2023 - )
+- AE, [Statistical Analysis and Data Mining](https://onlinelibrary.wiley.com/journal/19321872) (2022 - 2023)
+- Editorial board reviewer, [Journal of Machine Learning Research](https://jmlr.org/) (2020-)
+
+## Current Members
+
+- Eugene Han (2022-)
+- Mehrdad Mohammadi (2022-)
+- Zhiyu Wang (2023-)
+- Zexuan Zhang (2024-)
+- Zhaohao Su (2025-)
+- Amitakshar Biswas (2025-)
+
+## Previous Members
+
+**PhD**
+
+- Yuhan Li (2025), IMC Trading
+- [Tianning Xu](https://www.linkedin.com/in/tianning-xu/) (2024), Amazon
+- [Wenzhuo Zhou](https://sites.google.com/view/wenzhuozhou/home/) (2022), UCI
+- [Sarah E. Formentini](https://www.linkedin.com/in/sarah-formentini-43000563/) (2022), Bayer
+- [Joshua D. Loyal](https://joshloyal.github.io/) (2022), FSU
+- [Yutong (Jack) Li](https://www.linkedin.com/in/jack-yutong-li/) (2021), Novartis
+- [William Biscarri](https://www.linkedin.com/in/williambiscarri/) (2019), J.P. Morgan
+
+**MS**
+
+- Chengyu Du (2024), PhD, UMass Amherst
+- Haowen Zhou (2023), PhD, UVA
+- Yue Mu (2018), PhD, FSU
+- Jiyang Zhang (2018)
+- [Peng Xu](https://francis-hsu.github.io/) (2017), PhD, UIUC
+- [Ruizhong Miao](https://www.linkedin.com/in/ruizhong-miao-7227b7184/) (2017), PhD, UVA
+- [Boyi Guo](https://scholar.google.com/citations?user=gzkXHEIAAAAJ&hl=en) (2017), PhD, UAB
+
+**BS**
+
+- [Mingrui Xu](https://www.linkedin.com/in/mingrui-xu-03a94924b/) (2025), JHU
+- [Ruilin Zhao](https://www.linkedin.com/in/ruilin-zhao-7a1956149/) (2018), American Express
+- [Hao Wang](https://www.linkedin.com/in/hao-wang-25b7a61a1/) (2018), MS, Berkeley
+
+## Group Photos
+
+::: {.grid}
+::: {.g-col-6}
+![](images/group2019.jpg)
+
+2019 group photo
+:::
+::: {.g-col-6}
+![](images/group2022.jpg)
+
+May 12, 2022. Photo by Xian Cao
+:::
+::: {.g-col-6}
+![](images/group2025.jpg)
+
+May 17, 2025. Photo by Hengrui Cai
+:::
+:::

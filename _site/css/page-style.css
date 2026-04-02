@@ -1,0 +1,80 @@
+/* Top panel (name + affiliation) */
+.top-panel {
+  margin: 0.8rem 0 1.5rem 0;
+  padding: 1rem 1.2rem;
+  border: 1px solid #d7e4f4;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f7fbff 0%, #eef5ff 100%);
+}
+
+.top-panel-name h1 {
+  margin: 0 0 0.3rem 0;
+}
+
+.top-panel-title {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.top-panel-contact {
+  margin: 0.4rem 0 0 0;
+  font-size: 0.9rem;
+}
+
+/* Bottom panel layout (research + news) */
+.bottom-panel {
+  margin-top: 1.8rem;
+}
+
+.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.two-columns .column {
+  flex: 1 1 280px;   /* responsive: two columns on wide screens, stacked on narrow */
+}
+
+/* News list */
+.news-list {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-right: 0.25rem;
+}
+
+.grid-bg1 {
+  position: relative;                       /* needed for overlay */
+  background-image: url("../images/background1.png"); /* replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 60px;                        /* adjust this to control height */
+  padding: 1.2rem;                           /* spacing so text doesn’t touch edges */
+  border-radius: 6px;                        /* optional */
+  color: white;
+}
+
+.grid-bg1::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+
+  background: rgba(0,0,0,0.35);             /* 0 = transparent, 1 = opaque */
+                                            /* change 0.35 to adjust transparency */
+  border-radius: inherit;
+
+  z-index: 0;                                /* behind the text */
+}
+
+.grid-bg1 > * {
+  position: relative;
+  z-index: 1;                                /* ensures text stays above overlay */
+}

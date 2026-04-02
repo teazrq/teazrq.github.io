@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Ruoqing Zhu' Personal Website"
+  favicon: files/favicon.ico
+  navbar:
+    collapse: false          # <- prevents the icon/hamburger menu
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+    right:
+      - href: https://scholar.google.com/citations?user=YOUR_ID
+        text: "<i class='ai ai-google-scholar ai-lg' aria-hidden='true'></i>"  
+      - icon: github
+        href: https://github.com/teazrq
+    classes: "justify-content-center"
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    toc: false
+    css:
+      - academicons/css/academicons.min.css
+      - css/styles.css
+      - css/page-style.css
+    include-after-body: files/footer.html

@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ruoqing Zhu' Personal Website",
+    "section": "",
+    "text": "Associate Professor, Department of Statistics, University of Illinois Urbana-Champaign\nOffice: 605 E. Springfield Ave., 137 CAB, Champaign, IL 61820\nAffiliations:\n\nCarle Illinois College of Medicine (Inaugural Member)\nDivision of Nutritional Sciences\nNational Center for Supercomputing Applications\nCarl R. Woese Institute for Genomic Biology"
+  },
+  {
+    "objectID": "index.html#affiliation",
+    "href": "index.html#affiliation",
+    "title": "Zhu, Ruoqing  (朱若青) ",
+    "section": "Affiliation",
+    "text": "Affiliation\n\nDepartment of Statistics, University of Illinois Urbana-Champaign\nCarle Illinois College of Medicine (Inaugural Member)\nNational Center for Supercomputing Applications\nCarl R. Woese Institute for Genomic Biology\n\nI also serve as a steering committee member of the Personalized Nutrition Initiative and as an Advisory Board member of Prenosis Inc.."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Ruoqing Zhu' Personal Website",
+    "section": "Research Interests",
+    "text": "Research Interests\nI have a broad interest in developing statistical methodology, theory, and computational algorithms for decision-making problems, particularly in personalized medicine and reinforcement learning. Many existing models are rejected by practitioners due to unrealistic assumptions, unstable performance, lack of interpretability, and challenges posed by small sample sizes, high dimensionality, and complex data structures. Addressing these issues is both a challenging and exciting task in statistical research. My recent work focuses on uncertainty quantification, distributional shift, casual inference, and trustworthiness, aiming to develop more reliable and practical solutions for real-world applications. In addition, I have a strong interest in classical statistical learning and machine learning methods, including random forests, sufficient dimension reduction, and survival analysis, with applications in bioinformatics, infectious diseases, and nutrition studies."
+  },
+  {
+    "objectID": "index.html#short-bio",
+    "href": "index.html#short-bio",
+    "title": "Ruoqing Zhu' Personal Website",
+    "section": "Short Bio",
+    "text": "Short Bio\nBefore joining UIUC, I was a postdoctoral associate at Yale University jointly supervised by Hongyu Zhao and Shuangge Ma. I received my PhD in Biostatistics from the University of North Carolina at Chapel Hill in 2013 under the supervision of Michael Kosorok, and a MA in Statistics from Bowling Green State University in 2008. Prior to that, I obtained my BS in Mathematics and BS in Financial Engineering from Nanjing University in China."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Personalized Medicine\nReinforcement Learning\nRandom Forests and Trees\nSurvival Analysis\nSufficient Dimension Reduction\nHigh-Dimensional Data\nBiomedical Applications: Sepsis, Food and Nutrition, Infectious Diseases, Cancer Genetics/Genomics"
+  },
+  {
+    "objectID": "index.html#zhu-ruoqing-朱若青",
+    "href": "index.html#zhu-ruoqing-朱若青",
+    "title": "Ruoqing Zhu' Personal Website",
+    "section": "",
+    "text": "Associate Professor, Department of Statistics, University of Illinois Urbana-Champaign\nOffice: 605 E. Springfield Ave., 137 CAB, Champaign, IL 61820\nAffiliations:\n\nCarle Illinois College of Medicine (Inaugural Member)\nDivision of Nutritional Sciences\nNational Center for Supercomputing Applications\nCarl R. Woese Institute for Genomic Biology"
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "Personalized Medicine\nReinforcement Learning\nRandom Forests and Trees\nSurvival Analysis\nSufficient Dimension Reduction\nHigh-Dimensional Data\nBiomedical Applications: Sepsis, Food and Nutrition, Infectious Diseases, Cancer Genetics/Genomics"
+  },
+  {
+    "objectID": "research.html#editorial-services",
+    "href": "research.html#editorial-services",
+    "title": "Research",
+    "section": "Editorial Services",
+    "text": "Editorial Services\n\nAE, ACM Transactions on Probabilistic Machine Learning (2025 - )\nAE, Journal of Computational and Graphical Statistics (2024 - )\nAE, Journal of the American Statistical Association (2023 - )\nAE, Statistical Analysis and Data Mining (2022 - 2023)\nEditorial board reviewer, Journal of Machine Learning Research (2020-)"
+  },
+  {
+    "objectID": "research.html#current-members",
+    "href": "research.html#current-members",
+    "title": "Research",
+    "section": "Current Members",
+    "text": "Current Members\n\nEugene Han (2022-)\nMehrdad Mohammadi (2022-)\nZhiyu Wang (2023-)\nZexuan Zhang (2024-)\nZhaohao Su (2025-)\nAmitakshar Biswas (2025-)"
+  },
+  {
+    "objectID": "research.html#previous-members",
+    "href": "research.html#previous-members",
+    "title": "Research",
+    "section": "Previous Members",
+    "text": "Previous Members\nPhD\n\nYuhan Li (2025), IMC Trading\nTianning Xu (2024), Amazon\nWenzhuo Zhou (2022), UCI\nSarah E. Formentini (2022), Bayer\nJoshua D. Loyal (2022), FSU\nYutong (Jack) Li (2021), Novartis\nWilliam Biscarri (2019), J.P. Morgan\n\nMS\n\nChengyu Du (2024), PhD, UMass Amherst\nHaowen Zhou (2023), PhD, UVA\nYue Mu (2018), PhD, FSU\nJiyang Zhang (2018)\nPeng Xu (2017), PhD, UIUC\nRuizhong Miao (2017), PhD, UVA\nBoyi Guo (2017), PhD, UAB\n\nBS\n\nMingrui Xu (2025), JHU\nRuilin Zhao (2018), American Express\nHao Wang (2018), MS, Berkeley"
+  },
+  {
+    "objectID": "research.html#my-research-is-supported-by",
+    "href": "research.html#my-research-is-supported-by",
+    "title": "Research",
+    "section": "My research is supported by",
+    "text": "My research is supported by\n\n\nMay 17, 2025. Photo by Hengrui Cai\n\nMay 12, 2022. Photo by Xian Cao\n\n2019 group photo"
+  },
+  {
+    "objectID": "research.html#group-photos",
+    "href": "research.html#group-photos",
+    "title": "Research",
+    "section": "Group Photos",
+    "text": "Group Photos\n\n\n\n2019 group photo\n\n\n\nMay 12, 2022. Photo by Xian Cao\n\n\n\nMay 17, 2025. Photo by Hengrui Cai"
+  }
+]
