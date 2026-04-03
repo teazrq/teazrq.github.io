@@ -1,10 +1,71 @@
+/* Theme-aware colors for the home top panel */
+:root {
+  --home-panel-bg: linear-gradient(135deg, #f7fbff 0%, #eef5ff 100%);
+  --home-panel-border: #d7e4f4;
+  --home-panel-text: #1f2d3d;
+  --home-panel-link: #0d4a87;
+}
+
+body.quarto-dark {
+  --home-panel-bg: linear-gradient(135deg, #172334 0%, #121b29 100%);
+  --home-panel-border: #2f3f54;
+  --home-panel-text: #e8eef6;
+  --home-panel-link: #8fc2ff;
+}
+
 /* Top panel (name + affiliation) */
 .top-panel {
   margin: 0.8rem 0 1.5rem 0;
   padding: 1rem 1.2rem;
-  border: 1px solid #d7e4f4;
+  border: 1px solid var(--home-panel-border);
   border-radius: 10px;
-  background: linear-gradient(135deg, #f7fbff 0%, #eef5ff 100%);
+  background: var(--home-panel-bg);
+  color: var(--home-panel-text);
+}
+
+.top-panel h1,
+.top-panel h2,
+.top-panel h3,
+.top-panel h4,
+.top-panel p,
+.top-panel li,
+.top-panel span,
+.top-panel strong {
+  color: var(--home-panel-text);
+}
+
+.top-panel a {
+  color: var(--home-panel-link);
+}
+
+.top-panel a:hover {
+  color: var(--home-panel-link);
+}
+
+/* Explicit Quarto dark-mode override to avoid selector/order conflicts */
+body.quarto-dark .top-panel {
+  background: linear-gradient(135deg, #172334 0%, #121b29 100%) !important;
+  border-color: #2f3f54 !important;
+  color: #e8eef6 !important;
+}
+
+body.quarto-dark .top-panel h1,
+body.quarto-dark .top-panel h2,
+body.quarto-dark .top-panel h3,
+body.quarto-dark .top-panel h4,
+body.quarto-dark .top-panel p,
+body.quarto-dark .top-panel li,
+body.quarto-dark .top-panel span,
+body.quarto-dark .top-panel strong {
+  color: #e8eef6 !important;
+}
+
+body.quarto-dark .top-panel a {
+  color: #8fc2ff !important;
+}
+
+body.quarto-dark .top-panel-photo {
+  border-color: #2f3f54 !important;
 }
 
 .top-panel-photo {
@@ -13,7 +74,7 @@
   max-width: 320px;
   margin-left: auto;
   border-radius: 10px;
-  border: 1px solid #d7e4f4;
+  border: 1px solid var(--home-panel-border);
 }
 
 .office-line {

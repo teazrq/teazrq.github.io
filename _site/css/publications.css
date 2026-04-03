@@ -1,12 +1,34 @@
+:root {
+  --pub-surface-bg: #f8fbff;
+  --pub-panel-bg: #ffffff;
+  --pub-card-bg: #ffffff;
+  --pub-border: #dce8f5;
+  --pub-heading: #1f3f62;
+  --pub-text: #1f2d3d;
+  --pub-muted: #2d3b49;
+  --pub-emphasis: #5a7a96;
+}
+
+body.quarto-dark {
+  --pub-surface-bg: #111927;
+  --pub-panel-bg: #0f1723;
+  --pub-card-bg: #0f1723;
+  --pub-border: #2b3a4d;
+  --pub-heading: #e8eef6;
+  --pub-text: #e8eef6;
+  --pub-muted: #c9d5e3;
+  --pub-emphasis: #9fc2ea;
+}
+
 .pub-controls {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 0.75rem;
   margin: 0.85rem 0 1rem 0;
   padding: 0.7rem;
-  border: 1px solid #d7e4f4;
+  border: 1px solid var(--pub-border);
   border-radius: 10px;
-  background: #f8fbff;
+  background: var(--pub-surface-bg);
 }
 
 .pub-filter-bar {
@@ -25,10 +47,10 @@
 }
 
 .pub-filter-group {
-  border: 1px solid #e3edf8;
+  border: 1px solid var(--pub-border);
   border-radius: 8px;
   padding: 0.58rem 0.62rem;
-  background: #ffffff;
+  background: var(--pub-panel-bg);
 }
 
 .pub-filter-title {
@@ -47,13 +69,13 @@
 
 .pub-summary {
   margin: 0.2rem 0 0.8rem 0;
-  color: #34495e;
+  color: var(--pub-muted);
   font-size: 0.95rem;
 }
 
 .pub-static-summary {
   margin: 0.2rem 0 1rem 0;
-  color: #34495e;
+  color: var(--pub-muted);
   font-size: 0.95rem;
 }
 
@@ -137,15 +159,15 @@
 .pub-year-heading {
   margin: 0 0 0.8rem 0;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid #dce8f5;
-  color: #1f3f62;
+  border-bottom: 1px solid var(--pub-border);
+  color: var(--pub-heading);
 }
 
 .pub-item {
-  border: 1px solid #dce8f5;
+  border: 1px solid var(--pub-border);
   border-radius: 10px;
   padding: 0.62rem 0.78rem;
-  background: #ffffff;
+  background: var(--pub-card-bg);
 }
 
 .pub-badges {
@@ -214,16 +236,17 @@
 .pub-citation {
   margin: 0;
   line-height: 1.42;
+  color: var(--pub-text);
 }
 
 .pub-citation em {
-  color: #5a7a96;
+  color: var(--pub-emphasis);
 }
 
 .pub-authors {
   margin: 0.1rem 0 0.18rem 0;
   line-height: 1.32;
-  color: #2d3b49;
+  color: var(--pub-muted);
   font-size: 0.89rem;
 }
 
@@ -240,4 +263,5 @@
 .pub-section-heading {
   margin: 0.72rem 0 0.42rem 0;
   line-height: 1.2;
+  color: var(--pub-heading);
 }
