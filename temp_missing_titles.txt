@@ -1,0 +1,9 @@
+Reinforcement learning with continuous actions under unmeasured confounding
+Vector-Valued Distributional Reinforcement Learning Policy Evaluation: A Hilbert Space Embedding Approach
+Sage Research Methods: Doing Research Online
+From Problem to Method: Designing Multiview Sequential Canonical Covariance Analysis for Online Word-of-Mouth Dynamics
+Detecting Gender Stereotype Biases Against Women Entrepreneurs in Large Language Models
+The Sepsis ImmunoScore Predicts Sepsis, Mortality, and Deterioration Better than Clinical Scores and Widely Available Biomarkers
+Integrating Prior Knowledge From Genome-Scale Metabolic Model With Metabolomics for Diet Assessment
+Systems and methods for normalization of machine learning datasets
+Cognitive Outcome Forecasting Using Supervised Machine Learning: A Multi-Factor Analysis With Anthropometrics, Demographics, Diet Indices, and Cardiovascular Markers

@@ -4,12 +4,19 @@ format:
     page-layout: full
 ---
 
+::: {.home-justify}
 ::: {.top-panel}
+::: {.grid}
+::: {.g-col-8}
 ## Zhu, Ruoqing <span style="font-size:0.6em;"> (朱若青) </span>
 
-**Associate Professor**, [Department of Statistics](https://stat.illinois.edu/), University of Illinois Urbana-Champaign
+**Associate Professor**, [Department of Statistics](https://stat.illinois.edu/)<br>
+University of Illinois Urbana-Champaign
 
-Office: 605 E. Springfield Ave., 137 CAB, Champaign, IL 61820
+<div class="office-line">
+  <span class="office-label">Office:</span>
+  <span class="office-value">605 E. Springfield Ave., 137 CAB,<br>Champaign, IL 61820</span>
+</div>
 
 **Affiliations:**
 
@@ -18,7 +25,12 @@ Office: 605 E. Springfield Ave., 137 CAB, Champaign, IL 61820
 - [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/)
 - [Carl R. Woese Institute for Genomic Biology](https://www.igb.illinois.edu/)
 :::
+::: {.g-col-4}
+![](images/me.jpg){.top-panel-photo}
+:::
+:::
 
+:::
 ## Research Interests
 
 I have a broad interest in developing statistical methodology, theory, and computational algorithms for decision-making problems, particularly in personalized medicine and reinforcement learning. Many existing models are rejected by practitioners due to unrealistic assumptions, unstable performance, lack of interpretability, and challenges posed by small sample sizes, high dimensionality, and complex data structures. Addressing these issues is both a challenging and exciting task in statistical research. My recent work focuses on uncertainty quantification, distributional shift, casual inference, and trustworthiness, aiming to develop more reliable and practical solutions for real-world applications. In addition, I have a strong interest in classical statistical learning and machine learning methods, including random forests, sufficient dimension reduction, and survival analysis, with applications in bioinformatics, infectious diseases, and nutrition studies.
@@ -26,3 +38,4 @@ I have a broad interest in developing statistical methodology, theory, and compu
 ## Short Bio
 
 Before joining UIUC, I was a postdoctoral associate at Yale University jointly supervised by [Hongyu Zhao](https://ysph.yale.edu/profile/hongyu-zhao/) and [Shuangge Ma](https://ysph.yale.edu/profile/shuangge-ma/). I received my PhD in Biostatistics from the University of North Carolina at Chapel Hill in 2013 under the supervision of [Michael Kosorok](https://mkosorok.web.unc.edu/), and a MA in Statistics from Bowling Green State University in 2008. Prior to that, I obtained my BS in Mathematics and BS in Financial Engineering from Nanjing University in China.
+:::

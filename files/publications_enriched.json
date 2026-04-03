@@ -1,0 +1,699 @@
+[
+  {
+    "key": "formentini-2025-confidence",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "preprint",
+    "topics": [
+      "random-forests",
+      "survival-analysis"
+    ],
+    "authors_count": 3,
+    "has_abstract": true
+  },
+  {
+    "key": "zhou-2023-distributional",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "preprint",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "authors_count": 4,
+    "has_abstract": true
+  },
+  {
+    "key": "ye-2026-consistent",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "preprint",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "authors_count": 3,
+    "has_abstract": true
+  },
+  {
+    "key": "li-2026-policy",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "authors_count": 7,
+    "has_abstract": true
+  },
+  {
+    "key": "pang-2025-probabilistic",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "dimension-reduction"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "ye-2024-stageaware",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 4,
+    "has_abstract": true
+  },
+  {
+    "key": "qiu-2024-random",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "random-forests",
+      "survival-analysis"
+    ],
+    "authors_count": 3,
+    "has_abstract": true
+  },
+  {
+    "key": "xu-2024-on",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "random-forests"
+    ],
+    "authors_count": 3,
+    "has_abstract": true
+  },
+  {
+    "key": "li-2023-quasioptimal",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "conference",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "authors_count": 3,
+    "has_abstract": true
+  },
+  {
+    "key": "chen-2022-calibrate",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 6,
+    "has_abstract": true
+  },
+  {
+    "key": "zhou-2024-solving",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "personalized-medicine",
+      "reinforcement-learning"
+    ],
+    "authors_count": 3,
+    "has_abstract": true
+  },
+  {
+    "key": "cui-2023-estimating",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "personalized-medicine",
+      "random-forests",
+      "survival-analysis"
+    ],
+    "authors_count": 5,
+    "has_abstract": true
+  },
+  {
+    "key": "loyal-2022-dimension",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "random-forests",
+      "dimension-reduction"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "li-2022-efficient",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "li-2022-dermoscopic",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 4,
+    "has_abstract": true
+  },
+  {
+    "key": "guo-2021-estimating",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "personalized-medicine",
+      "random-forests"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "li-2021-topic",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 5,
+    "has_abstract": true
+  },
+  {
+    "key": "cui-2022-consistency",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "random-forests",
+      "survival-analysis"
+    ],
+    "authors_count": 4,
+    "has_abstract": true
+  },
+  {
+    "key": "zhou-2021-a",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "personalized-medicine",
+      "dimension-reduction"
+    ],
+    "authors_count": 3,
+    "has_abstract": true
+  },
+  {
+    "key": "zhao-2020-constructing",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "survival-analysis"
+    ],
+    "authors_count": 4,
+    "has_abstract": true
+  },
+  {
+    "key": "feng-2019-nonparametric",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "mi-2019-bagging",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "personalized-medicine"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "sun-2019-counting",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "survival-analysis",
+      "dimension-reduction"
+    ],
+    "authors_count": 4,
+    "has_abstract": true
+  },
+  {
+    "key": "cui-2017-tree",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "personalized-medicine",
+      "survival-analysis"
+    ],
+    "authors_count": 3,
+    "has_abstract": true
+  },
+  {
+    "key": "zhu-2017-greedy",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "personalized-medicine",
+      "random-forests"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "zhu-2016-integrating",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "zhu-2015-reinforcement",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "zhu-2014-identifying",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "zhu-2012-recursively",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "survival-analysis"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "zhu-2008-diagnostic",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "zhu-2019-orthodr",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "survival-analysis",
+      "dimension-reduction"
+    ],
+    "authors_count": 6,
+    "has_abstract": true
+  },
+  {
+    "key": "walters-2025-nasal",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "influenza"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "verma-2025-predicting",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "nutrition-science"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "sarker-2024-priorguided",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "conference",
+    "topics": [
+      "nutrition-science"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "hagler-2025-unraveling",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "random-forests"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "meserve-2025-multiplexed",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "bhargava-2024-fdaauthorized",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "sepsis"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "oltman-2024-prevalence",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "cao-2024-analyzing",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "mainovieytes-2024-dietary",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "shinn-2024-fecal",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "nutrition-science"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "sarker-2023-augmenting",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "conference",
+    "topics": [
+      "nutrition-science"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "mainovieytes-2022-empirical",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "di-2022-optimizing",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "zhou-2022-population",
+    "source": "journal",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "survival-analysis"
+    ],
+    "authors_count": 4,
+    "has_abstract": true
+  },
+  {
+    "key": "shinn-2022-fecal",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "nutrition-science"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "agnillo-2021-lung",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "robison-2021-risk",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "taneja-2021-diagnostic",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "sepsis"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "shinn-2020-fecal",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "nutrition-science"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "miao-2020-assessment",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "walters-2019-differential",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "influenza"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "yi-2018-gradientscansurv",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "survival-analysis"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "hassan-2018-multivariate",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "sepsis"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "taneja-2017-combining",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "sepsis"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "la-2015-increasing",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "la-2014-the",
+    "source": "journal",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "others"
+    ],
+    "authors_count": 7,
+    "has_abstract": true
+  },
+  {
+    "key": "formentini-2023-random",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "random-forests",
+      "survival-analysis"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "zhou-2024-policy",
+    "source": "legacy",
+    "track": "method-theory",
+    "venue": "journal",
+    "topics": [
+      "personalized-medicine",
+      "reinforcement-learning"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "watson-2026-interpretability",
+    "source": "legacy",
+    "track": "collaborative",
+    "venue": "journal",
+    "topics": [
+      "sepsis"
+    ],
+    "authors_count": 0,
+    "has_abstract": false
+  },
+  {
+    "key": "mohammadi-2026-vectorvalued",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "preprint",
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "authors_count": 3,
+    "has_abstract": true
+  },
+  {
+    "key": "yu-2023-corrected",
+    "source": "arxiv",
+    "track": "method-theory",
+    "venue": "preprint",
+    "topics": [
+      "dimension-reduction"
+    ],
+    "authors_count": 4,
+    "has_abstract": true
+  }
+]

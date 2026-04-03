@@ -1,5 +1,10 @@
 ---
-title: "Publications"
+format:
+  html:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="css/publications.css">
+        <script defer src="files/publications-filter.js"></script>
 ---
 
-About this site
+{{< include files/publications-static.html >}}

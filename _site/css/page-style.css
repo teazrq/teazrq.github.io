@@ -7,6 +7,41 @@
   background: linear-gradient(135deg, #f7fbff 0%, #eef5ff 100%);
 }
 
+.top-panel-photo {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin-left: auto;
+  border-radius: 10px;
+  border: 1px solid #d7e4f4;
+}
+
+.office-line {
+  margin: 0.6rem 0;
+}
+
+.office-line p {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.4rem;
+  align-items: start;
+  margin: 0;
+}
+
+.office-label {
+  font-weight: 600;
+}
+
+.office-value {
+  display: inline-block;
+}
+
+@media (max-width: 992px) {
+  .top-panel-photo {
+    margin: 0.8rem auto 0 auto;
+  }
+}
+
 .top-panel-name h1 {
   margin: 0 0 0.3rem 0;
 }
@@ -77,4 +112,10 @@
 .grid-bg1 > * {
   position: relative;
   z-index: 1;                                /* ensures text stays above overlay */
+}
+
+.home-justify p,
+.home-justify li {
+  text-align: justify;
+  text-justify: inter-word;
 }

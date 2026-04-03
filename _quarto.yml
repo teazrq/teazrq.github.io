@@ -11,6 +11,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: members.qmd
+        text: Members
       - href: publications.qmd
         text: Publications
     right:
@@ -21,10 +23,12 @@ website:
     classes: "justify-content-center"
 format:
   html:
+    page-layout: full
     theme:
       light: flatly
       dark: darkly
     toc: false
+    link-external-newwindow: true
     css:
       - academicons/css/academicons.min.css
       - css/styles.css

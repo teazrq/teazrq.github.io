@@ -25,3 +25,11 @@
   margin-right: auto;
 }
 
+@media (min-width: 1200px) {
+  #quarto-content main.content {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+

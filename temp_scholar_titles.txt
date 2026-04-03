@@ -1,0 +1,92 @@
+Reinforcement learning with continuous actions under unmeasured confounding
+Interpretability of an FDA-authorized AI/ML sepsis diagnostic tool improved by SHAP values
+Vector-Valued Distributional Reinforcement Learning Policy Evaluation: A Hilbert Space Embedding Approach
+Sage Research Methods: Doing Research Online
+From Problem to Method: Designing Multiview Sequential Canonical Covariance Analysis for Online Word-of-Mouth Dynamics
+Detecting Gender Stereotype Biases Against Women Entrepreneurs in Large Language Models
+The Sepsis ImmunoScore Predicts Sepsis, Mortality, and Deterioration Better than Clinical Scores and Widely Available Biomarkers
+Nasal and systemic immune responses correlate with viral shedding after influenza challenge in people with complex preexisting immunity
+Predicting Cognitive Outcome Through Nutrition and Health Markers Using Supervised Machine Learning
+Probabilistic exponential family inverse regression and its applications
+Integrating Prior Knowledge From Genome-Scale Metabolic Model With Metabolomics for Diet Assessment
+Multiplexed cytokine profiling identifies diagnostic signatures for latent tuberculosis and reactivation risk stratification
+Unraveling the molecular complexity of myxomatous mitral valve degeneration: integrating transcriptomic and miRNA profiling using random forests with Boruta feature selection
+Prior-guided longitudinal metabolomic analysis
+FDA-authorized AI/ML tool for sepsis prediction: development and validation
+Prevalence, management, and comorbidities of adults with atrial fibrillation in the United States, 2019 to 2023
+Analyzing the online word of mouth dynamics: A novel approach
+Consistent order determination of markov decision process
+Systems and methods for normalization of machine learning datasets
+Cognitive Outcome Forecasting Using Supervised Machine Learning: A Multi-Factor Analysis With Anthropometrics, Demographics, Diet Indices, and Cardiovascular Markers
+Dietary patterns among US food insecure cancer survivors and the risk of mortality: NHANES 1999–2018
+Policy learning for individualized treatment regimes on infinite time horizon
+Validation of a Machine Learning Diagnostic Tool for the Prediction of Sepsis and Critical Illness
+Estimating optimal infinite horizon dynamic treatment regimes via pt-learning
+Random forest weighted local Fréchet regression with random objects
+Stage-aware learning for dynamic treatments
+Fecal metagenomics to identify biomarkers of food intake in healthy adults: findings from randomized, controlled, nutrition trials
+On variance estimation of random forests with Infinite-order U-statistics
+Estimating heterogeneous treatment effect on multivariate responses using random forests
+AI in Pharma for Personalized Sequential Decision-Making: Methods, Applications and Opportunities
+Systems and methods for adaptative training of machine learning models
+Distributional shift-aware off-policy interval estimation: A unified error quantification framework
+Augmenting nutritional metabolomics with a genome-scale metabolic model for assessment of diet intake
+Corrected kernel principal component analysis for model structural change detection
+Random Forests for Survival Analysis and High-Dimensional Data
+Estimating heterogeneous treatment effects with right-censored data via causal survival forests
+A time-sensitive trigger for a streaming data environment
+A tool for selecting relevant features in precision diagnostics
+Quasi-optimal reinforcement learning with continuous actions
+Fecal metabolites as biomarkers for predicting food intake by healthy adults
+Empirical dietary patterns associated with food insecurity in US cancer survivors: NHANES 1999–2018
+Population analysis of mortality risk: Predictive models from passive monitors using motion sensors for 100,000 UK Biobank participants
+Dermoscopic image classification with neural style transfer
+Dimension reduction forests: Local variable importance using structured random forests
+Optimizing health coaching for patients with type 2 diabetes using machine learning: model development and validation study
+Calibrate and debias layer-wise sampling for graph convolutional networks
+Confidence Band Estimation for Survival Random Forests
+POPULATION ANALYSIS OF MORTALITY RISK: PREDICTIVE MODELS USING MOTION SENSORS FOR 100,000 PARTICIPANTS IN THE UK BIOBANK NATIONAL COHORT
+Efficient gradient boosting for prognostic biomarker discovery
+Consistency of survival tree and forest models
+Analyzing Big Data in Entrepreneurship: Replicating and Extending Evans and Leighton (1989)
+Revisiting layer-wise sampling in fast training for graph convolutional networks
+Risk assessment of latent tuberculosis infection through a multiplexed cytokine biosensor assay and machine learning feature selection
+Lung epithelial and endothelial damage, loss of tissue repair, inhibition of fibrinolysis, and cellular senescence in fatal COVID-19
+Topic modeling on triage notes with semiorthogonal nonnegative matrix factorization
+A Parsimonious Personalized Dose Finding Model via Dimension Reduction
+Diagnostic and prognostic capabilities of a biomarker and EMR-based machine learning algorithm for sepsis
+The impact of almond and walnut consumption on the human fecal metabolome
+Fecal bacteria as biomarkers for predicting food intake in healthy adults
+Nonparametric variable selection and its application to additive models
+Constructing dynamic treatment regimes with shared parameters for censored data
+Assessment of peritoneal microbial features and tumor marker levels as potential diagnostic tools for ovarian cancer
+publisher correction: combining Biomarkers with eMR Data to Identify Patients in Different phases of Sepsis
+Analyzing big data in management: re-visiting the entrepreneurial entry problem
+Differential effects of influenza virus NA, HA head, and HA stalk antibodies on peripheral blood leukocyte gene expression during human infection
+Applying Machine-Learning to Human Gastrointestinal Microbial Species to Predict Dietary Intake (P20-040-19)
+Bagging and deep learning in optimal individualized treatment rules
+Microbial Analysis of Peritoneal Fluid as a Screening Tool for Epithelial Ovarian Cancer
+Microbial Analysis of Peritoneal Fluid as a Screening Tool for Epithelial Ovarian Cancer [28D]
+Counting process-based dimension reduction methods for censored outcomes
+orthoDr: Semiparametric Dimension Reduction via Orthogonality Constrained
+Differential effects of influenza virus NA, HA head, and HA stalk antibodies on peripheral blood leukocyte gene expression during human infection. mBio 10: e00760-19
+1615: QUANTIFYING ABNORMALITY OF THE HOST RESPONSE IN A COHORT OF PATIENTS SUSPECTED OF HAVING SEPSIS
+orthoDr: Semiparametric dimension reduction via orthogonality constrained optimization
+GradientScanSurv—An exhaustive association test method for gene expression data with censored survival outcome
+Package ‘RLT’
+Peng Yu
+Multivariate computational analysis of biosensor's data for improved CD64 quantification for sepsis diagnosis
+Tree based weighted learning for estimating individualized treatment rules with censored data
+Combining biomarkers with EMR data to identify patients in different phases of sepsis
+Greedy outcome weighted tree learning of optimal personalized treatment rules
+Integrating multidimensional omics data for cancer outcome
+Increasing access to state psychiatric hospital beds: exploring supply-side solutions
+Reinforcement learning trees
+The effects of state psychiatric hospital waitlist policies on length of stay and time to readmission
+Identifying gene–environment and gene–gene interactions using a progressive penalization approach
+Identifying Factors Associated with State Psychiatric Hospital use to Inform Admission, Referral, and Policy Decision-Making: Health Services, and Policy Research (HSP): P1-31
+Tree-based methods for survival analysis and high-dimensional data
+Recursively imputed survival trees
+Diagnostic checking for multivariate regression models
+Optimizing Dynamic Treatment Strategies with Reinforcement Learning and Dual-Hawkes Process in Clinical Environments
+Estimating Optimal Treatment Regimes Using Multivariate Random Forests
