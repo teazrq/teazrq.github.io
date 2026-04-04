@@ -1,0 +1,27 @@
+---
+---
+
+## At Department of Statistics
+
+- [STAT 546](https://teazrq.github.io/stat546/index.html) (Machine Learning for Data Science)
+- [STAT 542](https://teazrq.github.io/stat542/index.html) (Statistical Learning)
+- [STAT 432](https://teazrq.github.io/stat432/index.html) (Basics of Statistical Learning)
+- STAT 400 (Statistics and Probability I)
+- STAT 420 (Methods of Applied Statistics)
+
+## Textbook
+
+I wrote this textbook for my learning courses:
+
+- [Statistical Learning and Machine Learning with R](https://teazrq.github.io/SMLR/)
+
+## At Carle Illinois College of Medicine
+
+- [Data Science Project](https://cimed-dsp.github.io/index.html) (2021 - )
+- [Foundations: Molecules to Populations](https://teazrq.github.io/Stat-PopHealth/) (2018 - 2022)
+
+## Other Course/Lectures
+
+- [Fall 2023] I taught two lectures on random forests at the [ECAS-SFdS school](https://www.sfds.asso.fr/fr/ecas2023/709-home/) during Oct 8-13. Other lecturers included Profs. Robin Genuer, Pierre Geurts, and Nathalie Vialaneix. The school was jointly organized by Profs. Jean-Michel Poggi and Robin Genuer.
+- Random Forest Tutorial (Part I, Part II, Part III, RLT package example source file)
+- [Summer 2018] Mayo-Illinois CompGen Workshop ([Slides](https://www.dropbox.com/s/ft42shoc2m6to0p/Introduction.pdf?dl=0), [examples.rmd](https://www.dropbox.com/s/1li6apf2dw08lvt/examples.rmd?dl=0), [examples.pdf](https://www.dropbox.com/s/o8ummclqlhow7nc/examples.pdf?dl=0), [prostate.RData](https://www.dropbox.com/s/2dozwlbb3tvubqh/prostate.RData?dl=0))

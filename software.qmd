@@ -1,0 +1,47 @@
+---
+format:
+  html:
+    page-layout: full
+---
+
+My GitHub: [teazrq](https://github.com/teazrq)
+
+### Reinforcement Learning Trees (RLT)
+
+- CRAN: [link](https://cran.r-project.org/web/packages/RLT/index.html)
+- GitHub (version > 4.0): [link](https://github.com/teazrq/RLT)
+- On CRAN Task View: [Machine Learning and Statistical Learning](https://cran.r-project.org/web/views/MachineLearning.html)
+- You can find this [example file](https://www.dropbox.com/s/hl8fpzd14z05nw5/RLT%20examples.r?dl=0), which further explains the functions.
+- The survival analysis component is already implemented. However, some features are still under experiment.
+
+### Orthogonality Constrained Optimization and Dimension Reduction (orthoDr)
+
+- CRAN: [link](https://cran.r-project.org/web/packages/orthoDr/index.html)
+- GitHub: [link](https://github.com/teazrq/orthoDr)
+- Examples: [link](https://www.dropbox.com/s/ohf91lipv0hru4x/examples.r?dl=0)
+- This package offers an optimization solver for orthogonality constrained problems: $\min f(X)$ s.t. $X^T X = I$ by utilizing the algorithm developed by [Wen and Yin (2013)](https://link.springer.com/article/10.1007/s10107-012-0584-1). We utilize this to solve a variety of semiparametric dimension reduction and personalized medicine problems.
+
+### Dimension Reduction Forests (drforest)
+
+- GitHub: [link](https://github.com/joshloyal/drforest)
+- This package provides the statistical estimation methods for dimension reduction forests and local subspace variable importance.
+- Local subspace variable importance can be used for detecting influential variables in a personalized prediction/recommendation.
+
+### Random Forests for Heterogeneous Treatment Effect Estimation with Multiple Responses (MOTE.RF)
+
+- GitHub: [link](https://github.com/boyiguo1/MOTE.RF)
+- Designed for a setting in which the covariates $X$ and multivariate response $Y$ are both measured before and after the intervention.
+- Applied to a microbiome study to estimate the dietary effect on multiple health outcomes.
+
+### A Nonnegative Matrix Factorization Tool Box (MatrixFact)
+
+- GitHub: [link](https://github.com/cralo31/MatrixFact)
+- This package implements a variety of matrix factorization tools, such as NMF, ONMF, semi-NMF, semi-orthogonal NMF, and some of their extensions to binary data.
+- Our method semi-orthogonal NMF can be applied to a document-word matrix to extract meaningful information for analyzing text data.
+
+### Recursively Imputed Survival Trees (RIST)
+
+- Example: [files/RIST/RISTexample.r](files/RIST/RISTexample.r)
+- Main function: [files/RIST/RIST.r](files/RIST/RIST.r)
+- Supporting functions: [files/RIST/RISTfunctions.r](files/RIST/RISTfunctions.r)
+- R Package: will be integrated with RLT (still working on it...)

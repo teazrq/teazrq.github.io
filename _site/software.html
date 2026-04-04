@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>members – Ruoqing Zhu' Personal Website</title>
+<title>software – Ruoqing Zhu' Personal Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="academicons/css/academicons.min.css">
 <link rel="stylesheet" href="css/styles.css">
@@ -263,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./members.html" aria-current="page"> 
+    <a class="nav-link" href="./members.html"> 
 <span class="menu-text">Members</span></a>
   </li>  
   <li class="nav-item">
@@ -271,7 +300,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
+    <a class="nav-link active" href="./software.html" aria-current="page"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
@@ -309,82 +338,58 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="current-members" class="level2">
-<h2 class="anchored" data-anchor-id="current-members">Current Members</h2>
-<div class="grid">
-<div class="g-col-4">
-<p><strong>PhD</strong></p>
+<p>My GitHub: <a href="https://github.com/teazrq">teazrq</a></p>
+<section id="reinforcement-learning-trees-rlt" class="level3">
+<h3 class="anchored" data-anchor-id="reinforcement-learning-trees-rlt">Reinforcement Learning Trees (RLT)</h3>
 <ul>
-<li>Eugene Han (2022-)</li>
-<li>Mehrdad Mohammadi (2022-)</li>
-<li>Zhiyu Wang (2023-)</li>
-<li>Zexuan Zhang (2024-)</li>
-<li>Zhaohao Su (2025-)</li>
-<li>Amitakshar Biswas (2025-)</li>
-</ul>
-</div>
-<div class="g-col-4">
-<p><strong>MS</strong></p>
-<ul>
-<li>Bhoomika Ravishankar</li>
-</ul>
-</div>
-<div class="g-col-4">
-<p><strong>BS</strong></p>
-<ul>
-<li>Nathan Chen</li>
-<li>Mark Samuel</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="previous-members" class="level2">
-<h2 class="anchored" data-anchor-id="previous-members">Previous Members</h2>
-<p><strong>PhD</strong></p>
-<ul>
-<li>Yuhan Li (2025), IMC Trading</li>
-<li><a href="https://www.linkedin.com/in/tianning-xu/">Tianning Xu</a> (2024), Amazon ➔ Waymo</li>
-<li><a href="https://sites.google.com/view/wenzhuozhou/home/">Wenzhuo Zhou</a> (2022), Postdoc <span class="citation" data-cites="UCI">@UCI</span> ➔ AP <span class="citation" data-cites="UCI">@UCI</span></li>
-<li><a href="https://www.linkedin.com/in/sarah-formentini-43000563/">Sarah E. Formentini</a> (2022), Bayer</li>
-<li><a href="https://joshloyal.github.io/">Joshua D. Loyal</a> (2022), AP <span class="citation" data-cites="FSU">@FSU</span></li>
-<li><a href="https://www.linkedin.com/in/yutong-li-nyc/">Yutong (Jack) Li</a> (2021), Novartis</li>
-<li><a href="https://www.linkedin.com/in/williambiscarri/">William Biscarri</a> (2019), J.P. Morgan</li>
-</ul>
-<p><strong>MS</strong></p>
-<ul>
-<li>Chengyu Du (2024), PhD <span class="citation" data-cites="UMass">@UMass</span> Amherst</li>
-<li>Haowen Zhou (2023), PhD <span class="citation" data-cites="UVA">@UVA</span></li>
-<li><a href="https://www.linkedin.com/in/yue-mu-57ba21149/">Yue Mu</a> (2018), PhD <span class="citation" data-cites="FSU">@FSU</span></li>
-<li>Jiyang Zhang (2018)</li>
-<li><a href="https://francis-hsu.github.io/">Peng Xu</a> (2017), PhD <span class="citation" data-cites="UIUC">@UIUC</span></li>
-<li><a href="https://www.linkedin.com/in/ruizhong-miao-7227b7184/">Ruizhong Miao</a> (2017), PhD <span class="citation" data-cites="UVA">@UVA</span></li>
-<li><a href="https://boyi-guo.com/">Boyi Guo</a> (2017), PhD <span class="citation" data-cites="UAB">@UAB</span> ➔ Postdoc <span class="citation" data-cites="JHU">@JHU</span> ➔ AP <span class="citation" data-cites="University">@University</span> of Utah</li>
-</ul>
-<p><strong>BS</strong></p>
-<ul>
-<li><a href="https://www.linkedin.com/in/mingrui-xu-03a94924b/">Mingrui Xu</a> (2025), MS <span class="citation" data-cites="JHU">@JHU</span></li>
-<li><a href="https://www.linkedin.com/in/ruilin-zhao-7a1956149/">Ruilin Zhao</a> (2018), MS <span class="citation" data-cites="U">@U</span> Penn</li>
-<li><a href="https://www.linkedin.com/in/hao-wang-25b7a61a1/">Hao Wang</a> (2018), PhD <span class="citation" data-cites="Berkeley">@Berkeley</span> ➔ AbbVie</li>
+<li>CRAN: <a href="https://cran.r-project.org/web/packages/RLT/index.html">link</a></li>
+<li>GitHub (version &gt; 4.0): <a href="https://github.com/teazrq/RLT">link</a></li>
+<li>On CRAN Task View: <a href="https://cran.r-project.org/web/views/MachineLearning.html">Machine Learning and Statistical Learning</a></li>
+<li>You can find this <a href="https://www.dropbox.com/s/hl8fpzd14z05nw5/RLT%20examples.r?dl=0">example file</a>, which further explains the functions.</li>
+<li>The survival analysis component is already implemented. However, some features are still under experiment.</li>
 </ul>
 </section>
-<section id="group-photos" class="level2">
-<h2 class="anchored" data-anchor-id="group-photos">Group Photos</h2>
-<div class="grid">
-<div class="g-col-6">
-<p><img src="images/group2025.jpg" class="img-fluid"></p>
-<p>May 17, 2025. Photo by Hengrui Cai</p>
-</div>
-<div class="g-col-6">
-<p><img src="images/group2022.jpg" class="img-fluid"></p>
-<p>May 12, 2022. Photo by Xian Cao</p>
-</div>
-<div class="g-col-6">
-<p><img src="images/group2019.jpg" class="img-fluid"></p>
-<ol start="2019" type="1">
-<li>Photo by Xian Cao</li>
-</ol>
-</div>
-</div>
+<section id="orthogonality-constrained-optimization-and-dimension-reduction-orthodr" class="level3">
+<h3 class="anchored" data-anchor-id="orthogonality-constrained-optimization-and-dimension-reduction-orthodr">Orthogonality Constrained Optimization and Dimension Reduction (orthoDr)</h3>
+<ul>
+<li>CRAN: <a href="https://cran.r-project.org/web/packages/orthoDr/index.html">link</a></li>
+<li>GitHub: <a href="https://github.com/teazrq/orthoDr">link</a></li>
+<li>Examples: <a href="https://www.dropbox.com/s/ohf91lipv0hru4x/examples.r?dl=0">link</a></li>
+<li>This package offers an optimization solver for orthogonality constrained problems: <span class="math inline">\(\min f(X)\)</span> s.t. <span class="math inline">\(X^T X = I\)</span> by utilizing the algorithm developed by <a href="https://link.springer.com/article/10.1007/s10107-012-0584-1">Wen and Yin (2013)</a>. We utilize this to solve a variety of semiparametric dimension reduction and personalized medicine problems.</li>
+</ul>
+</section>
+<section id="dimension-reduction-forests-drforest" class="level3">
+<h3 class="anchored" data-anchor-id="dimension-reduction-forests-drforest">Dimension Reduction Forests (drforest)</h3>
+<ul>
+<li>GitHub: <a href="https://github.com/joshloyal/drforest">link</a></li>
+<li>This package provides the statistical estimation methods for dimension reduction forests and local subspace variable importance.</li>
+<li>Local subspace variable importance can be used for detecting influential variables in a personalized prediction/recommendation.</li>
+</ul>
+</section>
+<section id="random-forests-for-heterogeneous-treatment-effect-estimation-with-multiple-responses-mote.rf" class="level3">
+<h3 class="anchored" data-anchor-id="random-forests-for-heterogeneous-treatment-effect-estimation-with-multiple-responses-mote.rf">Random Forests for Heterogeneous Treatment Effect Estimation with Multiple Responses (MOTE.RF)</h3>
+<ul>
+<li>GitHub: <a href="https://github.com/boyiguo1/MOTE.RF">link</a></li>
+<li>Designed for a setting in which the covariates <span class="math inline">\(X\)</span> and multivariate response <span class="math inline">\(Y\)</span> are both measured before and after the intervention.</li>
+<li>Applied to a microbiome study to estimate the dietary effect on multiple health outcomes.</li>
+</ul>
+</section>
+<section id="a-nonnegative-matrix-factorization-tool-box-matrixfact" class="level3">
+<h3 class="anchored" data-anchor-id="a-nonnegative-matrix-factorization-tool-box-matrixfact">A Nonnegative Matrix Factorization Tool Box (MatrixFact)</h3>
+<ul>
+<li>GitHub: <a href="https://github.com/cralo31/MatrixFact">link</a></li>
+<li>This package implements a variety of matrix factorization tools, such as NMF, ONMF, semi-NMF, semi-orthogonal NMF, and some of their extensions to binary data.</li>
+<li>Our method semi-orthogonal NMF can be applied to a document-word matrix to extract meaningful information for analyzing text data.</li>
+</ul>
+</section>
+<section id="recursively-imputed-survival-trees-rist" class="level3">
+<h3 class="anchored" data-anchor-id="recursively-imputed-survival-trees-rist">Recursively Imputed Survival Trees (RIST)</h3>
+<ul>
+<li>Example: <a href="files/RIST/RISTexample.r">files/RIST/RISTexample.r</a></li>
+<li>Main function: <a href="files/RIST/RIST.r">files/RIST/RIST.r</a></li>
+<li>Supporting functions: <a href="files/RIST/RISTfunctions.r">files/RIST/RISTfunctions.r</a></li>
+<li>R Package: will be integrated with RLT (still working on it…)</li>
+</ul>
 
 
 </section>
