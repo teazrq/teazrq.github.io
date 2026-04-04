@@ -3,16 +3,14 @@
   --home-panel-bg: linear-gradient(135deg, #f7fbff 0%, #eef5ff 100%);
   --home-panel-border: #d7e4f4;
   --home-panel-text: #1f2d3d;
-  --home-panel-link: var(--bs-link-color);
-  --home-panel-link-hover: var(--bs-link-hover-color);
+  --home-panel-link: #0d4a87;
 }
 
 body.quarto-dark {
   --home-panel-bg: linear-gradient(135deg, #172334 0%, #121b29 100%);
   --home-panel-border: #2f3f54;
   --home-panel-text: #e8eef6;
-  --home-panel-link: var(--bs-link-color);
-  --home-panel-link-hover: var(--bs-link-hover-color);
+  --home-panel-link: #8fc2ff;
 }
 
 /* Top panel (name + affiliation) */
@@ -41,7 +39,7 @@ body.quarto-dark {
 }
 
 .top-panel a:hover {
-  color: var(--home-panel-link-hover);
+  color: var(--home-panel-link);
 }
 
 /* Explicit Quarto dark-mode override to avoid selector/order conflicts */
@@ -63,7 +61,7 @@ body.quarto-dark .top-panel strong {
 }
 
 body.quarto-dark .top-panel a {
-  color: var(--home-panel-link) !important;
+  color: #8fc2ff !important;
 }
 
 body.quarto-dark .top-panel-photo {
