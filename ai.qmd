@@ -1,0 +1,17 @@
+---
+title: "AI Notes"
+---
+
+<div class="blog-intro">
+Random notes on projects, ideas, and things I find interesting in AI and statistics.
+</div>
+
+---
+
+<div class="blog-post">
+<div class="blog-date">May 6, 2026</div>
+<div class="blog-title">Welcome</div>
+
+This page is a simple log of thoughts, experiments, and updates on things I am currently working on. Posts are informal — mostly for myself, but feel free to read along.
+
+</div>

@@ -19,6 +19,8 @@ website:
         text: Software
       - href: teaching.qmd
         text: Teaching
+      - href: ai.qmd
+        text: AI
     right:
       - href: https://scholar.google.com/citations?user=YOUR_ID
         text: "<i class='ai ai-google-scholar ai-lg' aria-hidden='true'></i>"  
