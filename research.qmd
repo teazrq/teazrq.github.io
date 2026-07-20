@@ -1,26 +1,87 @@
 ---
+title: "Research"
+description: "Research interests and editorial service of Ruoqing Zhu."
 ---
 
-## Research Interests
+::: {.page-lede}
+I develop statistical methods for reliable decision making, apply statistical machine learning across biomedical and scientific domains, and explore how agentic AI can support research and education.
+:::
 
-- Personalized Medicine
-- Reinforcement Learning
-- Random Forests and Trees
-- Survival Analysis
-- Sufficient Dimension Reduction
-- High-Dimensional Data
-- Biomedical Applications: Sepsis, Food and Nutrition, Infectious Diseases, Cancer Genetics/Genomics
+## Research directions
 
-## Editorial Services
+::: {.research-theme-grid}
+::: {#reliable-learning .research-theme}
+### Reliable statistical decision making
 
-- AE, [ACM Transactions on Probabilistic Machine Learning](https://dl.acm.org/journal/topml) (2025 - )
-- AE, [Journal of Computational and Graphical Statistics](https://www.tandfonline.com/journals/ucgs20) (2024 - )
-- AE, [Journal of the American Statistical Association](https://www.tandfonline.com/journals/uasa20) (2023 - )
-- AE, [Statistical Analysis and Data Mining](https://onlinelibrary.wiley.com/journal/19321872) (2022 - 2023)
-- Editorial board reviewer, [Journal of Machine Learning Research](https://jmlr.org/) (2020-)
+::: {.research-theme-summary}
+Statistical decision making is widely used to guide actions in medicine, science, and other high-stakes settings. In particular, uncertainty quantification, risk control, causal inference, and sequential decision making under imperfect information are essential for ensuring that recommendations remain reliable in practice. My work addresses these challenges through reinforcement learning for long-term treatment decisions [[1]](https://doi.org/10.1080/01621459.2022.2138760) [[2]](https://doi.org/10.1080/01621459.2025.2590175), uncertainty quantification for random forests [[3]](https://doi.org/10.1214/24-EJS2247), and causal forests for heterogeneous treatment effects [[4]](https://doi.org/10.1093/jrsssb/qkac001).
+:::
 
-## Funding Support
+- Reinforcement learning and personalized treatment regimes
+- Uncertainty quantification and distributional shift
+- Causal inference and heterogeneous treatment effects
+- Random forests and tree-based learning
+- Survival analysis
+- Sufficient dimension reduction
+:::
 
-My research is supported by
+::: {#biomedical-translation .research-theme}
+### Biomedical translation
 
-![](images/funding.jpg)
+::: {.research-theme-summary}
+Statistical machine learning is increasingly used to translate complex biomedical data into scientific knowledge and clinical decisions. In particular, reliable prediction, interpretable models, and the careful integration of heterogeneous data are essential when research findings can affect patient care and public health. My collaborative work includes sepsis prediction [[5]](https://doi.org/10.1038/s41598-017-09766-1) [[6]](https://doi.org/10.1056/AIoa2400867), nutrition science [[7]](publications.html#pub-title-shinn-2024-fecal) [[8]](publications.html#pub-title-sarker-2025-integrating), and immune responses to influenza infection [[9]](https://doi.org/10.1126/scitranslmed.adt1452).
+:::
+
+- Sepsis and clinical decision support
+- Nutrition science and diet assessment
+- Infectious disease and immune response
+- Disease diagnostics and treatment
+:::
+
+::: {#ai-related .research-theme}
+### Agentic AI for research and education
+
+::: {.research-theme-summary}
+Agentic AI is increasingly being used to support research workflows, scientific discovery, teaching, and learning. I am actively developing open-source skills and reusable workflows for different stages of the research pipeline, including an interactive causal-consulting system that helps users clarify questions, assess whether their data support the intended claims, and build defensible analysis plans [[10]](https://github.com/rqzhu-aide/causal-consultant), together with a multi-turn framework for testing interactive AI skills [[11]](https://github.com/rqzhu-aide/interactive-test-cc). I am also developing Popping, an interactive classroom platform for team-based discussion, presentation, and feedback [[12]](https://github.com/rqzhu-aide/popping). Reliability, transparency, and meaningful human direction are essential across these efforts as agentic systems become more capable and widely adopted.
+:::
+
+- Agentic AI for research workflows
+- Agentic AI for education and learning
+- Large language models and responsible AI
+- Interpretable AI and machine learning
+:::
+:::
+
+## Editorial service
+
+<dl class="editorial-timeline">
+<div class="timeline-item">
+<dt class="timeline-year">2025 to present</dt>
+<dd class="timeline-role">Associate Editor, <a href="https://dl.acm.org/journal/topml">ACM Transactions on Probabilistic Machine Learning</a></dd>
+</div>
+<div class="timeline-item">
+<dt class="timeline-year">2024 to present</dt>
+<dd class="timeline-role">Associate Editor, <a href="https://www.tandfonline.com/journals/ucgs20">Journal of Computational and Graphical Statistics</a></dd>
+</div>
+<div class="timeline-item">
+<dt class="timeline-year">2023 to present</dt>
+<dd class="timeline-role">Associate Editor, <a href="https://www.tandfonline.com/journals/uasa20">Journal of the American Statistical Association</a></dd>
+</div>
+<div class="timeline-item">
+<dt class="timeline-year">2022 to 2023</dt>
+<dd class="timeline-role">Associate Editor, <a href="https://onlinelibrary.wiley.com/journal/19321872">Statistical Analysis and Data Mining</a></dd>
+</div>
+<div class="timeline-item">
+<dt class="timeline-year">2020 to present</dt>
+<dd class="timeline-role">Editorial Board Reviewer, <a href="https://jmlr.org/">Journal of Machine Learning Research</a></dd>
+</div>
+</dl>
+
+## Funding support
+
+My research is supported by the organizations shown below.
+
+<figure class="funding-figure">
+<img src="images/funding.jpg" alt="Logos of the National Institutes of Health, National Science Foundation, National Center for Supercomputing Applications, and Carl R. Woese Institute for Genomic Biology." width="1280" height="232" loading="lazy" decoding="async">
+<figcaption>Research funding and institutional support.</figcaption>
+</figure>

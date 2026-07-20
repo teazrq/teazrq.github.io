@@ -1,2 +1,7 @@
 /.quarto/
+/_site/
+/_site_build/
+/site_libs/
+/.venv/
+/temp_*
 **/*.quarto_ipynb

@@ -1,11 +1,17 @@
 project:
   type: website
+  render:
+    - "*.qmd"
 
 website:
-  title: "Ruoqing Zhu' Personal Website"
+  title: "Ruoqing Zhu"
+  site-url: "https://teazrq.github.io"
   favicon: files/favicon.ico
+  search: false
   navbar:
-    collapse: false          # <- prevents the icon/hamburger menu
+    title: "Ruoqing Zhu"
+    collapse: true
+    collapse-below: xl
     left:
       - href: index.qmd
         text: Home
@@ -20,13 +26,19 @@ website:
       - href: teaching.qmd
         text: Teaching
       - href: ai.qmd
-        text: AI
+        text: AI Projects
     right:
-      - href: https://scholar.google.com/citations?user=YOUR_ID
-        text: "<i class='ai ai-google-scholar ai-lg' aria-hidden='true'></i>"  
-      - icon: github
+      - href: "https://scholar.google.com/citations?user=uyzMyb8AAAAJ&hl=en"
+        text: Google Scholar
+      - text: GitHub
         href: https://github.com/teazrq
-    classes: "justify-content-center"
+  page-footer:
+    left: "© 2026 Ruoqing Zhu."
+    right:
+      - text: Google Scholar
+        href: "https://scholar.google.com/citations?user=uyzMyb8AAAAJ&hl=en"
+      - text: GitHub
+        href: https://github.com/teazrq
 format:
   html:
     page-layout: full
@@ -34,9 +46,44 @@ format:
       light: flatly
       dark: darkly
     toc: false
+    anchor-sections: false
+    html-math-method: mathml
     link-external-newwindow: true
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=STIX+Two+Text:wght@500;600&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    include-after-body:
+      text: |
+        <script>
+        (function () {
+          var main = document.getElementById("quarto-document-content");
+          if (!main) return;
+          main.setAttribute("tabindex", "-1");
+          var skip = document.createElement("a");
+          skip.className = "skip-link";
+          skip.href = "#quarto-document-content";
+          skip.textContent = "Skip to main content";
+          document.body.prepend(skip);
+          var themeToggle = document.querySelector(".quarto-color-scheme-toggle");
+          if (themeToggle) {
+            themeToggle.setAttribute("aria-label", "Toggle color theme");
+            themeToggle.setAttribute("role", "button");
+            var themeIcon = themeToggle.querySelector(".bi");
+            if (themeIcon) themeIcon.setAttribute("aria-hidden", "true");
+            themeToggle.addEventListener("keydown", function (event) {
+              if (event.key === " ") {
+                event.preventDefault();
+                themeToggle.click();
+              }
+            });
+          }
+          var menuToggle = document.querySelector(".navbar-toggler[role='menu']");
+          if (menuToggle) menuToggle.removeAttribute("role");
+        })();
+        </script>
     css:
-      - academicons/css/academicons.min.css
       - css/styles.css
       - css/page-style.css
-    include-after-body: files/footer.html
+      - css/publications.css

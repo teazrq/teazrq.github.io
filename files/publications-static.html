@@ -1,647 +1,761 @@
 ﻿<div class="pub-controls pub-controls-static">
-<div class="pub-filter-group">
-<div class="pub-filter-title">Filter by topic</div>
+<fieldset class="pub-filter-group">
+<legend class="pub-filter-title">Filter by topic</legend>
 <div class="pub-topic-filters">
-<button type="button" class="pub-topic-chip is-active" data-topic-filter="all">All Topics <span>(64)</span></button>
-<button type="button" class="pub-topic-chip" data-topic-filter="personalized-medicine">Personalized Medicine <span>(8)</span></button>
-<button type="button" class="pub-topic-chip" data-topic-filter="reinforcement-learning">Reinforcement Learning <span>(9)</span></button>
-<button type="button" class="pub-topic-chip" data-topic-filter="random-forests">Random Forests <span>(10)</span></button>
-<button type="button" class="pub-topic-chip" data-topic-filter="survival-analysis">Survival Analysis <span>(13)</span></button>
-<button type="button" class="pub-topic-chip" data-topic-filter="dimension-reduction">Dimension Reduction <span>(6)</span></button>
-<button type="button" class="pub-topic-chip" data-topic-filter="nutrition-science">Nutrition Science <span>(10)</span></button>
-<button type="button" class="pub-topic-chip" data-topic-filter="influenza">Influenza <span>(2)</span></button>
-<button type="button" class="pub-topic-chip" data-topic-filter="sepsis">Sepsis <span>(5)</span></button>
-<button type="button" class="pub-topic-chip" data-topic-filter="others">Others <span>(17)</span></button>
+<button type="button" class="pub-topic-chip is-active" data-topic-filter="all" aria-pressed="true" aria-controls="pub-results">All topics <span>(68)</span></button>
+<button type="button" class="pub-topic-chip" data-topic-filter="personalized-medicine" aria-pressed="false" aria-controls="pub-results">Personalized Medicine <span>(8)</span></button>
+<button type="button" class="pub-topic-chip" data-topic-filter="reinforcement-learning" aria-pressed="false" aria-controls="pub-results">Reinforcement Learning <span>(9)</span></button>
+<button type="button" class="pub-topic-chip" data-topic-filter="random-forests" aria-pressed="false" aria-controls="pub-results">Random Forests <span>(10)</span></button>
+<button type="button" class="pub-topic-chip" data-topic-filter="survival-analysis" aria-pressed="false" aria-controls="pub-results">Survival Analysis <span>(13)</span></button>
+<button type="button" class="pub-topic-chip" data-topic-filter="dimension-reduction" aria-pressed="false" aria-controls="pub-results">Dimension Reduction <span>(6)</span></button>
+<button type="button" class="pub-topic-chip" data-topic-filter="disease-diagnostics-treatment" aria-pressed="false" aria-controls="pub-results">Disease Diagnostics and Treatment <span>(10)</span></button>
+<button type="button" class="pub-topic-chip" data-topic-filter="nutrition-science" aria-pressed="false" aria-controls="pub-results">Nutrition Science <span>(11)</span></button>
+<button type="button" class="pub-topic-chip" data-topic-filter="influenza" aria-pressed="false" aria-controls="pub-results">Influenza <span>(2)</span></button>
+<button type="button" class="pub-topic-chip" data-topic-filter="sepsis" aria-pressed="false" aria-controls="pub-results">Sepsis <span>(6)</span></button>
+<button type="button" class="pub-topic-chip" data-topic-filter="others" aria-pressed="false" aria-controls="pub-results">Others <span>(9)</span></button>
+</div>
+</fieldset>
+<div class="pub-filter-group pub-search-group" role="search" aria-label="Search publications">
+<label class="pub-filter-title" for="pub-topic-search">Search publications</label>
+<input id="pub-topic-search" class="pub-topic-search" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Title, author, venue, or keyword&hellip;">
+<p class="pub-scholar-note">For citation counts and a complete profile, visit <a href="https://scholar.google.com/citations?user=uyzMyb8AAAAJ&amp;hl=en">Google Scholar</a>.</p>
 </div>
 </div>
-<div class="pub-filter-group pub-search-group">
-<label class="pub-filter-title" for="pub-topic-search">Search within current results</label>
-<input id="pub-topic-search" class="pub-topic-search" type="search" placeholder="Try random forest, sepsis, inverse regression...">
-<p class="pub-scholar-note">A full list of publications is available on <a href="https://scholar.google.com/citations?user=uyzMyb8AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>.</p>
+<p id="pub-static-summary" class="pub-static-summary" role="status" aria-live="polite" aria-atomic="true">Showing 68 publications</p>
+<div id="pub-empty-state" class="pub-empty-state" hidden>
+<p class="pub-empty-title">No matching publications</p>
+<p>Try different keywords or adjust the topic filters.</p>
+<button id="pub-clear-filters" class="pub-clear-btn" type="button">Clear filters</button>
+</div>
+<div id="pub-results" class="pub-results">
+<section class="pub-section-group" data-pub-section="preprints">
+<h2 class="pub-section-heading">Preprints</h2>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2026</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-han-2026-rectified" data-pub-item data-topics="nutrition-science" data-search="rectified fisher-bingham model for compositional data with zeros   han, e. perez-tamayo, m. holscher, h. d. zhu, r. method &amp; theory preprint nutrition science">
+<h4 id="pub-title-han-2026-rectified" class="pub-title"><a href="https://arxiv.org/abs/2604.25030">Rectified Fisher-Bingham Model for Compositional Data with Zeros</a></h4>
+<p class="pub-authors">Han, E., Perez-Tamayo, M., Holscher, H. D., Zhu, R.</p>
+<p class="pub-venue-meta">Preprint<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2026</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-mohammadi-2026-vectorvalued" data-pub-item data-topics="reinforcement-learning" data-search="vector-valued distributional reinforcement learning policy evaluation: a hilbert space embedding approach arxiv preprint arxiv:2601.18952  mohammadi, m. zheng, q. zhu, r. method &amp; theory preprint reinforcement learning">
+<h4 id="pub-title-mohammadi-2026-vectorvalued" class="pub-title"><a href="https://arxiv.org/abs/2601.18952">Vector-Valued Distributional Reinforcement Learning Policy Evaluation: A Hilbert Space Embedding Approach</a></h4>
+<p class="pub-authors">Mohammadi, M., Zheng, Q., Zhu, R.</p>
+<p class="pub-venue-meta"><em>arXiv preprint arXiv:2601.18952</em><span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2026</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Reinforcement Learning</span>
+</div>
+</article>
 </div>
 </div>
-<section class="pub-section-group" data-pub-section="preprint">
-<h2 class="pub-section-heading">Pre-print</h2>
-<div class="pub-item" data-pub-item data-topics="reinforcement-learning" data-search="consistent order determination of markov decision process   ye, c. zhu, l. zhu, r. method &amp; theory preprint reinforcement learning">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Preprint</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="reinforcement-learning">Reinforcement Learning</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2409.14684" target="_blank" rel="noopener noreferrer">arXiv</a>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2024</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-ye-2026-consistent" data-pub-item data-topics="reinforcement-learning" data-search="consistent order determination of markov decision process   ye, c. zhu, l. zhu, r. method &amp; theory preprint reinforcement learning">
+<h4 id="pub-title-ye-2026-consistent" class="pub-title"><a href="https://arxiv.org/abs/2409.14684">Consistent Order Determination of Markov Decision Process</a></h4>
+<p class="pub-authors">Ye, C., Zhu, L., Zhu, R.</p>
+<p class="pub-venue-meta">Preprint<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Reinforcement Learning</span>
 </div>
-<div class="pub-authors">Ye, C., Zhu, L., Zhu, R.</div>
-<div class="pub-citation">Consistent order determination of markov decision process (2026)</div>
+</article>
 </div>
-<div class="pub-item" data-pub-item data-topics="nutrition-science" data-search="rectified fisher-bingham model for compositional data with zeros   han, e. perez-tamayo, m. holscher, h. d. zhu, r. method &amp; theory preprint nutrition science">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Preprint</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="nutrition-science">Nutrition Science</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2604.25030" target="_blank" rel="noopener noreferrer">arXiv</a>
 </div>
-<div class="pub-authors">Han, E., Perez-Tamayo, M., Holscher, H. D., Zhu, R.</div>
-<div class="pub-citation">Rectified fisher-bingham model for compositional data with zeros (2026)</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2023</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-zhou-2023-distributional" data-pub-item data-topics="reinforcement-learning" data-search="distributional shift-aware off-policy interval estimation: a unified error quantification framework   zhou, w. li, y. zhu, r. qu, a. method &amp; theory preprint reinforcement learning">
+<h4 id="pub-title-zhou-2023-distributional" class="pub-title"><a href="https://arxiv.org/abs/2309.13278">Distributional Shift-Aware Off-Policy Interval Estimation: A Unified Error Quantification Framework</a></h4>
+<p class="pub-authors">Zhou, W., Li, Y., Zhu, R., Qu, A.</p>
+<p class="pub-venue-meta">Preprint<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2023</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Reinforcement Learning</span>
 </div>
-<div class="pub-item" data-pub-item data-topics="reinforcement-learning" data-search="vector-valued distributional reinforcement learning policy evaluation: a hilbert space embedding approach arxiv preprint arxiv:2601.18952  mohammadi, m. zheng, q. zhu, r. method &amp; theory preprint reinforcement learning">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Preprint</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="reinforcement-learning">Reinforcement Learning</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2601.18952" target="_blank" rel="noopener noreferrer">arXiv</a>
+</article>
 </div>
-<div class="pub-authors">Mohammadi, M., Zheng, Q., Zhu, R.</div>
-<div class="pub-citation">Vector-Valued distributional reinforcement learning policy evaluation: A hilbert space embedding approach. <em>arXiv preprint arXiv:2601.18952</em> (2026)</div>
 </div>
-<div class="pub-item" data-pub-item data-topics="random-forests|survival-analysis" data-search="confidence band estimation for random survival forests   formentini, s. e. liang, w. zhu, r. method &amp; theory preprint random forests survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Preprint</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="random-forests">Random Forests</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2204.12038" target="_blank" rel="noopener noreferrer">arXiv</a>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2022</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-formentini-2025-confidence" data-pub-item data-topics="random-forests|survival-analysis" data-search="confidence band estimation for survival random forests   formentini, s. e. liang, w. zhu, r. method &amp; theory preprint random forests survival analysis">
+<h4 id="pub-title-formentini-2025-confidence" class="pub-title"><a href="https://arxiv.org/abs/2204.12038">Confidence Band Estimation for Survival Random Forests</a></h4>
+<p class="pub-authors">Formentini, S. E., Liang, W., Zhu, R.</p>
+<p class="pub-venue-meta">Preprint<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2022</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Random Forests</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
 </div>
-<div class="pub-authors">Formentini, S. E., Liang, W., Zhu, R.</div>
-<div class="pub-citation">Confidence band estimation for random survival forests (2025)</div>
+</article>
 </div>
-<div class="pub-item" data-pub-item data-topics="dimension-reduction" data-search="corrected kernel principal component analysis for model structural change detection arxiv preprint arxiv:2307.07827  yu, l. zhu, l. zhu, r. zhu, x. method &amp; theory preprint dimension reduction">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Preprint</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="dimension-reduction">Dimension Reduction</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2307.07827" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Yu, L., Zhu, L., Zhu, R., Zhu, X.</div>
-<div class="pub-citation">Corrected kernel principal component analysis for model structural change detection. <em>arXiv preprint arXiv:2307.07827</em> (2023)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="reinforcement-learning" data-search="distributional shift-aware off-policy interval estimation: a unified error quantification framework   zhou, w. li, y. zhu, r. qu, a. method &amp; theory preprint reinforcement learning">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Preprint</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="reinforcement-learning">Reinforcement Learning</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2309.13278" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Zhou, W., Li, Y., Zhu, R., Qu, A.</div>
-<div class="pub-citation">Distributional shift-aware off-policy interval estimation: A unified error quantification framework (2023)</div>
 </div>
 </section>
 <section class="pub-section-group" data-pub-section="published">
-<h2 class="pub-section-heading">Publications</h2>
-<div class="pub-item" data-pub-item data-topics="sepsis" data-search="interpretability of an fda-authorized ai/ml sepsis diagnostic tool improved by shap values jamia open, 9(1), ooag020  watson, g. l. staples, g. carver, r. bhargava, a. l&#243;pez-espina, c. schmalz, l. ali, f. antkowiak, p. s. azad, s. berghea, r. chawla, l. crisp, m. dagan, a. davila, f. davila, h. demarco, c. doodlesack, a. espinosa, a. evans, n. s. ezekiel, c. friederich, a. gosai, f. halalau, a. iyer, k. kravitz, m. s. kurtzman, n. lee, j. h. maddens, n. malkani, r. mayer, s. oke, v. palagiri, a. v. patel, r. raghavakurup, l. raouf, s. reseland, e. sadaka, f. sarma, d. smith, s. shvilkina, t. sims, m. d. singh, s. stenson, b. a. syed, a. tafa, m. thomas, k. zhao, s. d. zhu, r. bashir, r. reddy jr., b. shapiro, n. i. collaborative journal sepsis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="sepsis">Sepsis</button>
-</div>
-<div class="pub-authors">Watson, G. L., Staples, G., Carver, R., Bhargava, A., L&#243;pez-Espina, C., Schmalz, L., Ali, F., Antkowiak, P. S., Azad, S., Berghea, R., Chawla, L., Crisp, M., Dagan, A., Davila, F., Davila, H., DeMarco, C., Doodlesack, A., Espinosa, A., Evans, N. S., Ezekiel, C., Friederich, A., Gosai, F., Halalau, A., Iyer, K., Kravitz, M. S., Kurtzman, N., Lee, J. H., Maddens, N., Malkani, R., Mayer, S., Oke, V., Palagiri, A. V., Patel, R., Raghavakurup, L., Raouf, S., Reseland, E., Sadaka, F., Sarma, D., Smith, S., Shvilkina, T., Sims, M. D., Singh, S., Stenson, B. A., Syed, A., Tafa, M., Thomas, K., Zhao, S. D., Zhu, R., Bashir, R., Reddy Jr., B., Shapiro, N. I.</div>
-<div class="pub-citation">Interpretability of an FDA-authorized AI/ML sepsis diagnostic tool improved by SHAP values. <em>JAMIA Open</em> 9(1), ooag020 (2026)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="nutrition-science" data-search="machine learning and artificial intelligence in nutrition research: analytical methods, applications, and key considerations the journal of nutrition, 101528  southey, n. l. zhu, r. holscher, h. d. collaborative journal nutrition science">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="nutrition-science">Nutrition Science</button>
-</div>
-<div class="pub-authors">Southey, N. L., Zhu, R., Holscher, H. D.</div>
-<div class="pub-citation">Machine learning and artificial intelligence in nutrition research: analytical methods, applications, and key considerations. <em>The Journal of Nutrition</em> 101528 (2026)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="reinforcement-learning" data-search="policy learning with continuous actions under unmeasured confounding journal of the american statistical association. forthcoming  li, y. han, e. hu, y. zhou, w. qi, z. cui, y. zhu, r. method &amp; theory journal reinforcement learning">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="reinforcement-learning">Reinforcement Learning</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2505.00304" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Li, Y., Han, E., Hu, Y., Zhou, W., Qi, Z., Cui, Y., Zhu, R.</div>
-<div class="pub-citation">Policy learning with continuous actions under unmeasured confounding. <em>Journal of the American Statistical Association</em> Forthcoming (2026)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="multiplexed cytokine profiling identifies diagnostic signatures for latent tuberculosis and reactivation risk stratification plos one, 20(4), e0316648  meserve, k. chapman, c. a. xu, m. zhou, h. laniado-laborin, r. zhu, r. escalante, p. bailey, r. c. collaborative journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Meserve, K., Chapman, C. A., Xu, M., Zhou, H., Laniado-Laborin, R., Zhu, R., Escalante, P., Bailey, R. C.</div>
-<div class="pub-citation">Multiplexed cytokine profiling identifies diagnostic signatures for latent tuberculosis and reactivation risk stratification. <em>PloS one</em> 20(4), e0316648 (2025)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="influenza" data-search="nasal and systemic immune responses correlate with viral shedding after influenza challenge in people with complex preexisting immunity science translational medicine, 17(810), eadt1452  walters, k.-a. blatti, c. a. zhu, r. banbury, b. giurgea, l. t. bean, r. han, e. li, y. scherler, k. sherry, j. formentini, s. zhou, w. cervantes-medina, a. gouzoulis, m. rosas, l. a. han, a. gatzke, l. bushell, c. sherry, n. taubenberger, j. k. memoli, m. j. kash, j. c. collaborative journal influenza">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="influenza">Influenza</button>
-</div>
-<div class="pub-authors">Walters, K.-A., Blatti, C. A., Zhu, R., Banbury, B., Giurgea, L. T., Bean, R., Han, E., Li, Y., Scherler, K., Sherry, J., Formentini, S., Zhou, W., Cervantes-Medina, A., Gouzoulis, M., Rosas, L. A., Han, A., Gatzke, L., Bushell, C., Sherry, N., Taubenberger, J. K., Memoli, M. J., Kash, J. C.</div>
-<div class="pub-citation">Nasal and systemic immune responses correlate with viral shedding after influenza challenge in people with complex preexisting immunity. <em>Science Translational Medicine</em> 17(810), eadt1452 (2025)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="nutrition-science" data-search="predicting cognitive outcome through nutrition and health markers using supervised machine learning the journal of nutrition, 155(7), 2144-2153  verma, s. holthaus, t. a. martell, s. holscher, h. d. zhu, r. khan, n. a. collaborative journal nutrition science">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="nutrition-science">Nutrition Science</button>
-</div>
-<div class="pub-authors">Verma, S., Holthaus, T. A., Martell, S., Holscher, H. D., Zhu, R., Khan, N. A.</div>
-<div class="pub-citation">Predicting cognitive outcome through nutrition and health markers using supervised machine learning. <em>The Journal of Nutrition</em> 155(7), 2144-2153 (2025)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="dimension-reduction" data-search="probabilistic exponential family inverse regression and its applications biometrics, 81(2), ujaf065  pang, d. zhu, r. zhao, h. wang, t. method &amp; theory journal dimension reduction">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="dimension-reduction">Dimension Reduction</button>
-</div>
-<div class="pub-authors">Pang, D., Zhu, R., Zhao, H., Wang, T.</div>
-<div class="pub-citation">Probabilistic exponential family inverse regression and its applications. <em>Biometrics</em> 81(2), ujaf065 (2025)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="random-forests" data-search="unraveling the molecular complexity of myxomatous mitral valve degeneration: integrating transcriptomic and mirna profiling using random forests with boruta feature selection journal of the heart valve society, 2(2), 137-153  hagler, m. a. thalji, n. russell, n. t. welge, m. e. zhu, r. bushell, c. miller, j. d. collaborative journal random forests">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="random-forests">Random Forests</button>
-</div>
-<div class="pub-authors">Hagler, M. A., Thalji, N., Russell, N. T., Welge, M. E., Zhu, R., Bushell, C., Miller, J. D.</div>
-<div class="pub-citation">Unraveling the molecular complexity of myxomatous mitral valve degeneration: integrating transcriptomic and miRNA profiling using random forests with boruta feature selection. <em>Journal of the Heart Valve Society</em> 2(2), 137-153 (2025)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="analyzing the online word of mouth dynamics: a novel approach decision support systems, 114306  cao, x. folta, t. b. li, h. zhu, r. collaborative journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Cao, X., Folta, T. B., Li, H., Zhu, R.</div>
-<div class="pub-citation">Analyzing the online word of mouth dynamics: A novel approach. <em>Decision Support Systems</em> 114306 (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="nutrition-science|survival-analysis" data-search="dietary patterns among us food insecure cancer survivors and the risk of mortality: nhanes 1999 2018 cancer causes &amp; control, 1-14  maino vieytes, c. a. zhu, r. gany, f. koester, b. d. arthur, a. e. collaborative journal nutrition science survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="nutrition-science">Nutrition Science</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-</div>
-<div class="pub-authors">Maino Vieytes, C. A., Zhu, R., Gany, F., Koester, B. D., Arthur, A. E.</div>
-<div class="pub-citation">Dietary patterns among US food insecure cancer survivors and the risk of mortality: NHANES 1999 2018. <em>Cancer Causes &amp; Control</em> 1-14 (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="sepsis" data-search="fda-authorized ai/ml tool for sepsis prediction: development and validation nejm ai, 1(12), aioa2400867  bhargava, a. lopez-espina, c. schmalz, l. khan, s. watson, g. l. urdiales, d. zhao, s. d. zhu, r. bashir, b. reddy jr., b. shapiro, n. i. collaborative journal sepsis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="sepsis">Sepsis</button>
-</div>
-<div class="pub-authors">Bhargava, A., Lopez-Espina, C., Schmalz, L., Khan, S., Watson, G. L., Urdiales, D., Zhao, S. D., Zhu, R., Bashir, B., Reddy Jr., B., Shapiro, N. I.</div>
-<div class="pub-citation">FDA-Authorized AI/ML tool for sepsis prediction: development and validation. <em>NEJM AI</em> 1(12), AIoa2400867 (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="nutrition-science" data-search="fecal metagenomics to identify biomarkers of food intake in healthy adults: findings from randomized, controlled, nutrition trials the journal of nutrition, 154(1), 271-283  shinn, l. m. mansharamani, a. baer, d. j. novotny, j. a. charron, c. s. khan, n. a. zhu, r. holscher, h. d. collaborative journal nutrition science">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="nutrition-science">Nutrition Science</button>
-</div>
-<div class="pub-authors">Shinn, L. M., Mansharamani, A., Baer, D. J., Novotny, J. A., Charron, C. S., Khan, N. A., Zhu, R., Holscher, H. D.</div>
-<div class="pub-citation">Fecal metagenomics to identify biomarkers of food intake in healthy adults: findings from randomized, controlled, nutrition trials. <em>The Journal of Nutrition</em> 154(1), 271-283 (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="random-forests" data-search="on variance estimation of random forests with infinite-order u-statistics electronic journal of statistics, 18(1), 2135-2207  xu, t. zhu, r. shao, x. method &amp; theory journal random forests">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="random-forests">Random Forests</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2202.09008" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Xu, T., Zhu, R., Shao, X.</div>
-<div class="pub-citation">On variance estimation of random forests with infinite-order U-statistics. <em>Electronic Journal of Statistics</em> 18(1), 2135-2207 (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="personalized-medicine|reinforcement-learning" data-search="policy learning for individualized treatment regimes on infinite time horizon  statistics in precision health: theory, methods and applications (pp. 65-100). cham: springer international publishing. editor: yichuan zhao zhou, w. li, y. zhu, r. method &amp; theory book chapter personalized medicine reinforcement learning">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Book Chapter</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="personalized-medicine">Personalized Medicine</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="reinforcement-learning">Reinforcement Learning</button>
-</div>
-<div class="pub-authors">Zhou, W., Li, Y., Zhu, R.</div>
-<div class="pub-citation">Policy learning for individualized treatment regimes on infinite time horizon. In <em>Statistics in Precision Health: Theory, Methods and Applications (pp. 65-100). Cham: Springer International Publishing. Editor: Yichuan Zhao</em> (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="prevalence, management, and comorbidities of adults with atrial fibrillation in the united states, 2019 to 2023 jacc: advances, 3(11), 101330  oltman, c. g. kim, t. p. lee, j. w. lupu, j. d. zhu, r. moussa, i. d. collaborative journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Oltman, C. G., Kim, T. P., Lee, J. W., Lupu, J. D., Zhu, R., Moussa, I. D.</div>
-<div class="pub-citation">Prevalence, management, and comorbidities of adults with atrial fibrillation in the united states, 2019 to 2023. <em>JACC: Advances</em> 3(11), 101330 (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="nutrition-science" data-search="prior-guided longitudinal metabolomic analysis  2024 ieee international conference on bioinformatics and biomedicine (bibm) (pp. 351-356). ieee sarker, k. zhu, r. holscher, h. d. zhai, c. collaborative conference nutrition science">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Conference</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="nutrition-science">Nutrition Science</button>
-</div>
-<div class="pub-authors">Sarker, K., Zhu, R., Holscher, H. D., Zhai, C.</div>
-<div class="pub-citation">Prior-guided longitudinal metabolomic analysis. In <em>2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 351-356). IEEE</em> (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="random-forests|survival-analysis" data-search="random forest weighted local frechet regression with random objects journal of machine learning research 25(107), 1-69  qiu, r. yu, z. zhu, r. method &amp; theory journal random forests survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="random-forests">Random Forests</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2202.04912" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Qiu, R., Yu, Z., Zhu, R.</div>
-<div class="pub-citation">Random forest weighted local frechet regression with random objects. <em>Journal of Machine Learning Research</em> 25(107), 1-69 (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="personalized-medicine|reinforcement-learning" data-search="solving infinite horizon dynamic treatment regimes: a proximal temporal consistency learning approach journal of the american statistical association. 119(545), 625-638  zhou, w. zhu, r. qu, a. method &amp; theory journal personalized medicine reinforcement learning">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="personalized-medicine">Personalized Medicine</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="reinforcement-learning">Reinforcement Learning</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2110.10719" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Zhou, W., Zhu, R., Qu, A.</div>
-<div class="pub-citation">Solving infinite horizon dynamic treatment regimes: A proximal temporal consistency learning approach. <em>Journal of the American Statistical Association</em> 119(545), 625-638 (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="reinforcement-learning" data-search="stage-aware learning for dynamic treatments journal of machine learning research, 25(408), 1-51  ye, h. zhou, w. zhu, r. qu, a. method &amp; theory journal reinforcement learning">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="reinforcement-learning">Reinforcement Learning</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2310.19300" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Ye, H., Zhou, W., Zhu, R., Qu, A.</div>
-<div class="pub-citation">Stage-aware learning for dynamic treatments. <em>Journal of Machine Learning Research</em> 25(408), 1-51 (2024)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="nutrition-science" data-search="augmenting nutritional metabolomics with a genome-scale metabolic model for assessment of diet intake  proceedings of the 14th acm international conference on bioinformatics, computational biology, and health informatics (pp. 1-10) sarker, k. zhu, r. holscher, h. d. zhai, c. collaborative conference nutrition science">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Conference</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="nutrition-science">Nutrition Science</button>
-</div>
-<div class="pub-authors">Sarker, K., Zhu, R., Holscher, H. D., Zhai, C.</div>
-<div class="pub-citation">Augmenting nutritional metabolomics with a genome-scale metabolic model for assessment of diet intake. In <em>Proceedings of the 14th ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics (pp. 1-10)</em> (2023)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="personalized-medicine|random-forests|survival-analysis" data-search="estimating heterogeneous treatment effects with right-censored data via causal survival forests journal of the royal statistical society: series b, 85(2): 179-211  cui, y. kosorok, m. r. sverdrup, e. wager, s. zhu, r. method &amp; theory journal personalized medicine random forests survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="personalized-medicine">Personalized Medicine</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="random-forests">Random Forests</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2001.09887" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Cui, Y., Kosorok, M. R., Sverdrup, E., Wager, S., Zhu, R.</div>
-<div class="pub-citation">Estimating heterogeneous treatment effects with right-censored data via causal survival forests. <em>Journal of the Royal Statistical Society: Series B</em> 85(2): 179-211 (2023)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="reinforcement-learning" data-search="quasi-optimal reinforcement learning with continuous treatments iclr 2023  li, y. zhou, w. zhu, r. method &amp; theory conference reinforcement learning">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Conference</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="reinforcement-learning">Reinforcement Learning</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2301.08940v1" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Li, Y., Zhou, W., Zhu, R.</div>
-<div class="pub-citation">Quasi-optimal reinforcement learning with continuous treatments. <em>ICLR 2023</em> (2023)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="random-forests|survival-analysis" data-search="random forests for survival analysis and high-dimensional data  springer handbook of engineering statistics (pp. 831-847). london: springer london. editor: hoang pham formentini, s. e. cui, y. zhu, r. method &amp; theory book chapter random forests survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Book Chapter</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="random-forests">Random Forests</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-</div>
-<div class="pub-authors">Formentini, S. E., Cui, Y., Zhu, R.</div>
-<div class="pub-citation">Random forests for survival analysis and high-dimensional data. In <em>Springer Handbook of Engineering Statistics (pp. 831-847). London: Springer London. Editor: Hoang Pham</em> (2023)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="calibrate and debias layer-wise sampling for graph convolutional networks. tmlr   chen, y. xu, t. hakkani-tur, d. jin, d. yang, y. zhu, r. method &amp; theory journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2206.00583" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Chen, Y., Xu, T., Hakkani-Tur, D., Jin, D., Yang, Y., Zhu, R.</div>
-<div class="pub-citation">Calibrate and debias layer-wise sampling for graph convolutional networks. TMLR (2022)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="random-forests|survival-analysis" data-search="consistency of survival forest and tree models: splitting bias and correction statistica sinica, 32(3), 1245-1267  cui, y. zhu, r. zhou, m. kosorok, m. method &amp; theory journal random forests survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="random-forests">Random Forests</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/1707.09631" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Cui, Y., Zhu, R., Zhou, M., Kosorok, M.</div>
-<div class="pub-citation">Consistency of survival forest and tree models: splitting bias and correction. <em>Statistica Sinica</em> 32(3), 1245-1267 (2022)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="dermoscopic image classification with neural style transfer journal of computational and graphical statistics. 31(4), 1318-1331  li, y. zhu, r. qu, a. yeh, m. method &amp; theory journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/2105.07592" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Li, Y., Zhu, R., Qu, A., Yeh, M.</div>
-<div class="pub-citation">Dermoscopic image classification with neural style transfer. <em>Journal of Computational and Graphical Statistics</em> 31(4), 1318-1331 (2022)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="random-forests|dimension-reduction" data-search="dimension reduction forests: local variable importance using structured random forests journal of computational and graphical statistics. 31(4): 1104-1113. github  loyal, j. zhu, r. cui, y. xin, z. method &amp; theory journal random forests dimension reduction">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="random-forests">Random Forests</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="dimension-reduction">Dimension Reduction</button>
-<a class="pub-badge pub-badge-link" href="https://github.com/joshloyal/drforest" target="_blank" rel="noopener noreferrer">GitHub</a>
-</div>
-<div class="pub-authors">Loyal, J., Zhu, R., Cui, Y., Xin, Z.</div>
-<div class="pub-citation">Dimension reduction forests: local variable importance using structured random forests. <em>Journal of Computational and Graphical Statistics</em> 31(4): 1104-1113. GitHub (2022)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="efficient gradient boosting for prognostic biomarker discovery bioinformatics, 38(6), 1631-1638  li, k. yao, s. zhang, z. cao, b. wilson, c. m. kalos, d. kuan, p. f. zhu, r. wang, x. method &amp; theory journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Li, K., Yao, S., Zhang, Z., Cao, B., Wilson, C. M., Kalos, D., Kuan, P. F., Zhu, R., Wang, X.</div>
-<div class="pub-citation">Efficient gradient boosting for prognostic biomarker discovery. <em>Bioinformatics</em> 38(6), 1631-1638 (2022)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="nutrition-science" data-search="empirical dietary patterns associated with food insecurity in us cancer survivors: nhanes 1999 2018 international journal of environmental research and public health, 19(21), 14062  maino vieytes, c. a. zhu, r. gany, f. burton-obanla, a. arthur, a. e. collaborative journal nutrition science">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="nutrition-science">Nutrition Science</button>
-</div>
-<div class="pub-authors">Maino Vieytes, C. A., Zhu, R., Gany, F., Burton-Obanla, A., Arthur, A. E.</div>
-<div class="pub-citation">Empirical dietary patterns associated with food insecurity in US cancer survivors: NHANES 1999 2018. <em>International journal of environmental research and public health</em> 19(21), 14062 (2022)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="nutrition-science" data-search="fecal metabolites as biomarkers for predicting food intake by healthy adults the journal of nutrition, 152 (12), 2956-2965  shinn, l. m. mansharamani, a. baer, d. j. novotny, j. a. charron, c. s. khan, n. a. zhu, r. holscher, h. d. collaborative journal nutrition science">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="nutrition-science">Nutrition Science</button>
-</div>
-<div class="pub-authors">Shinn, L. M., Mansharamani, A., Baer, D. J., Novotny, J. A., Charron, C. S., Khan, N. A., Zhu, R., Holscher, H. D.</div>
-<div class="pub-citation">Fecal metabolites as biomarkers for predicting food intake by healthy adults. <em>The Journal of Nutrition</em> 152 (12), 2956-2965 (2022)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="optimizing health coaching for patients with type 2 diabetes using machine learning: model development and validation study jmir formative research, 6(9), e37838  di, s. petch, j. gerstein, h. c. zhu, r. sherifali, d. collaborative journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Di, S., Petch, J., Gerstein, H. C., Zhu, R., Sherifali, D.</div>
-<div class="pub-citation">Optimizing health coaching for patients with type 2 diabetes using machine learning: model development and validation study. <em>JMIR formative research</em> 6(9), e37838 (2022)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="survival-analysis" data-search="population analysis of mortality risk: predictive models from passive monitors using motion sensors for 100,000 uk biobank participants plos digital health, 1(10), e0000045  zhou, h. zhu, r. ung, a. schatz, b. collaborative journal survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-</div>
-<div class="pub-authors">Zhou, H., Zhu, R., Ung, A., Schatz, B.</div>
-<div class="pub-citation">Population analysis of mortality risk: predictive models from passive monitors using motion sensors for 100,000 UK biobank participants. <em>PLOS Digital Health</em> 1(10), e0000045 (2022)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="personalized-medicine|dimension-reduction" data-search="a parsimonious personalized dose finding model via dimension reduction biometrika, 108(3), 643-659  zhou, w. zhu, r. zeng, d. method &amp; theory journal personalized medicine dimension reduction">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="personalized-medicine">Personalized Medicine</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="dimension-reduction">Dimension Reduction</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/1802.06156" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Zhou, W., Zhu, R., Zeng, D.</div>
-<div class="pub-citation">A parsimonious personalized dose finding model via dimension reduction. <em>Biometrika</em> 108(3), 643-659 (2021)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="sepsis" data-search="diagnostic and prognostic capabilities of a biomarker and emr based machine learning algorithm for sepsis clinical and translational science  taneja, i. damhorst, g. l. lopez-espina, c. zhao, s. d. zhu, r. khan, s. bashir, r. collaborative journal sepsis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="sepsis">Sepsis</button>
-</div>
-<div class="pub-authors">Taneja, I., Damhorst, G. L., Lopez-Espina, C., Zhao, S. D., Zhu, R., Khan, S., Bashir, R.</div>
-<div class="pub-citation">Diagnostic and prognostic capabilities of a biomarker and EMR based machine learning algorithm for sepsis. <em>Clinical and Translational Science</em> (2021)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="personalized-medicine|random-forests" data-search="estimating heterogeneous treatment effect on multivariate responses using random forests statistics in biosciences  guo, b. holscher, h. d. auvil, l. s. welge, m. e. bushell, c. b. novotny, j. a. baer, d. j. burd, n. a. khan, n. a. zhu, r. method &amp; theory journal personalized medicine random forests">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="personalized-medicine">Personalized Medicine</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="random-forests">Random Forests</button>
-<a class="pub-badge pub-badge-link" href="https://github.com/boyiguo1/MOTE.RF" target="_blank" rel="noopener noreferrer">GitHub</a>
-</div>
-<div class="pub-authors">Guo, B., Holscher, H. D., Auvil, L. S., Welge, M. E., Bushell, C. B., Novotny, J. A., Baer, D. J., Burd, N. A., Khan, N. A., Zhu, R.</div>
-<div class="pub-citation">Estimating heterogeneous treatment effect on multivariate responses using random forests. <em>Statistics in Biosciences</em> (2021)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="lung epithelial and endothelial damage, loss of tissue repair, inhibition of fibrinolysis, and cellular senescence in fatal covid-19 science translational medicine, 13(620), p.eabj7790  agnillo, f. walters, k. a. xiao, y. sheng, z. m. scherler, k. park, j. gygli, s. rosas, l. a. sadtler, k. kalish, h. blatti iii, c. a. zhu, r. kash, j. c. taubenberger, j. k. collaborative journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Agnillo, F., Walters, K. A., Xiao, Y., Sheng, Z. M., Scherler, K., Park, J., Gygli, S., Rosas, L. A., Sadtler, K., Kalish, H., Blatti III, C. A., Zhu, R., Kash, J. C., Taubenberger, J. K.</div>
-<div class="pub-citation">Lung epithelial and endothelial damage, loss of tissue repair, inhibition of fibrinolysis, and cellular senescence in fatal COVID-19. <em>Science Translational Medicine</em> 13(620), p.eabj7790 (2021)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="risk assessment of latent tuberculosis infection through a multiplexed cytokine biosensor assay and machine learning feature selection scientific reports, 11(1), 1-10  robison, h. m. chapman, c. a. zhou, h. erskine, c. l. theel, e. peikert, t. lindestam arlehamn, c. s. sette, a. bushell, c. welge, m. zhu, r. bailey, r. c. escalante, p. collaborative journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Robison, H. M., Chapman, C. A., Zhou, H., Erskine, C. L., Theel, E., Peikert, T., Lindestam Arlehamn, C. S., Sette, A., Bushell, C., Welge, M., Zhu, R., Bailey, R. C., Escalante, P.</div>
-<div class="pub-citation">Risk assessment of latent tuberculosis infection through a multiplexed cytokine biosensor assay and machine learning feature selection. <em>Scientific Reports</em> 11(1), 1-10 (2021)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="topic modeling on triage notes with semiorthogonal nonnegative matrix factorization journal of the american statistical association, a&amp;c 116(536): 1609-1624  li, j. y. zhu, r. qu, a. ye, h. sun, z. method &amp; theory journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/1805.02306" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Li, J. Y., Zhu, R., Qu, A., Ye, H., Sun, Z.</div>
-<div class="pub-citation">Topic modeling on triage notes with semiorthogonal nonnegative matrix factorization. <em>Journal of the American Statistical Association, A&amp;C</em> 116(536): 1609-1624 (2021)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="assessment of peritoneal microbial features and tumor marker levels as potential diagnostic tools for ovarian cancer plos one, 15(1), e0227707  miao, r. badger, t. c. groesch, k. diaz-sylvester, p. l. wilson, t. ghareeb, a. martin, j. a. cregger, m. welge, m. bushell, c. auvil, l. zhu, r. braundmeier-fleming, a. collaborative journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Miao, R., Badger, T. C., Groesch, K., Diaz-Sylvester, P. L., Wilson, T., Ghareeb, A., Martin, J. A., Cregger, M., Welge, M., Bushell, C., Auvil, L., Zhu, R., Braundmeier-Fleming, A.</div>
-<div class="pub-citation">Assessment of peritoneal microbial features and tumor marker levels as potential diagnostic tools for ovarian cancer. <em>PLoS ONE</em> 15(1), e0227707 (2020)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="survival-analysis" data-search="constructing dynamic treatment regimes with shared parameters for censored data statistics in medicine, 39 (9), 1250-1263  zhao, y. q. zhu, r. chen, g. zheng, y. method &amp; theory journal survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/1808.01332" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Zhao, Y. Q., Zhu, R., Chen, G., Zheng, Y.</div>
-<div class="pub-citation">Constructing dynamic treatment regimes with shared parameters for censored data. <em>Statistics In Medicine</em> 39 (9), 1250-1263 (2020)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="nutrition-science" data-search="fecal bacteria as biomarkers for predicting food intake in healthy adults the journal of nutrition, 151(2), 423-433  shinn, l. li, y. mansharamani, a. auvil, l. s. welge, m. e. bushell, c. khan, n. a. charron, c. s. novotny, j. a. baer, d. j. zhu, r. holscher, h. d. collaborative journal nutrition science">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="nutrition-science">Nutrition Science</button>
-</div>
-<div class="pub-authors">Shinn, L., Li, Y., Mansharamani, A., Auvil, L. S., Welge, M. E., Bushell, C., Khan, N. A., Charron, C. S., Novotny, J. A., Baer, D. J., Zhu, R., Holscher, H. D.</div>
-<div class="pub-citation">Fecal bacteria as biomarkers for predicting food intake in healthy adults. <em>The Journal of Nutrition</em> 151(2), 423-433 (2020)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="personalized-medicine" data-search="bagging and deep learning in optimal individualized treatment rules biometrics, 75(2):674-684. r packages: [dnnet and itrlearn] example r file  mi, x. zhu, r. zou, f. method &amp; theory journal personalized medicine">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="personalized-medicine">Personalized Medicine</button>
-<a class="pub-badge pub-badge-link" href="https://github.com/SkadiEye/dnnet" target="_blank" rel="noopener noreferrer">GitHub</a>
-</div>
-<div class="pub-authors">Mi, X., Zhu, R., Zou, F.</div>
-<div class="pub-citation">Bagging and deep learning in optimal individualized treatment rules. <em>Biometrics</em> 75(2):674-684. R packages: [dnnet and ITRlearn] Example R File (2019)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="survival-analysis|dimension-reduction" data-search="counting process based dimension reduction method for censored outcomes biometrika, 06(1):181-196  sun, q. zhu, r. wang, t. zeng, d. method &amp; theory journal survival analysis dimension reduction">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="dimension-reduction">Dimension Reduction</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/1704.05046" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Sun, Q., Zhu, R., Wang, T., Zeng, D.</div>
-<div class="pub-citation">Counting process based dimension reduction method for censored outcomes. <em>Biometrika</em> 06(1):181-196 (2019)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="influenza" data-search="differential effects of influenza virus na, ha head, and ha stalk antibodies on peripheral blood leukocyte gene expression during human infection mbio, 10(3), e00760-19  walters, k.-a. zhu, r. welge, m. scherler, k. park, j.-k. rahil, z. wang, h. auvil, l. bushell, c. lee, m. y. baxter, d. bristol, t. rosas, l. a. cervantes-medina, a. czajkowski, l. han, a. memoli, m. j. taubenberger, j. k. kash, j. c. collaborative journal influenza">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="influenza">Influenza</button>
-</div>
-<div class="pub-authors">Walters, K.-A., Zhu, R., Welge, M., Scherler, K., Park, J.-K., Rahil, Z., Wang, H., Auvil, L., Bushell, C., Lee, M. Y., Baxter, D., Bristol, T., Rosas, L. A., Cervantes-Medina, A., Czajkowski, L., Han, A., Memoli, M. J., Taubenberger, J. K., Kash, J. C.</div>
-<div class="pub-citation">Differential effects of influenza virus NA, HA head, and HA stalk antibodies on peripheral blood leukocyte gene expression during human infection. <em>mBio</em> 10(3), e00760-19 (2019)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="nonparametric variable selection and its application to additive models annals of the institute of statistical mathematics, 1-28  feng, z. lin, l. zhu, r. zhu, l. method &amp; theory journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Feng, Z., Lin, L., Zhu, R., Zhu, L.</div>
-<div class="pub-citation">Nonparametric variable selection and its application to additive models. <em>Annals of the Institute of Statistical Mathematics</em> 1-28 (2019)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="survival-analysis|dimension-reduction" data-search="orthodr: semiparametric dimension reduction via orthogonality constrained optimization the r journal, 11(2), 24-37  zhu, r. zhang, j. zhao, r. xu, p. zhou, w. zhang, x. method &amp; theory journal survival analysis dimension reduction">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="dimension-reduction">Dimension Reduction</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/1811.11733" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Zhu, R., Zhang, J., Zhao, R., Xu, P., Zhou, W., Zhang, X.</div>
-<div class="pub-citation">orthoDr: semiparametric dimension reduction via orthogonality constrained optimization. <em>The R Journal</em> 11(2), 24-37 (2019)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="survival-analysis" data-search="gradientscansurv an exhaustive association test method for gene expression data with censored survival outcome plos one, 13(12), p.e0207590  yi, m. zhu, r. stephens, r. m. collaborative journal survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-</div>
-<div class="pub-authors">Yi, M., Zhu, R., Stephens, R. M.</div>
-<div class="pub-citation">GradientScanSurv an exhaustive association test method for gene expression data with censored survival outcome. <em>PloS one</em> 13(12), p.e0207590 (2018)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="sepsis" data-search="multivariate computational analysis of biosensor data for improved cd64 quantification for sepsis diagnosis lab on a chip, 18(8), 1231-1240  hassan, u. zhu, r. bashir, r. collaborative journal sepsis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="sepsis">Sepsis</button>
-</div>
-<div class="pub-authors">Hassan, U., Zhu, R., Bashir, R.</div>
-<div class="pub-citation">Multivariate computational analysis of biosensor data for improved CD64 quantification for sepsis diagnosis. <em>Lab on a Chip</em> 18(8), 1231-1240 (2018)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="sepsis" data-search="combining biomarkers with emr data to improve sepsis identification scientific reports, 7(1), 10800  taneja, i. bobby reddy jr, b. damhorst, g. zhao, d. hassan, u. price, z. jensen, t. ghonge, t. patel, m. wachspress, s. winter, j. rappleye, m. smith, g. healey, r. ajmal, m. anwaruddin, s. khan, m. patel, j. rawal, h. sarwar, r. soni, s. davis, b. kumar, j. white, k. bashir, r. zhu, r. collaborative journal sepsis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="sepsis">Sepsis</button>
-</div>
-<div class="pub-authors">Taneja, I., Bobby Reddy Jr, B., Damhorst, G., Zhao, D., Hassan, U., Price, Z., Jensen, T., Ghonge, T., Patel, M., Wachspress, S., Winter, J., Rappleye, M., Smith, G., Healey, R., Ajmal, M., Anwaruddin, S., Khan, M., Patel, J., Rawal, H., Sarwar, R., Soni, S., Davis, B., Kumar, J., White, K., Bashir, R., Zhu, R.</div>
-<div class="pub-citation">Combining biomarkers with EMR data to improve sepsis identification. <em>Scientific Reports</em> 7(1), 10800 (2017)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="personalized-medicine|random-forests" data-search="greedy outcome weighted tree learning of optimal personalized treatment rules biometrics. 73(2), 391 400  zhu, r. zhao, y. chen, g. ma, s. zhao, h. method &amp; theory journal personalized medicine random forests">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="personalized-medicine">Personalized Medicine</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="random-forests">Random Forests</button>
-</div>
-<div class="pub-authors">Zhu, R., Zhao, Y., Chen, G., Ma, S., Zhao, H.</div>
-<div class="pub-citation">Greedy outcome weighted tree learning of optimal personalized treatment rules. <em>Biometrics</em> 73(2), 391 400 (2017)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="personalized-medicine|survival-analysis" data-search="tree based weighted learning for estimating individualized treatment rules with censored data electronic journal of statistics, 11(2), 3927-3953  cui, y. zhu, r. kosorok, m. method &amp; theory journal personalized medicine survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="personalized-medicine">Personalized Medicine</button>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-<a class="pub-badge pub-badge-link" href="https://arxiv.org/abs/1707.09632" target="_blank" rel="noopener noreferrer">arXiv</a>
-</div>
-<div class="pub-authors">Cui, Y., Zhu, R., Kosorok, M.</div>
-<div class="pub-citation">Tree based weighted learning for estimating individualized treatment rules with censored data. <em>Electronic Journal of Statistics</em> 11(2), 3927-3953 (2017)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="integrating multidimensional omics data for cancer outcome biostatistics. 17(4), 605-18  zhu, r. zhao, q. zhao, h. ma, s. method &amp; theory journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Zhu, R., Zhao, Q., Zhao, H., Ma, S.</div>
-<div class="pub-citation">Integrating multidimensional omics data for cancer outcome. <em>Biostatistics</em> 17(4), 605-18 (2016)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="increasing access to state psychiatric hospital beds: exploring supply-side solutions psychiatric services, 67(5), 523-528  la, e. h. lich, k. h. wells, r. ellis, a. r. swartz, m. s. zhu, r. morrissey, j. p. collaborative journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">La, E. H., Lich, K. H., Wells, R., Ellis, A. R., Swartz, M. S., Zhu, R., Morrissey, J. P.</div>
-<div class="pub-citation">Increasing access to state psychiatric hospital beds: exploring supply-side solutions. <em>Psychiatric Services</em> 67(5), 523-528 (2015)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="reinforcement-learning" data-search="reinforcement learning trees journal of the american statistical association. 110(512), 1770-1784  zhu, r. zeng, d. kosorok, m. r. method &amp; theory journal reinforcement learning">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="reinforcement-learning">Reinforcement Learning</button>
-<a class="pub-badge pub-badge-link" href="https://cran.r-project.org/web/packages/RLT/index.html" target="_blank" rel="noopener noreferrer">CRAN</a>
-<a class="pub-badge pub-badge-link" href="https://github.com/teazrq/RLT" target="_blank" rel="noopener noreferrer">GitHub Ver. 4+</a>
-</div>
-<div class="pub-authors">Zhu, R., Zeng, D., Kosorok, M. R.</div>
-<div class="pub-citation">Reinforcement learning trees. <em>Journal of the American Statistical Association</em> 110(512), 1770-1784 (2015)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="identifying gene-environment and gene-gene interactions using a progressive penalization approach genetic epidemiology, 38(4), 353-368  zhu, r. zhao, h. ma, s. method &amp; theory journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Zhu, R., Zhao, H., Ma, S.</div>
-<div class="pub-citation">Identifying gene-environment and gene-gene interactions using a progressive penalization approach. <em>Genetic Epidemiology</em> 38(4), 353-368 (2014)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="the effects of state psychiatric hospital waitlist policies on length of stay and time to readmission administration and policy in mental health and mental health services research, 42(3), 332-42  la, e. h. zhu, r. lich, k. h. ellis, a. r. swartz, m. s. kosorok, m. r. morrissey, j. p. collaborative journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Collaborative</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">La, E. H., Zhu, R., Lich, K. H., Ellis, A. R., Swartz, M. S., Kosorok, M. R., Morrissey, J. P.</div>
-<div class="pub-citation">The effects of state psychiatric hospital waitlist policies on length of stay and time to readmission. <em>Administration and Policy in Mental Health and Mental Health Services Research</em> 42(3), 332-42 (2014)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="survival-analysis" data-search="recursively imputed survival trees journal of the american statistical association, 107(497), 331-340  zhu, r. kosorok, m. r. method &amp; theory journal survival analysis">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="survival-analysis">Survival Analysis</button>
-</div>
-<div class="pub-authors">Zhu, R., Kosorok, M. R.</div>
-<div class="pub-citation">Recursively imputed survival trees. <em>Journal of the American Statistical Association</em> 107(497), 331-340 (2012)</div>
-</div>
-<div class="pub-item" data-pub-item data-topics="others" data-search="diagnostic checking for multivariate regression models journal of multivariate analysis, 99(9), 1841-1859  zhu, l. zhu, r. song, s. method &amp; theory journal others">
-<div class="pub-badges">
-<span class="pub-badge pub-badge-track">Method &amp; Theory</span>
-<span class="pub-badge pub-badge-venue">Journal</span>
-<button type="button" class="pub-badge pub-badge-topic pub-badge-button" data-topic-filter="others">Others</button>
-</div>
-<div class="pub-authors">Zhu, L., Zhu, R., Song, S.</div>
-<div class="pub-citation">Diagnostic checking for multivariate regression models. <em>Journal of Multivariate Analysis</em> 99(9), 1841-1859 (2008)</div>
+<h2 class="pub-section-heading">Published work</h2>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2026</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-cao-2026-from-problem" data-pub-item data-topics="others" data-search="from problem to method: designing multiview sequential canonical covariance analysis for online word-of-mouth dynamics  sage research methods: doing research online cao, x. folta, t. li, h. zhu, r. collaborative book chapter others">
+<h4 id="pub-title-cao-2026-from-problem" class="pub-title"><a href="https://doi.org/10.4135/9781036242411">From Problem to Method: Designing Multiview Sequential Canonical Covariance Analysis for Online Word-of-Mouth Dynamics</a></h4>
+<p class="pub-authors">Cao, X., Folta, T., Li, H., Zhu, R.</p>
+<p class="pub-venue-meta">In <em>SAGE Research Methods: Doing Research Online</em><span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2026</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Others</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-watson-2026-interpretability" data-pub-item data-topics="sepsis" data-search="interpretability of an fda-authorized ai/ml sepsis diagnostic tool improved by shap values jamia open, 9(1), ooag020  watson, g. l. staples, g. carver, r. bhargava, a. l&#243;pez-espina, c. schmalz, l. ali, f. antkowiak, p. s. azad, s. berghea, r. chawla, l. crisp, m. dagan, a. davila, f. davila, h. demarco, c. doodlesack, a. espinosa, a. evans, n. s. ezekiel, c. friederich, a. gosai, f. halalau, a. iyer, k. kravitz, m. s. kurtzman, n. lee, j. h. maddens, n. malkani, r. mayer, s. oke, v. palagiri, a. v. patel, r. raghavakurup, l. raouf, s. reseland, e. sadaka, f. sarma, d. smith, s. shvilkina, t. sims, m. d. singh, s. stenson, b. a. syed, a. tafa, m. thomas, k. zhao, s. d. zhu, r. bashir, r. reddy jr., b. shapiro, n. i. collaborative journal sepsis">
+<h4 id="pub-title-watson-2026-interpretability" class="pub-title"><a href="https://doi.org/10.1093/jamiaopen/ooag020">Interpretability of an FDA-authorized AI/ML sepsis diagnostic tool improved by SHAP values</a></h4>
+<p class="pub-authors">Watson, G. L., Staples, G., Carver, R., Bhargava, A., L&#243;pez-Espina, C., Schmalz, L., Ali, F., Antkowiak, P. S., Azad, S., Berghea, R., Chawla, L., Crisp, M., Dagan, A., Davila, F., Davila, H., DeMarco, C., Doodlesack, A., Espinosa, A., Evans, N. S., Ezekiel, C., Friederich, A., Gosai, F., Halalau, A., Iyer, K., Kravitz, M. S., Kurtzman, N., Lee, J. H., Maddens, N., Malkani, R., Mayer, S., Oke, V., Palagiri, A. V., Patel, R., Raghavakurup, L., Raouf, S., Reseland, E., Sadaka, F., Sarma, D., Smith, S., Shvilkina, T., Sims, M. D., Singh, S., Stenson, B. A., Syed, A., Tafa, M., Thomas, K., Zhao, S. D., Zhu, R., Bashir, R., Reddy Jr., B., Shapiro, N. I.</p>
+<p class="pub-venue-meta"><em>JAMIA Open</em> 9(1), ooag020<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2026</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Sepsis</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-yu-2023-corrected" data-pub-item data-topics="dimension-reduction" data-search="kernel mean embedding deviation subspace for unsupervised learning with heterogeneous data journal of machine learning research, 27(97), 1-52  yu, l. zhu, l. zhu, r. zhu, x. method &amp; theory journal dimension reduction">
+<h4 id="pub-title-yu-2023-corrected" class="pub-title"><a href="https://www.jmlr.org/papers/v27/25-0163.html">Kernel Mean Embedding Deviation Subspace for Unsupervised Learning with Heterogeneous Data</a></h4>
+<p class="pub-authors">Yu, L., Zhu, L., Zhu, R., Zhu, X.</p>
+<p class="pub-venue-meta"><em>Journal of Machine Learning Research</em> 27(97), 1-52<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2026</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Dimension Reduction</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-southey-2026-machine-learning-nutrition" data-pub-item data-topics="nutrition-science" data-search="machine learning and artificial intelligence in nutrition research: analytical methods, applications, and key considerations the journal of nutrition, 101528  southey, n. l. zhu, r. holscher, h. d. collaborative journal nutrition science">
+<h4 id="pub-title-southey-2026-machine-learning-nutrition" class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S002231662600177X">Machine Learning and Artificial Intelligence in Nutrition Research: Analytical Methods, Applications, and Key Considerations</a></h4>
+<p class="pub-authors">Southey, N. L., Zhu, R., Holscher, H. D.</p>
+<p class="pub-venue-meta"><em>The Journal of Nutrition</em> 101528<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2026</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-li-2026-policy" data-pub-item data-topics="reinforcement-learning" data-search="reinforcement learning with continuous actions under unmeasured confounding journal of the american statistical association, 121(553), 209-222  li, y. han, e. hu, y. zhou, w. qi, z. cui, y. zhu, r. method &amp; theory journal reinforcement learning">
+<h4 id="pub-title-li-2026-policy" class="pub-title"><a href="https://doi.org/10.1080/01621459.2025.2590175">Reinforcement Learning with Continuous Actions Under Unmeasured Confounding</a></h4>
+<p class="pub-authors">Li, Y., Han, E., Hu, Y., Zhou, W., Qi, Z., Cui, Y., Zhu, R.</p>
+<p class="pub-venue-meta"><em>Journal of the American Statistical Association</em> 121(553), 209-222<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2026</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Reinforcement Learning</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-watson-2026-sepsis-immunoscore" data-pub-item data-topics="sepsis" data-search="the sepsis immunoscore predicts sepsis, mortality, and deterioration better than clinical scores and widely available biomarkers diagnostics, 16(13), 1962  watson, g. l. updike, l. c. l&#243;pez-espina, c. g. bhargava, a. schmalz, l. a. khan, s. urdiales, d. s. sims, m. d. palagiri, a. v. haimovich, a. d. dagan, a. davis, b. p. white, k. c. gurbel, p. a. mayer, s. m. syed, a. zhao, s. d. zhu, r. bashir, r. shapiro, n. i. reddy jr., b. collaborative journal sepsis">
+<h4 id="pub-title-watson-2026-sepsis-immunoscore" class="pub-title"><a href="https://doi.org/10.3390/diagnostics16131962">The Sepsis ImmunoScore Predicts Sepsis, Mortality, and Deterioration Better than Clinical Scores and Widely Available Biomarkers</a></h4>
+<p class="pub-authors">Watson, G. L., Updike, L. C., L&#243;pez-Espina, C. G., Bhargava, A., Schmalz, L. A., Khan, S., Urdiales, D. S., Sims, M. D., Palagiri, A. V., Haimovich, A. D., Dagan, A., Davis, B. P., White, K. C., Gurbel, P. A., Mayer, S. M., Syed, A., Zhao, S. D., Zhu, R., Bashir, R., Shapiro, N. I., Reddy Jr., B.</p>
+<p class="pub-venue-meta"><em>Diagnostics</em> 16(13), 1962<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2026</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Sepsis</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2025</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-cao-2025-detecting" data-pub-item data-topics="others" data-search="detecting gender stereotype biases against women entrepreneurs in large language models journal of business ethics  cao, x. li, h. xu, q. zhu, r. collaborative journal others">
+<h4 id="pub-title-cao-2025-detecting" class="pub-title"><a href="https://doi.org/10.1007/s10551-025-06216-1">Detecting Gender Stereotype Biases Against Women Entrepreneurs in Large Language Models</a></h4>
+<p class="pub-authors">Cao, X., Li, H., Xu, Q., Zhu, R.</p>
+<p class="pub-venue-meta"><em>Journal of Business Ethics</em><span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2025</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Others</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-sarker-2025-integrating" data-pub-item data-topics="nutrition-science" data-search="integrating prior knowledge from genome-scale metabolic model with metabolomics for diet assessment ieee transactions on computational biology and bioinformatics, 22(4), 1347-1357  sarker, k. zhu, r. holscher, h. d. zhai, c. collaborative journal nutrition science">
+<h4 id="pub-title-sarker-2025-integrating" class="pub-title"><a href="https://doi.org/10.1109/TCBBIO.2025.3561258">Integrating Prior Knowledge From Genome-Scale Metabolic Model With Metabolomics for Diet Assessment</a></h4>
+<p class="pub-authors">Sarker, K., Zhu, R., Holscher, H. D., Zhai, C.</p>
+<p class="pub-venue-meta"><em>IEEE Transactions on Computational Biology and Bioinformatics</em> 22(4), 1347-1357<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2025</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-meserve-2025-multiplexed" data-pub-item data-topics="disease-diagnostics-treatment" data-search="multiplexed cytokine profiling identifies diagnostic signatures for latent tuberculosis and reactivation risk stratification plos one, 20(4), e0316648  meserve, k. chapman, c. a. xu, m. zhou, h. laniado-laborin, r. zhu, r. escalante, p. bailey, r. c. collaborative journal disease diagnostics and treatment">
+<h4 id="pub-title-meserve-2025-multiplexed" class="pub-title">Multiplexed cytokine profiling identifies diagnostic signatures for latent tuberculosis and reactivation risk stratification</h4>
+<p class="pub-authors">Meserve, K., Chapman, C. A., Xu, M., Zhou, H., Laniado-Laborin, R., Zhu, R., Escalante, P., Bailey, R. C.</p>
+<p class="pub-venue-meta"><em>PloS one</em> 20(4), e0316648<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2025</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Disease Diagnostics and Treatment</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-walters-2025-nasal" data-pub-item data-topics="influenza" data-search="nasal and systemic immune responses correlate with viral shedding after influenza challenge in people with complex preexisting immunity science translational medicine, 17(810), eadt1452  walters, k.-a. blatti, c. a. zhu, r. banbury, b. giurgea, l. t. bean, r. han, e. li, y. scherler, k. sherry, j. formentini, s. zhou, w. cervantes-medina, a. gouzoulis, m. rosas, l. a. han, a. gatzke, l. bushell, c. sherry, n. taubenberger, j. k. memoli, m. j. kash, j. c. collaborative journal influenza">
+<h4 id="pub-title-walters-2025-nasal" class="pub-title"><a href="https://doi.org/10.1126/scitranslmed.adt1452">Nasal and systemic immune responses correlate with viral shedding after influenza challenge in people with complex preexisting immunity</a></h4>
+<p class="pub-authors">Walters, K.-A., Blatti, C. A., Zhu, R., Banbury, B., Giurgea, L. T., Bean, R., Han, E., Li, Y., Scherler, K., Sherry, J., Formentini, S., Zhou, W., Cervantes-Medina, A., Gouzoulis, M., Rosas, L. A., Han, A., Gatzke, L., Bushell, C., Sherry, N., Taubenberger, J. K., Memoli, M. J., Kash, J. C.</p>
+<p class="pub-venue-meta"><em>Science Translational Medicine</em> 17(810), eadt1452<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2025</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Influenza</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-verma-2025-predicting" data-pub-item data-topics="nutrition-science" data-search="predicting cognitive outcome through nutrition and health markers using supervised machine learning the journal of nutrition, 155(7), 2144-2153  verma, s. holthaus, t. a. martell, s. holscher, h. d. zhu, r. khan, n. a. collaborative journal nutrition science">
+<h4 id="pub-title-verma-2025-predicting" class="pub-title">Predicting Cognitive Outcome Through Nutrition and Health Markers Using Supervised Machine Learning</h4>
+<p class="pub-authors">Verma, S., Holthaus, T. A., Martell, S., Holscher, H. D., Zhu, R., Khan, N. A.</p>
+<p class="pub-venue-meta"><em>The Journal of Nutrition</em> 155(7), 2144-2153<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2025</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-pang-2025-probabilistic" data-pub-item data-topics="dimension-reduction" data-search="probabilistic exponential family inverse regression and its applications biometrics, 81(2), ujaf065  pang, d. zhu, r. zhao, h. wang, t. method &amp; theory journal dimension reduction">
+<h4 id="pub-title-pang-2025-probabilistic" class="pub-title">Probabilistic exponential family inverse regression and its applications</h4>
+<p class="pub-authors">Pang, D., Zhu, R., Zhao, H., Wang, T.</p>
+<p class="pub-venue-meta"><em>Biometrics</em> 81(2), ujaf065<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2025</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Dimension Reduction</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-hagler-2025-unraveling" data-pub-item data-topics="random-forests" data-search="unraveling the molecular complexity of myxomatous mitral valve degeneration: integrating transcriptomic and mirna profiling using random forests with boruta feature selection journal of the heart valve society, 2(2), 137-153  hagler, m. a. thalji, n. russell, n. t. welge, m. e. zhu, r. bushell, c. miller, j. d. collaborative journal random forests">
+<h4 id="pub-title-hagler-2025-unraveling" class="pub-title">Unraveling the molecular complexity of myxomatous mitral valve degeneration: integrating transcriptomic and miRNA profiling using random forests with Boruta feature selection</h4>
+<p class="pub-authors">Hagler, M. A., Thalji, N., Russell, N. T., Welge, M. E., Zhu, R., Bushell, C., Miller, J. D.</p>
+<p class="pub-venue-meta"><em>Journal of the Heart Valve Society</em> 2(2), 137-153<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2025</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Random Forests</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2024</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-cao-2024-analyzing" data-pub-item data-topics="others" data-search="analyzing the online word of mouth dynamics: a novel approach decision support systems, 114306  cao, x. folta, t. b. li, h. zhu, r. collaborative journal others">
+<h4 id="pub-title-cao-2024-analyzing" class="pub-title">Analyzing the online word of mouth dynamics: A novel approach</h4>
+<p class="pub-authors">Cao, X., Folta, T. B., Li, H., Zhu, R.</p>
+<p class="pub-venue-meta"><em>Decision Support Systems</em> 114306<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Others</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-mainovieytes-2024-dietary" data-pub-item data-topics="nutrition-science|survival-analysis" data-search="dietary patterns among us food insecure cancer survivors and the risk of mortality: nhanes 1999 2018 cancer causes &amp; control, 1-14  maino vieytes, c. a. zhu, r. gany, f. koester, b. d. arthur, a. e. collaborative journal nutrition science survival analysis">
+<h4 id="pub-title-mainovieytes-2024-dietary" class="pub-title">Dietary patterns among US food insecure cancer survivors and the risk of mortality: NHANES 1999 2018</h4>
+<p class="pub-authors">Maino Vieytes, C. A., Zhu, R., Gany, F., Koester, B. D., Arthur, A. E.</p>
+<p class="pub-venue-meta"><em>Cancer Causes &amp; Control</em> 1-14<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-zhou-2024-solving" data-pub-item data-topics="personalized-medicine|reinforcement-learning" data-search="estimating optimal infinite horizon dynamic treatment regimes via pt-learning journal of the american statistical association, 119(545), 625-638  zhou, w. zhu, r. qu, a. method &amp; theory journal personalized medicine reinforcement learning">
+<h4 id="pub-title-zhou-2024-solving" class="pub-title"><a href="https://doi.org/10.1080/01621459.2022.2138760">Estimating Optimal Infinite Horizon Dynamic Treatment Regimes via pT-Learning</a></h4>
+<p class="pub-authors">Zhou, W., Zhu, R., Qu, A.</p>
+<p class="pub-venue-meta"><em>Journal of the American Statistical Association</em> 119(545), 625-638<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Personalized Medicine</span>
+<span class="pub-tag" role="listitem">Reinforcement Learning</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-bhargava-2024-fdaauthorized" data-pub-item data-topics="sepsis" data-search="fda-authorized ai/ml tool for sepsis prediction: development and validation nejm ai, 1(12), aioa2400867  bhargava, a. lopez-espina, c. schmalz, l. khan, s. watson, g. l. urdiales, d. zhao, s. d. zhu, r. bashir, b. reddy jr., b. shapiro, n. i. collaborative journal sepsis">
+<h4 id="pub-title-bhargava-2024-fdaauthorized" class="pub-title">FDA-Authorized AI/ML Tool for Sepsis Prediction: Development and Validation</h4>
+<p class="pub-authors">Bhargava, A., Lopez-Espina, C., Schmalz, L., Khan, S., Watson, G. L., Urdiales, D., Zhao, S. D., Zhu, R., Bashir, B., Reddy Jr., B., Shapiro, N. I.</p>
+<p class="pub-venue-meta"><em>NEJM AI</em> 1(12), AIoa2400867<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Sepsis</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-shinn-2024-fecal" data-pub-item data-topics="nutrition-science" data-search="fecal metagenomics to identify biomarkers of food intake in healthy adults: findings from randomized, controlled, nutrition trials the journal of nutrition, 154(1), 271-283  shinn, l. m. mansharamani, a. baer, d. j. novotny, j. a. charron, c. s. khan, n. a. zhu, r. holscher, h. d. collaborative journal nutrition science">
+<h4 id="pub-title-shinn-2024-fecal" class="pub-title">Fecal metagenomics to identify biomarkers of food intake in healthy adults: Findings from randomized, controlled, nutrition trials</h4>
+<p class="pub-authors">Shinn, L. M., Mansharamani, A., Baer, D. J., Novotny, J. A., Charron, C. S., Khan, N. A., Zhu, R., Holscher, H. D.</p>
+<p class="pub-venue-meta"><em>The Journal of Nutrition</em> 154(1), 271-283<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-xu-2024-on" data-pub-item data-topics="random-forests" data-search="on variance estimation of random forests with infinite-order u-statistics electronic journal of statistics, 18(1), 2135-2207  xu, t. zhu, r. shao, x. method &amp; theory journal random forests">
+<h4 id="pub-title-xu-2024-on" class="pub-title"><a href="https://arxiv.org/abs/2202.09008">On Variance Estimation of Random Forests with Infinite-Order U-statistics</a></h4>
+<p class="pub-authors">Xu, T., Zhu, R., Shao, X.</p>
+<p class="pub-venue-meta"><em>Electronic Journal of Statistics</em> 18(1), 2135-2207<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Random Forests</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-zhou-2024-policy" data-pub-item data-topics="personalized-medicine|reinforcement-learning" data-search="policy learning for individualized treatment regimes on infinite time horizon  statistics in precision health: theory, methods and applications (pp. 65-100). cham: springer international publishing. editor: yichuan zhao zhou, w. li, y. zhu, r. method &amp; theory book chapter personalized medicine reinforcement learning">
+<h4 id="pub-title-zhou-2024-policy" class="pub-title">Policy learning for individualized treatment regimes on infinite time horizon</h4>
+<p class="pub-authors">Zhou, W., Li, Y., Zhu, R.</p>
+<p class="pub-venue-meta">In <em>Statistics in Precision Health: Theory, Methods and Applications (pp. 65-100). Cham: Springer International Publishing. Editor: Yichuan Zhao</em><span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Personalized Medicine</span>
+<span class="pub-tag" role="listitem">Reinforcement Learning</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-oltman-2024-prevalence" data-pub-item data-topics="disease-diagnostics-treatment" data-search="prevalence, management, and comorbidities of adults with atrial fibrillation in the united states, 2019 to 2023 jacc: advances, 3(11), 101330  oltman, c. g. kim, t. p. lee, j. w. lupu, j. d. zhu, r. moussa, i. d. collaborative journal disease diagnostics and treatment">
+<h4 id="pub-title-oltman-2024-prevalence" class="pub-title">Prevalence, Management, and Comorbidities of Adults With Atrial Fibrillation in the United States, 2019 to 2023</h4>
+<p class="pub-authors">Oltman, C. G., Kim, T. P., Lee, J. W., Lupu, J. D., Zhu, R., Moussa, I. D.</p>
+<p class="pub-venue-meta"><em>JACC: Advances</em> 3(11), 101330<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Disease Diagnostics and Treatment</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-sarker-2024-priorguided" data-pub-item data-topics="nutrition-science" data-search="prior-guided longitudinal metabolomic analysis  2024 ieee international conference on bioinformatics and biomedicine (bibm) (pp. 351-356). ieee sarker, k. zhu, r. holscher, h. d. zhai, c. collaborative conference nutrition science">
+<h4 id="pub-title-sarker-2024-priorguided" class="pub-title">Prior-guided longitudinal metabolomic analysis</h4>
+<p class="pub-authors">Sarker, K., Zhu, R., Holscher, H. D., Zhai, C.</p>
+<p class="pub-venue-meta">In <em>2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 351-356). IEEE</em><span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-qiu-2024-random" data-pub-item data-topics="random-forests|survival-analysis" data-search="random forest weighted local frechet regression with random objects journal of machine learning research 25(107), 1-69  qiu, r. yu, z. zhu, r. method &amp; theory journal random forests survival analysis">
+<h4 id="pub-title-qiu-2024-random" class="pub-title"><a href="https://arxiv.org/abs/2202.04912">Random forest weighted local Frechet regression with random objects</a></h4>
+<p class="pub-authors">Qiu, R., Yu, Z., Zhu, R.</p>
+<p class="pub-venue-meta"><em>Journal of Machine Learning Research</em> 25(107), 1-69<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Random Forests</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-ye-2024-stageaware" data-pub-item data-topics="reinforcement-learning" data-search="stage-aware learning for dynamic treatments journal of machine learning research, 25(408), 1-51  ye, h. zhou, w. zhu, r. qu, a. method &amp; theory journal reinforcement learning">
+<h4 id="pub-title-ye-2024-stageaware" class="pub-title"><a href="https://arxiv.org/abs/2310.19300">Stage-aware learning for dynamic treatments</a></h4>
+<p class="pub-authors">Ye, H., Zhou, W., Zhu, R., Qu, A.</p>
+<p class="pub-venue-meta"><em>Journal of Machine Learning Research</em> 25(408), 1-51<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2024</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Reinforcement Learning</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2023</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-sarker-2023-augmenting" data-pub-item data-topics="nutrition-science" data-search="augmenting nutritional metabolomics with a genome-scale metabolic model for assessment of diet intake  proceedings of the 14th acm international conference on bioinformatics, computational biology, and health informatics (pp. 1-10) sarker, k. zhu, r. holscher, h. d. zhai, c. collaborative conference nutrition science">
+<h4 id="pub-title-sarker-2023-augmenting" class="pub-title">Augmenting nutritional metabolomics with a genome-scale metabolic model for assessment of diet intake</h4>
+<p class="pub-authors">Sarker, K., Zhu, R., Holscher, H. D., Zhai, C.</p>
+<p class="pub-venue-meta">In <em>Proceedings of the 14th ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics (pp. 1-10)</em><span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2023</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-cui-2023-estimating" data-pub-item data-topics="personalized-medicine|random-forests|survival-analysis" data-search="estimating heterogeneous treatment effects with right-censored data via causal survival forests journal of the royal statistical society: series b, 85(2): 179-211  cui, y. kosorok, m. r. sverdrup, e. wager, s. zhu, r. method &amp; theory journal personalized medicine random forests survival analysis">
+<h4 id="pub-title-cui-2023-estimating" class="pub-title"><a href="https://arxiv.org/abs/2001.09887">Estimating heterogeneous treatment effects with right-censored data via causal survival forests</a></h4>
+<p class="pub-authors">Cui, Y., Kosorok, M. R., Sverdrup, E., Wager, S., Zhu, R.</p>
+<p class="pub-venue-meta"><em>Journal of the Royal Statistical Society: Series B</em> 85(2): 179-211<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2023</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Personalized Medicine</span>
+<span class="pub-tag" role="listitem">Random Forests</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-li-2023-quasioptimal" data-pub-item data-topics="reinforcement-learning" data-search="quasi-optimal reinforcement learning with continuous treatments iclr 2023  li, y. zhou, w. zhu, r. method &amp; theory conference reinforcement learning">
+<h4 id="pub-title-li-2023-quasioptimal" class="pub-title"><a href="https://arxiv.org/abs/2301.08940v1">Quasi-optimal Reinforcement Learning with Continuous Treatments</a></h4>
+<p class="pub-authors">Li, Y., Zhou, W., Zhu, R.</p>
+<p class="pub-venue-meta"><em>ICLR 2023</em><span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2023</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Reinforcement Learning</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-formentini-2023-random" data-pub-item data-topics="random-forests|survival-analysis" data-search="random forests for survival analysis and high-dimensional data  springer handbook of engineering statistics (pp. 831-847). london: springer london. editor: hoang pham formentini, s. e. cui, y. zhu, r. method &amp; theory book chapter random forests survival analysis">
+<h4 id="pub-title-formentini-2023-random" class="pub-title">Random Forests for Survival Analysis and High-Dimensional Data</h4>
+<p class="pub-authors">Formentini, S. E., Cui, Y., Zhu, R.</p>
+<p class="pub-venue-meta">In <em>Springer Handbook of Engineering Statistics (pp. 831-847). London: Springer London. Editor: Hoang Pham</em><span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2023</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Random Forests</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2022</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-chen-2022-calibrate" data-pub-item data-topics="others" data-search="calibrate and debias layer-wise sampling for graph convolutional networks. tmlr   chen, y. xu, t. hakkani-tur, d. jin, d. yang, y. zhu, r. method &amp; theory journal others">
+<h4 id="pub-title-chen-2022-calibrate" class="pub-title"><a href="https://arxiv.org/abs/2206.00583">Calibrate and Debias Layer-wise Sampling for Graph Convolutional Networks. TMLR</a></h4>
+<p class="pub-authors">Chen, Y., Xu, T., Hakkani-Tur, D., Jin, D., Yang, Y., Zhu, R.</p>
+<p class="pub-venue-meta">Journal<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2022</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Others</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-cui-2022-consistency" data-pub-item data-topics="random-forests|survival-analysis" data-search="consistency of survival forest and tree models: splitting bias and correction statistica sinica, 32(3), 1245-1267  cui, y. zhu, r. zhou, m. kosorok, m. method &amp; theory journal random forests survival analysis">
+<h4 id="pub-title-cui-2022-consistency" class="pub-title"><a href="https://arxiv.org/abs/1707.09631">Consistency of survival forest and tree models: splitting bias and correction</a></h4>
+<p class="pub-authors">Cui, Y., Zhu, R., Zhou, M., Kosorok, M.</p>
+<p class="pub-venue-meta"><em>Statistica Sinica</em> 32(3), 1245-1267<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2022</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Random Forests</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-li-2022-dermoscopic" data-pub-item data-topics="disease-diagnostics-treatment" data-search="dermoscopic image classification with neural style transfer journal of computational and graphical statistics. 31(4), 1318-1331  li, y. zhu, r. qu, a. yeh, m. method &amp; theory journal disease diagnostics and treatment">
+<h4 id="pub-title-li-2022-dermoscopic" class="pub-title"><a href="https://arxiv.org/abs/2105.07592">Dermoscopic Image Classification with Neural Style Transfer</a></h4>
+<p class="pub-authors">Li, Y., Zhu, R., Qu, A., Yeh, M.</p>
+<p class="pub-venue-meta"><em>Journal of Computational and Graphical Statistics</em> 31(4), 1318-1331<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2022</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Disease Diagnostics and Treatment</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-loyal-2022-dimension" data-pub-item data-topics="random-forests|dimension-reduction" data-search="dimension reduction forests: local variable importance using structured random forests journal of computational and graphical statistics. 31(4): 1104-1113. github  loyal, j. zhu, r. cui, y. xin, z. method &amp; theory journal random forests dimension reduction">
+<h4 id="pub-title-loyal-2022-dimension" class="pub-title"><a href="https://github.com/joshloyal/drforest">Dimension Reduction Forests: Local Variable Importance using Structured Random Forests</a></h4>
+<p class="pub-authors">Loyal, J., Zhu, R., Cui, Y., Xin, Z.</p>
+<p class="pub-venue-meta"><em>Journal of Computational and Graphical Statistics</em> 31(4): 1104-1113. GitHub<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2022</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Random Forests</span>
+<span class="pub-tag" role="listitem">Dimension Reduction</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-li-2022-efficient" data-pub-item data-topics="disease-diagnostics-treatment" data-search="efficient gradient boosting for prognostic biomarker discovery bioinformatics, 38(6), 1631-1638  li, k. yao, s. zhang, z. cao, b. wilson, c. m. kalos, d. kuan, p. f. zhu, r. wang, x. method &amp; theory journal disease diagnostics and treatment">
+<h4 id="pub-title-li-2022-efficient" class="pub-title">Efficient gradient boosting for prognostic biomarker discovery</h4>
+<p class="pub-authors">Li, K., Yao, S., Zhang, Z., Cao, B., Wilson, C. M., Kalos, D., Kuan, P. F., Zhu, R., Wang, X.</p>
+<p class="pub-venue-meta"><em>Bioinformatics</em> 38(6), 1631-1638<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2022</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Disease Diagnostics and Treatment</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-mainovieytes-2022-empirical" data-pub-item data-topics="nutrition-science" data-search="empirical dietary patterns associated with food insecurity in us cancer survivors: nhanes 1999 2018 international journal of environmental research and public health, 19(21), 14062  maino vieytes, c. a. zhu, r. gany, f. burton-obanla, a. arthur, a. e. collaborative journal nutrition science">
+<h4 id="pub-title-mainovieytes-2022-empirical" class="pub-title">Empirical Dietary Patterns Associated with Food Insecurity in US Cancer Survivors: NHANES 1999 2018</h4>
+<p class="pub-authors">Maino Vieytes, C. A., Zhu, R., Gany, F., Burton-Obanla, A., Arthur, A. E.</p>
+<p class="pub-venue-meta"><em>International journal of environmental research and public health</em> 19(21), 14062<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2022</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-shinn-2022-fecal" data-pub-item data-topics="nutrition-science" data-search="fecal metabolites as biomarkers for predicting food intake by healthy adults the journal of nutrition, 152 (12), 2956-2965  shinn, l. m. mansharamani, a. baer, d. j. novotny, j. a. charron, c. s. khan, n. a. zhu, r. holscher, h. d. collaborative journal nutrition science">
+<h4 id="pub-title-shinn-2022-fecal" class="pub-title">Fecal Metabolites as Biomarkers for Predicting Food Intake By Healthy Adults</h4>
+<p class="pub-authors">Shinn, L. M., Mansharamani, A., Baer, D. J., Novotny, J. A., Charron, C. S., Khan, N. A., Zhu, R., Holscher, H. D.</p>
+<p class="pub-venue-meta"><em>The Journal of Nutrition</em> 152 (12), 2956-2965<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2022</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-di-2022-optimizing" data-pub-item data-topics="disease-diagnostics-treatment" data-search="optimizing health coaching for patients with type 2 diabetes using machine learning: model development and validation study jmir formative research, 6(9), e37838  di, s. petch, j. gerstein, h. c. zhu, r. sherifali, d. collaborative journal disease diagnostics and treatment">
+<h4 id="pub-title-di-2022-optimizing" class="pub-title">Optimizing Health Coaching for Patients With Type 2 Diabetes Using Machine Learning: Model Development and Validation Study</h4>
+<p class="pub-authors">Di, S., Petch, J., Gerstein, H. C., Zhu, R., Sherifali, D.</p>
+<p class="pub-venue-meta"><em>JMIR formative research</em> 6(9), e37838<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2022</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Disease Diagnostics and Treatment</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-zhou-2022-population" data-pub-item data-topics="survival-analysis" data-search="population analysis of mortality risk: predictive models from passive monitors using motion sensors for 100,000 uk biobank participants plos digital health, 1(10), e0000045  zhou, h. zhu, r. ung, a. schatz, b. collaborative journal survival analysis">
+<h4 id="pub-title-zhou-2022-population" class="pub-title"><a href="https://doi.org/10.1371/journal.pdig.0000045">Population analysis of mortality risk: Predictive models from passive monitors using motion sensors for 100,000 UK Biobank participants</a></h4>
+<p class="pub-authors">Zhou, H., Zhu, R., Ung, A., Schatz, B.</p>
+<p class="pub-venue-meta"><em>PLOS Digital Health</em> 1(10), e0000045<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2022</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2021</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-zhou-2021-a" data-pub-item data-topics="personalized-medicine|dimension-reduction" data-search="a parsimonious personalized dose finding model via dimension reduction biometrika, 108(3), 643-659  zhou, w. zhu, r. zeng, d. method &amp; theory journal personalized medicine dimension reduction">
+<h4 id="pub-title-zhou-2021-a" class="pub-title"><a href="https://arxiv.org/abs/1802.06156">A Parsimonious Personalized Dose Finding Model via Dimension Reduction</a></h4>
+<p class="pub-authors">Zhou, W., Zhu, R., Zeng, D.</p>
+<p class="pub-venue-meta"><em>Biometrika</em> 108(3), 643-659<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2021</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Personalized Medicine</span>
+<span class="pub-tag" role="listitem">Dimension Reduction</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-taneja-2021-diagnostic" data-pub-item data-topics="sepsis" data-search="diagnostic and prognostic capabilities of a biomarker and emr based machine learning algorithm for sepsis clinical and translational science  taneja, i. damhorst, g. l. lopez-espina, c. zhao, s. d. zhu, r. khan, s. bashir, r. collaborative journal sepsis">
+<h4 id="pub-title-taneja-2021-diagnostic" class="pub-title">Diagnostic and prognostic capabilities of a biomarker and EMR based machine learning algorithm for sepsis</h4>
+<p class="pub-authors">Taneja, I., Damhorst, G. L., Lopez-Espina, C., Zhao, S. D., Zhu, R., Khan, S., Bashir, R.</p>
+<p class="pub-venue-meta"><em>Clinical and Translational Science</em><span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2021</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Sepsis</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-guo-2021-estimating" data-pub-item data-topics="personalized-medicine|random-forests" data-search="estimating heterogeneous treatment effect on multivariate responses using random forests statistics in biosciences  guo, b. holscher, h. d. auvil, l. s. welge, m. e. bushell, c. b. novotny, j. a. baer, d. j. burd, n. a. khan, n. a. zhu, r. method &amp; theory journal personalized medicine random forests">
+<h4 id="pub-title-guo-2021-estimating" class="pub-title"><a href="https://github.com/boyiguo1/MOTE.RF">Estimating Heterogeneous Treatment Effect on Multivariate Responses using Random Forests</a></h4>
+<p class="pub-authors">Guo, B., Holscher, H. D., Auvil, L. S., Welge, M. E., Bushell, C. B., Novotny, J. A., Baer, D. J., Burd, N. A., Khan, N. A., Zhu, R.</p>
+<p class="pub-venue-meta"><em>Statistics in Biosciences</em><span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2021</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Personalized Medicine</span>
+<span class="pub-tag" role="listitem">Random Forests</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-agnillo-2021-lung" data-pub-item data-topics="others" data-search="lung epithelial and endothelial damage, loss of tissue repair, inhibition of fibrinolysis, and cellular senescence in fatal covid-19 science translational medicine, 13(620), p.eabj7790  agnillo, f. walters, k. a. xiao, y. sheng, z. m. scherler, k. park, j. gygli, s. rosas, l. a. sadtler, k. kalish, h. blatti iii, c. a. zhu, r. kash, j. c. taubenberger, j. k. collaborative journal others">
+<h4 id="pub-title-agnillo-2021-lung" class="pub-title"><a href="https://www.ncsa.illinois.edu/ncsa-researchers-co-author-article-on-the-damaging-effects-of-covid-19-on-lung-tissue/">Lung epithelial and endothelial damage, loss of tissue repair, inhibition of fibrinolysis, and cellular senescence in fatal COVID-19</a></h4>
+<p class="pub-authors">Agnillo, F., Walters, K. A., Xiao, Y., Sheng, Z. M., Scherler, K., Park, J., Gygli, S., Rosas, L. A., Sadtler, K., Kalish, H., Blatti III, C. A., Zhu, R., Kash, J. C., Taubenberger, J. K.</p>
+<p class="pub-venue-meta"><em>Science Translational Medicine</em> 13(620), p.eabj7790<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2021</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Others</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-robison-2021-risk" data-pub-item data-topics="disease-diagnostics-treatment" data-search="risk assessment of latent tuberculosis infection through a multiplexed cytokine biosensor assay and machine learning feature selection scientific reports, 11(1), 1-10  robison, h. m. chapman, c. a. zhou, h. erskine, c. l. theel, e. peikert, t. lindestam arlehamn, c. s. sette, a. bushell, c. welge, m. zhu, r. bailey, r. c. escalante, p. collaborative journal disease diagnostics and treatment">
+<h4 id="pub-title-robison-2021-risk" class="pub-title">Risk assessment of latent tuberculosis infection through a multiplexed cytokine biosensor assay and machine learning feature selection</h4>
+<p class="pub-authors">Robison, H. M., Chapman, C. A., Zhou, H., Erskine, C. L., Theel, E., Peikert, T., Lindestam Arlehamn, C. S., Sette, A., Bushell, C., Welge, M., Zhu, R., Bailey, R. C., Escalante, P.</p>
+<p class="pub-venue-meta"><em>Scientific Reports</em> 11(1), 1-10<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2021</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Disease Diagnostics and Treatment</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-li-2021-topic" data-pub-item data-topics="disease-diagnostics-treatment" data-search="topic modeling on triage notes with semiorthogonal nonnegative matrix factorization journal of the american statistical association, a&amp;c 116(536): 1609-1624  li, j. y. zhu, r. qu, a. ye, h. sun, z. method &amp; theory journal disease diagnostics and treatment">
+<h4 id="pub-title-li-2021-topic" class="pub-title"><a href="https://arxiv.org/abs/1805.02306">Topic Modeling on Triage Notes With Semiorthogonal Nonnegative Matrix Factorization</a></h4>
+<p class="pub-authors">Li, J. Y., Zhu, R., Qu, A., Ye, H., Sun, Z.</p>
+<p class="pub-venue-meta"><em>Journal of the American Statistical Association, A&amp;C</em> 116(536): 1609-1624<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2021</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Disease Diagnostics and Treatment</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2020</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-miao-2020-assessment" data-pub-item data-topics="disease-diagnostics-treatment" data-search="assessment of peritoneal microbial features and tumor marker levels as potential diagnostic tools for ovarian cancer plos one, 15(1), e0227707  miao, r. badger, t. c. groesch, k. diaz-sylvester, p. l. wilson, t. ghareeb, a. martin, j. a. cregger, m. welge, m. bushell, c. auvil, l. zhu, r. braundmeier-fleming, a. collaborative journal disease diagnostics and treatment">
+<h4 id="pub-title-miao-2020-assessment" class="pub-title">Assessment of peritoneal microbial features and tumor marker levels as potential diagnostic tools for ovarian cancer</h4>
+<p class="pub-authors">Miao, R., Badger, T. C., Groesch, K., Diaz-Sylvester, P. L., Wilson, T., Ghareeb, A., Martin, J. A., Cregger, M., Welge, M., Bushell, C., Auvil, L., Zhu, R., Braundmeier-Fleming, A.</p>
+<p class="pub-venue-meta"><em>PLoS ONE</em> 15(1), e0227707<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2020</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Disease Diagnostics and Treatment</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-zhao-2020-constructing" data-pub-item data-topics="survival-analysis" data-search="constructing dynamic treatment regimes with shared parameters for censored data statistics in medicine, 39 (9), 1250-1263  zhao, y. q. zhu, r. chen, g. zheng, y. method &amp; theory journal survival analysis">
+<h4 id="pub-title-zhao-2020-constructing" class="pub-title"><a href="https://arxiv.org/abs/1808.01332">Constructing Dynamic Treatment Regimes with Shared Parameters for Censored Data</a></h4>
+<p class="pub-authors">Zhao, Y. Q., Zhu, R., Chen, G., Zheng, Y.</p>
+<p class="pub-venue-meta"><em>Statistics In Medicine</em> 39 (9), 1250-1263<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2020</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-shinn-2020-fecal" data-pub-item data-topics="nutrition-science" data-search="fecal bacteria as biomarkers for predicting food intake in healthy adults the journal of nutrition, 151(2), 423-433  shinn, l. li, y. mansharamani, a. auvil, l. s. welge, m. e. bushell, c. khan, n. a. charron, c. s. novotny, j. a. baer, d. j. zhu, r. holscher, h. d. collaborative journal nutrition science">
+<h4 id="pub-title-shinn-2020-fecal" class="pub-title">Fecal bacteria as biomarkers for predicting food intake in healthy adults</h4>
+<p class="pub-authors">Shinn, L., Li, Y., Mansharamani, A., Auvil, L. S., Welge, M. E., Bushell, C., Khan, N. A., Charron, C. S., Novotny, J. A., Baer, D. J., Zhu, R., Holscher, H. D.</p>
+<p class="pub-venue-meta"><em>The Journal of Nutrition</em> 151(2), 423-433<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2020</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Nutrition Science</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2019</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-mi-2019-bagging" data-pub-item data-topics="personalized-medicine" data-search="bagging and deep learning in optimal individualized treatment rules biometrics, 75(2):674-684. r packages: [dnnet and itrlearn] example r file  mi, x. zhu, r. zou, f. method &amp; theory journal personalized medicine">
+<h4 id="pub-title-mi-2019-bagging" class="pub-title"><a href="https://github.com/SkadiEye/dnnet">Bagging and Deep Learning in Optimal Individualized Treatment Rules</a></h4>
+<p class="pub-authors">Mi, X., Zhu, R., Zou, F.</p>
+<p class="pub-venue-meta"><em>Biometrics</em> 75(2):674-684. R packages: [dnnet and ITRlearn] Example R File<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2019</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Personalized Medicine</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-sun-2019-counting" data-pub-item data-topics="survival-analysis|dimension-reduction" data-search="counting process based dimension reduction method for censored outcomes biometrika, 06(1):181-196  sun, q. zhu, r. wang, t. zeng, d. method &amp; theory journal survival analysis dimension reduction">
+<h4 id="pub-title-sun-2019-counting" class="pub-title"><a href="https://arxiv.org/abs/1704.05046">Counting Process Based Dimension Reduction Method for Censored Outcomes</a></h4>
+<p class="pub-authors">Sun, Q., Zhu, R., Wang, T., Zeng, D.</p>
+<p class="pub-venue-meta"><em>Biometrika</em> 06(1):181-196<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2019</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+<span class="pub-tag" role="listitem">Dimension Reduction</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-walters-2019-differential" data-pub-item data-topics="influenza" data-search="differential effects of influenza virus na, ha head, and ha stalk antibodies on peripheral blood leukocyte gene expression during human infection mbio, 10(3), e00760-19  walters, k.-a. zhu, r. welge, m. scherler, k. park, j.-k. rahil, z. wang, h. auvil, l. bushell, c. lee, m. y. baxter, d. bristol, t. rosas, l. a. cervantes-medina, a. czajkowski, l. han, a. memoli, m. j. taubenberger, j. k. kash, j. c. collaborative journal influenza">
+<h4 id="pub-title-walters-2019-differential" class="pub-title">Differential effects of influenza virus NA, HA head, and HA stalk antibodies on peripheral blood leukocyte gene expression during human infection</h4>
+<p class="pub-authors">Walters, K.-A., Zhu, R., Welge, M., Scherler, K., Park, J.-K., Rahil, Z., Wang, H., Auvil, L., Bushell, C., Lee, M. Y., Baxter, D., Bristol, T., Rosas, L. A., Cervantes-Medina, A., Czajkowski, L., Han, A., Memoli, M. J., Taubenberger, J. K., Kash, J. C.</p>
+<p class="pub-venue-meta"><em>mBio</em> 10(3), e00760-19<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2019</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Influenza</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-feng-2019-nonparametric" data-pub-item data-topics="others" data-search="nonparametric variable selection and its application to additive models annals of the institute of statistical mathematics, 1-28  feng, z. lin, l. zhu, r. zhu, l. method &amp; theory journal others">
+<h4 id="pub-title-feng-2019-nonparametric" class="pub-title">Nonparametric variable selection and its application to additive models</h4>
+<p class="pub-authors">Feng, Z., Lin, L., Zhu, R., Zhu, L.</p>
+<p class="pub-venue-meta"><em>Annals of the Institute of Statistical Mathematics</em> 1-28<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2019</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Others</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-zhu-2019-orthodr" data-pub-item data-topics="survival-analysis|dimension-reduction" data-search="orthodr: semiparametric dimension reduction via orthogonality constrained optimization the r journal, 11(2), 24-37  zhu, r. zhang, j. zhao, r. xu, p. zhou, w. zhang, x. method &amp; theory journal survival analysis dimension reduction">
+<h4 id="pub-title-zhu-2019-orthodr" class="pub-title"><a href="https://arxiv.org/abs/1811.11733">orthoDr: Semiparametric Dimension Reduction via Orthogonality Constrained Optimization</a></h4>
+<p class="pub-authors">Zhu, R., Zhang, J., Zhao, R., Xu, P., Zhou, W., Zhang, X.</p>
+<p class="pub-venue-meta"><em>The R Journal</em> 11(2), 24-37<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2019</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+<span class="pub-tag" role="listitem">Dimension Reduction</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2018</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-yi-2018-gradientscansurv" data-pub-item data-topics="survival-analysis" data-search="gradientscansurv an exhaustive association test method for gene expression data with censored survival outcome plos one, 13(12), p.e0207590  yi, m. zhu, r. stephens, r. m. collaborative journal survival analysis">
+<h4 id="pub-title-yi-2018-gradientscansurv" class="pub-title">GradientScanSurv An exhaustive association test method for gene expression data with censored survival outcome</h4>
+<p class="pub-authors">Yi, M., Zhu, R., Stephens, R. M.</p>
+<p class="pub-venue-meta"><em>PloS one</em> 13(12), p.e0207590<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2018</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-hassan-2018-multivariate" data-pub-item data-topics="sepsis" data-search="multivariate computational analysis of biosensor data for improved cd64 quantification for sepsis diagnosis lab on a chip, 18(8), 1231-1240  hassan, u. zhu, r. bashir, r. collaborative journal sepsis">
+<h4 id="pub-title-hassan-2018-multivariate" class="pub-title">Multivariate computational analysis of biosensor data for improved CD64 quantification for sepsis diagnosis</h4>
+<p class="pub-authors">Hassan, U., Zhu, R., Bashir, R.</p>
+<p class="pub-venue-meta"><em>Lab on a Chip</em> 18(8), 1231-1240<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2018</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Sepsis</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2017</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-taneja-2017-combining" data-pub-item data-topics="sepsis" data-search="combining biomarkers with emr data to improve sepsis identification scientific reports, 7(1), 10800  taneja, i. bobby reddy jr, b. damhorst, g. zhao, d. hassan, u. price, z. jensen, t. ghonge, t. patel, m. wachspress, s. winter, j. rappleye, m. smith, g. healey, r. ajmal, m. anwaruddin, s. khan, m. patel, j. rawal, h. sarwar, r. soni, s. davis, b. kumar, j. white, k. bashir, r. zhu, r. collaborative journal sepsis">
+<h4 id="pub-title-taneja-2017-combining" class="pub-title"><a href="https://news.illinois.edu/view/6367/552521">Combining biomarkers with EMR data to improve sepsis identification</a></h4>
+<p class="pub-authors">Taneja, I., Bobby Reddy Jr, B., Damhorst, G., Zhao, D., Hassan, U., Price, Z., Jensen, T., Ghonge, T., Patel, M., Wachspress, S., Winter, J., Rappleye, M., Smith, G., Healey, R., Ajmal, M., Anwaruddin, S., Khan, M., Patel, J., Rawal, H., Sarwar, R., Soni, S., Davis, B., Kumar, J., White, K., Bashir, R., Zhu, R.</p>
+<p class="pub-venue-meta"><em>Scientific Reports</em> 7(1), 10800<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2017</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Sepsis</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-zhu-2017-greedy" data-pub-item data-topics="personalized-medicine|random-forests" data-search="greedy outcome weighted tree learning of optimal personalized treatment rules biometrics. 73(2), 391 400  zhu, r. zhao, y. chen, g. ma, s. zhao, h. method &amp; theory journal personalized medicine random forests">
+<h4 id="pub-title-zhu-2017-greedy" class="pub-title">Greedy Outcome Weighted Tree Learning of Optimal Personalized Treatment Rules</h4>
+<p class="pub-authors">Zhu, R., Zhao, Y., Chen, G., Ma, S., Zhao, H.</p>
+<p class="pub-venue-meta"><em>Biometrics</em> 73(2), 391 400<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2017</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Personalized Medicine</span>
+<span class="pub-tag" role="listitem">Random Forests</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-cui-2017-tree" data-pub-item data-topics="personalized-medicine|survival-analysis" data-search="tree based weighted learning for estimating individualized treatment rules with censored data electronic journal of statistics, 11(2), 3927-3953  cui, y. zhu, r. kosorok, m. method &amp; theory journal personalized medicine survival analysis">
+<h4 id="pub-title-cui-2017-tree" class="pub-title"><a href="https://arxiv.org/abs/1707.09632">Tree based weighted learning for estimating individualized treatment rules with censored data</a></h4>
+<p class="pub-authors">Cui, Y., Zhu, R., Kosorok, M.</p>
+<p class="pub-venue-meta"><em>Electronic Journal of Statistics</em> 11(2), 3927-3953<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2017</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Personalized Medicine</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2016</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-zhu-2016-integrating" data-pub-item data-topics="disease-diagnostics-treatment" data-search="integrating multidimensional omics data for cancer outcome biostatistics. 17(4), 605-18  zhu, r. zhao, q. zhao, h. ma, s. method &amp; theory journal disease diagnostics and treatment">
+<h4 id="pub-title-zhu-2016-integrating" class="pub-title">Integrating Multidimensional Omics Data for Cancer Outcome</h4>
+<p class="pub-authors">Zhu, R., Zhao, Q., Zhao, H., Ma, S.</p>
+<p class="pub-venue-meta"><em>Biostatistics</em> 17(4), 605-18<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2016</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Disease Diagnostics and Treatment</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2015</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-la-2015-increasing" data-pub-item data-topics="others" data-search="increasing access to state psychiatric hospital beds: exploring supply-side solutions psychiatric services, 67(5), 523-528  la, e. h. lich, k. h. wells, r. ellis, a. r. swartz, m. s. zhu, r. morrissey, j. p. collaborative journal others">
+<h4 id="pub-title-la-2015-increasing" class="pub-title">Increasing access to state psychiatric hospital beds: Exploring supply-side solutions</h4>
+<p class="pub-authors">La, E. H., Lich, K. H., Wells, R., Ellis, A. R., Swartz, M. S., Zhu, R., Morrissey, J. P.</p>
+<p class="pub-venue-meta"><em>Psychiatric Services</em> 67(5), 523-528<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2015</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Others</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-zhu-2015-reinforcement" data-pub-item data-topics="reinforcement-learning" data-search="reinforcement learning trees journal of the american statistical association. 110(512), 1770-1784  zhu, r. zeng, d. kosorok, m. r. method &amp; theory journal reinforcement learning">
+<h4 id="pub-title-zhu-2015-reinforcement" class="pub-title"><a href="https://cran.r-project.org/web/packages/RLT/index.html">Reinforcement Learning Trees</a></h4>
+<p class="pub-authors">Zhu, R., Zeng, D., Kosorok, M. R.</p>
+<p class="pub-venue-meta"><em>Journal of the American Statistical Association</em> 110(512), 1770-1784<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2015</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Reinforcement Learning</span>
+</div>
+<p class="pub-links"><a href="https://github.com/teazrq/RLT">RLT GitHub repository</a></p>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2014</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-zhu-2014-identifying" data-pub-item data-topics="disease-diagnostics-treatment" data-search="identifying gene-environment and gene-gene interactions using a progressive penalization approach genetic epidemiology, 38(4), 353-368  zhu, r. zhao, h. ma, s. method &amp; theory journal disease diagnostics and treatment">
+<h4 id="pub-title-zhu-2014-identifying" class="pub-title">Identifying Gene-Environment and Gene-Gene Interactions Using a Progressive Penalization Approach</h4>
+<p class="pub-authors">Zhu, R., Zhao, H., Ma, S.</p>
+<p class="pub-venue-meta"><em>Genetic Epidemiology</em> 38(4), 353-368<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2014</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Disease Diagnostics and Treatment</span>
+</div>
+</article>
+<article class="pub-item" aria-labelledby="pub-title-la-2014-the" data-pub-item data-topics="others" data-search="the effects of state psychiatric hospital waitlist policies on length of stay and time to readmission administration and policy in mental health and mental health services research, 42(3), 332-42  la, e. h. zhu, r. lich, k. h. ellis, a. r. swartz, m. s. kosorok, m. r. morrissey, j. p. collaborative journal others">
+<h4 id="pub-title-la-2014-the" class="pub-title"><a href="https://link.springer.com/article/10.1007/s10488-014-0573-1">The Effects of State Psychiatric Hospital Waitlist Policies on Length of Stay and Time to Readmission</a></h4>
+<p class="pub-authors">La, E. H., Zhu, R., Lich, K. H., Ellis, A. R., Swartz, M. S., Kosorok, M. R., Morrissey, J. P.</p>
+<p class="pub-venue-meta"><em>Administration and Policy in Mental Health and Mental Health Services Research</em> 42(3), 332-42<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2014</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Collaborative</span>
+<span class="pub-tag" role="listitem">Others</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2012</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-zhu-2012-recursively" data-pub-item data-topics="survival-analysis" data-search="recursively imputed survival trees journal of the american statistical association, 107(497), 331-340  zhu, r. kosorok, m. r. method &amp; theory journal survival analysis">
+<h4 id="pub-title-zhu-2012-recursively" class="pub-title">Recursively imputed survival trees</h4>
+<p class="pub-authors">Zhu, R., Kosorok, M. R.</p>
+<p class="pub-venue-meta"><em>Journal of the American Statistical Association</em> 107(497), 331-340<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2012</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Survival Analysis</span>
+</div>
+</article>
+</div>
+</div>
+<div class="pub-year-group" data-year-group>
+<h3 class="pub-year-heading">2008</h3>
+<div class="pub-year-items">
+<article class="pub-item" aria-labelledby="pub-title-zhu-2008-diagnostic" data-pub-item data-topics="others" data-search="diagnostic checking for multivariate regression models journal of multivariate analysis, 99(9), 1841-1859  zhu, l. zhu, r. song, s. method &amp; theory journal others">
+<h4 id="pub-title-zhu-2008-diagnostic" class="pub-title">Diagnostic checking for multivariate regression models</h4>
+<p class="pub-authors">Zhu, L., Zhu, R., Song, S.</p>
+<p class="pub-venue-meta"><em>Journal of Multivariate Analysis</em> 99(9), 1841-1859<span class="pub-meta-separator" aria-hidden="true"> &middot; </span><span class="pub-year-meta">2008</span></p>
+<div class="pub-tags" role="list" aria-label="Publication categories">
+<span class="pub-tag" role="listitem">Method &amp; Theory</span>
+<span class="pub-tag" role="listitem">Others</span>
+</div>
+</article>
+</div>
 </div>
 </section>
+</div>

@@ -1,10 +1,14 @@
 ---
-format:
-  html:
-    include-in-header:
-      text: |
-        <link rel="stylesheet" href="css/publications.css">
-        <script defer src="files/publications-filter.js"></script>
+title: "Publications"
+description: "A curated bibliography of Ruoqing Zhu's research."
 ---
 
+::: {.page-lede}
+Research in statistical learning, sequential decisions, and biomedical applications.
+:::
+
+::: {.publication-page}
 {{< include files/publications-static.html >}}
+:::
+
+<script src="files/publications-filter.js"></script>

@@ -1,41 +1,87 @@
 ---
-format:
-  html:
-    page-layout: full
+pagetitle: "Ruoqing Zhu"
+description: "Ruoqing Zhu works on reliable statistical decision making, biomedical translation, and agentic AI for research and education."
 ---
 
-::: {.home-justify}
-::: {.top-panel}
-::: {.grid}
-::: {.g-col-8}
-## Zhu, Ruoqing <span style="font-size:0.6em;"> (朱若青) </span>
+::: {.home-page}
+<section class="home-hero">
+<div class="home-intro">
+<div class="home-name" role="heading" aria-level="1">Ruoqing Zhu</div>
+<p class="home-name-cn" lang="zh">朱若青</p>
+<p class="home-role">Associate Professor of Statistics<br>University of Illinois Urbana-Champaign</p>
+<nav class="hero-actions" aria-label="Profile links">
+<a href="https://scholar.google.com/citations?user=uyzMyb8AAAAJ&amp;hl=en">Google Scholar</a>
+</nav>
+</div>
+<img class="home-portrait" src="images/me.jpg" alt="Portrait of Ruoqing Zhu." width="1280" height="1196" loading="eager" decoding="async" fetchpriority="high">
+</section>
 
-**Associate Professor**, [Department of Statistics](https://stat.illinois.edu/)<br>
-University of Illinois Urbana-Champaign
-
-<div class="office-line">
-  <span class="office-label">Office:</span>
-  <span class="office-value">605 E. Springfield Ave., 137 CAB,<br>Champaign, IL 61820</span>
+<div class="decision-trace">
+<svg viewBox="0 0 700 150" aria-hidden="true" focusable="false">
+<path class="trace-stroke" pathLength="1" d="M22 75 H455"></path>
+<path class="trace-stroke" pathLength="1" d="M22 62 V88 M390 62 V88"></path>
+<path class="trace-stroke" pathLength="1" d="M455 75 L555 25 H690 M455 75 H690 M455 75 L555 125 H690"></path>
+<circle class="trace-node" cx="455" cy="75" r="6"></circle>
+</svg>
+<nav class="trace-nav" aria-label="Research themes">
+<ul class="trace-labels">
+<li><a href="research.html#reliable-learning">Reliable statistical decision making</a><span class="trace-endpoint" aria-hidden="true"></span></li>
+<li><a href="research.html#biomedical-translation">Biomedical translation</a><span class="trace-endpoint" aria-hidden="true"></span></li>
+<li><a href="research.html#ai-related">Agentic AI for research and education</a><span class="trace-endpoint" aria-hidden="true"></span></li>
+</ul>
+</nav>
 </div>
 
-**Affiliations:**
+## Research interests {.home-section-heading}
 
-- [Carle Illinois College of Medicine](https://medicine.illinois.edu/) (Inaugural Member)
-- [Division of Nutritional Sciences](https://nutrsci.illinois.edu/)
-- [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/)
-- [Carl R. Woese Institute for Genomic Biology](https://www.igb.illinois.edu/)
-:::
-::: {.g-col-4}
-![](images/me.jpg){.top-panel-photo}
-:::
+::: {.interest-grid}
+::: {.interest-item}
+### Reliable statistical decision making
+
+Uncertainty quantification, causal inference, personalized medicine, and reinforcement learning for decisions that remain reliable in practice.
 :::
 
+::: {.interest-item}
+### Biomedical translation
+
+Statistical machine learning for sepsis, infectious diseases, nutrition science, diagnostics and other scientific domains.
 :::
-## Research Interests
 
-I have a broad interest in developing statistical methodology, theory, and computational algorithms for decision-making problems, particularly in personalized medicine and reinforcement learning. Many existing models are rejected by practitioners due to unrealistic assumptions, unstable performance, lack of interpretability, and challenges posed by small sample sizes, high dimensionality, and complex data structures. Addressing these issues is both a challenging and exciting task in statistical research. My recent work focuses on uncertainty quantification, distributional shift, casual inference, and trustworthiness, aiming to develop more reliable and practical solutions for real-world applications. In addition, I have a strong interest in classical statistical learning and machine learning methods, including random forests, sufficient dimension reduction, and survival analysis, with applications in bioinformatics, infectious diseases, and nutrition studies.
+::: {.interest-item}
+### Agentic AI for research and education
 
-## Short Bio
+Utilizing agentic AI to enhance research workflows, scientific discovery, teaching, and learning.
+:::
+:::
+
+::: {.home-lower}
+::: {.home-bio}
+## Short bio
 
 Before joining UIUC, I was a postdoctoral associate at Yale University jointly supervised by [Hongyu Zhao](https://ysph.yale.edu/profile/hongyu-zhao/) and [Shuangge Ma](https://ysph.yale.edu/profile/shuangge-ma/). I received my PhD in Biostatistics from the University of North Carolina at Chapel Hill in 2013 under the supervision of [Michael Kosorok](https://mkosorok.web.unc.edu/), and a MA in Statistics from Bowling Green State University in 2008. Prior to that, I obtained my BS in Mathematics and BS in Financial Engineering from Nanjing University in China.
+:::
+
+::: {.home-affiliations}
+## Affiliations
+
+<ul class="affiliation-list">
+<li><a href="https://stat.illinois.edu/">Department of Statistics</a></li>
+<li><a href="https://medicine.illinois.edu/">Carle Illinois College of Medicine</a>, inaugural member</li>
+<li><a href="https://nutrsci.illinois.edu/">Division of Nutritional Sciences</a></li>
+<li><a href="https://www.ncsa.illinois.edu/">National Center for Supercomputing Applications</a></li>
+<li><a href="https://www.igb.illinois.edu/">Carl R. Woese Institute for Genomic Biology</a></li>
+<li><a href="https://prenosis.com/team/">Prenosis Inc.</a>, Advisory Board Member</li>
+</ul>
+
+<address class="office-address">
+<strong>Office</strong><br>
+605 E. Springfield Ave., 137 CAB<br>
+Champaign, IL 61820
+<span class="office-contact">
+<strong>Contact</strong><br>
+<a href="mailto:rqzhu@illinois.edu">rqzhu@illinois.edu</a>
+</span>
+</address>
+:::
+:::
 :::

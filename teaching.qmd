@@ -1,27 +1,63 @@
 ---
+title: "Teaching"
+description: "Courses, textbook, and lectures by Ruoqing Zhu."
 ---
 
-## At Department of Statistics
+::: {.page-lede}
+Courses and learning materials in statistical learning, machine learning, and applied statistics.
+:::
 
-- [STAT 546](https://teazrq.github.io/stat546/index.html) (Machine Learning for Data Science)
-- [STAT 542](https://teazrq.github.io/stat542/index.html) (Statistical Learning)
-- [STAT 432](https://teazrq.github.io/stat432/index.html) (Basics of Statistical Learning)
-- STAT 400 (Statistics and Probability I)
-- STAT 420 (Methods of Applied Statistics)
+<section class="textbook-feature" aria-labelledby="textbook-title">
+<div class="book-mark" aria-hidden="true">Statistical Learning and Machine Learning with R</div>
+<div>
+<h2 id="textbook-title">Textbook</h2>
+<p>I wrote <em>Statistical Learning and Machine Learning with R</em> for my statistical learning courses.</p>
+<a class="section-link" href="https://teazrq.github.io/SMLR/">Read the textbook</a>
+</div>
+</section>
 
-## Textbook
+## Department of Statistics
 
-I wrote this textbook for my learning courses:
+<dl class="course-list">
+<div class="course-row">
+<dt><a class="course-code" href="https://teazrq.github.io/stat546/index.html">STAT 546</a></dt>
+<dd>Machine Learning for Data Science</dd>
+</div>
+<div class="course-row">
+<dt><a class="course-code" href="https://teazrq.github.io/stat542/index.html">STAT 542</a></dt>
+<dd>Statistical Learning</dd>
+</div>
+<div class="course-row">
+<dt><a class="course-code" href="https://teazrq.github.io/stat432/index.html">STAT 432</a></dt>
+<dd>Basics of Statistical Learning</dd>
+</div>
+<div class="course-row">
+<dt><span class="course-code">STAT 400</span></dt>
+<dd>Statistics and Probability I</dd>
+</div>
+<div class="course-row">
+<dt><span class="course-code">STAT 420</span></dt>
+<dd>Methods of Applied Statistics</dd>
+</div>
+</dl>
 
-- [Statistical Learning and Machine Learning with R](https://teazrq.github.io/SMLR/)
+## Carle Illinois College of Medicine
 
-## At Carle Illinois College of Medicine
+<dl class="course-list">
+<div class="course-row">
+<dt><a class="course-code" href="https://cimed-dsp.github.io/index.html">DSP</a></dt>
+<dd>Data Science Project, 2021 to present</dd>
+</div>
+<div class="course-row">
+<dt><a class="course-code" href="https://teazrq.github.io/Stat-PopHealth/">Foundations</a></dt>
+<dd>Molecules to Populations, 2018 to 2022</dd>
+</div>
+</dl>
 
-- [Data Science Project](https://cimed-dsp.github.io/index.html) (2021 - )
-- [Foundations: Molecules to Populations](https://teazrq.github.io/Stat-PopHealth/) (2018 - 2022)
+## Other courses and lectures
 
-## Other Course/Lectures
-
-- [Fall 2023] I taught two lectures on random forests at the [ECAS-SFdS school](https://www.sfds.asso.fr/fr/ecas2023/709-home/) during Oct 8-13. Other lecturers included Profs. Robin Genuer, Pierre Geurts, and Nathalie Vialaneix. The school was jointly organized by Profs. Jean-Michel Poggi and Robin Genuer.
-- Random Forest Tutorial (Part I, Part II, Part III, RLT package example source file)
-- [Summer 2018] Mayo-Illinois CompGen Workshop ([Slides](https://www.dropbox.com/s/ft42shoc2m6to0p/Introduction.pdf?dl=0), [examples.rmd](https://www.dropbox.com/s/1li6apf2dw08lvt/examples.rmd?dl=0), [examples.pdf](https://www.dropbox.com/s/o8ummclqlhow7nc/examples.pdf?dl=0), [prostate.RData](https://www.dropbox.com/s/2dozwlbb3tvubqh/prostate.RData?dl=0))
+::: {.lecture-list}
+- In fall 2023, I taught two lectures on random forests at the [ECAS-SFdS school](https://www.sfds.asso.fr/fr/ecas2023/709-home/) during October 8-13. Other lecturers included Profs. Robin Genuer, Pierre Geurts, and Nathalie Vialaneix. The school was jointly organized by Profs. Jean-Michel Poggi and Robin Genuer.
+- Random Forest Tutorial, Parts I, II, and III, with an RLT package example source file.
+- Mayo-Illinois CompGen Workshop, summer 2018: [slides](https://www.dropbox.com/s/ft42shoc2m6to0p/Introduction.pdf?dl=0), [examples.rmd](https://www.dropbox.com/s/1li6apf2dw08lvt/examples.rmd?dl=0), [examples.pdf](https://www.dropbox.com/s/o8ummclqlhow7nc/examples.pdf?dl=0), and [prostate.RData](https://www.dropbox.com/s/2dozwlbb3tvubqh/prostate.RData?dl=0).
+:::
