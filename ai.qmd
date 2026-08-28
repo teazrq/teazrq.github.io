@@ -37,16 +37,29 @@ I am increasingly adapting my regular research and teaching workflows to make pr
 <div class="ai-project-kind">Teaching platform</div>
 <div class="ai-project-content">
 <h3 id="popping-title" class="ai-project-title">Popping</h3>
-<p>Popping is an interactive classroom platform for instructors and students who use team-based discussion and presentation activities. It supports team selection, live questions, small-group discussion, peer recognition, timed presentations, and real-time presentation ratings. Instructors control the activity phases and can export participation and rating data after class. The application is deployed on Render, and anyone can explore the classroom workflow through its private demo without creating an account.</p>
-<div class="ai-project-gallery" role="group" aria-label="Popping classroom workflow screenshots">
-<figure class="ai-project-figure">
-<img src="images/popping-team-assignment.png" alt="Popping instructor view during the Setup phase, showing students assigned to two teams." width="1265" height="712" loading="lazy" decoding="async">
-<figcaption>Instructor view: assigning students to teams.</figcaption>
-</figure>
-<figure class="ai-project-figure">
-<img src="images/popping-live-discussion.png" alt="Popping student view during a live group discussion, showing an ensemble-learning question and discussion prompts." width="1265" height="712" loading="lazy" decoding="async">
-<figcaption>Student view: participating in a live group discussion.</figcaption>
-</figure>
+<p>Popping is an interactive classroom platform for instructors and students who use team-based discussion and presentation activities. Its Present and Challenge mode is a central feature: instructors can run timed team presentations and structured challenges, while students ask questions, respond to challenges, and submit peer ratings in real time. The platform also supports team selection, small-group discussion, peer recognition, and exportable participation and rating data. I currently deploy the Popping website on Render. Running a live instance requires a backend server and database to manage classroom sessions, teams, participation records, and ratings. Anyone can explore the classroom workflow through the private demo without creating an account.</p>
+<p class="ai-project-gallery-intro">The screenshots below follow the classroom workflow from team setup and discussion to presentation, rating, and challenge. Select any image to enlarge it.</p>
+<div class="ai-project-gallery-groups" role="group" aria-label="Popping classroom workflow screenshots">
+<section class="ai-project-gallery-group" aria-labelledby="popping-setup-heading">
+<h4 id="popping-setup-heading" class="ai-project-gallery-heading">From team setup to discussion</h4>
+<div class="ai-project-gallery">
+
+![Instructor view: creating teams and monitoring participation.](images/popping/instructor-grouping.png){.lightbox group="popping" fig-alt="Popping instructor dashboard showing three assigned teams and student participation records."}
+
+![Student view: working with an assigned team during group discussion.](images/popping/student-group-discussion.png){.lightbox group="popping" fig-alt="Popping student view showing discussion topics, an interactive team workspace, and the team roster."}
+
+</div>
+</section>
+<section class="ai-project-gallery-group" aria-labelledby="popping-presentation-heading">
+<h4 id="popping-presentation-heading" class="ai-project-gallery-heading">Presentation and challenge</h4>
+<div class="ai-project-gallery">
+
+![Instructor view: managing a timed presentation, live poll, and challenge.](images/popping/instructor-present-challenge.png){.lightbox group="popping" fig-alt="Popping instructor view showing a timed presentation, live poll, and challenge controls."}
+
+![Student view: rating a presentation and joining the challenge phase.](images/popping/student-present-challenge.png){.lightbox group="popping" fig-alt="Popping student view showing a timed presentation, rating form, and challenge participation."}
+
+</div>
+</section>
 </div>
 <nav class="link-row" aria-label="Popping resources">
 <a href="https://popping.onrender.com/">Open Popping</a>

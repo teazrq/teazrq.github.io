@@ -684,29 +684,94 @@ main.content:has(> .home-page) > #title-block-header:empty {
   margin-bottom: 0;
 }
 
+.ai-project-gallery-intro {
+  margin-top: 1rem;
+  color: var(--site-muted);
+  font-size: 0.92rem;
+}
+
+.ai-project-gallery-groups {
+  max-width: 44rem;
+  margin: 1.5rem 0 0;
+}
+
+.ai-project-gallery-group + .ai-project-gallery-group {
+  margin-top: clamp(1.75rem, 4vw, 2.75rem);
+}
+
+.ai-project-gallery-heading {
+  margin: 0 0 0.9rem;
+  color: var(--site-blue);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
 .ai-project-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(0.8rem, 2vw, 1.25rem);
-  margin: 1.5rem 0 0;
+  margin: 0;
+  align-items: start;
+  justify-content: start;
 }
 
-.ai-project-figure {
+.ai-project-gallery > .quarto-figure {
+  min-width: 0;
   margin: 0;
 }
 
-.ai-project-figure img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid var(--site-border);
+.ai-project-gallery .quarto-figure > figure,
+.ai-project-gallery .quarto-figure > figure > p {
+  margin: 0;
 }
 
-.ai-project-figure figcaption {
+.ai-project-gallery .lightbox {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--site-border);
+  background: var(--site-surface);
+  cursor: zoom-in;
+}
+
+.ai-project-gallery .lightbox:hover {
+  border-color: var(--site-link-hover);
+}
+
+.ai-project-gallery .lightbox::after {
+  content: "Enlarge";
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.22rem 0.45rem;
+  color: var(--brand-white);
+  background: color-mix(in srgb, var(--brand-blue) 90%, transparent);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.ai-project-gallery .lightbox img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: var(--brand-white);
+}
+
+.ai-project-gallery .quarto-figure > figure > figcaption {
   margin-top: 0.6rem;
   color: var(--site-muted);
   font-size: 0.82rem;
   line-height: 1.5;
+  text-align: left;
 }
 
 @media (max-width: 899.98px) {
@@ -715,6 +780,7 @@ main.content:has(> .home-page) > #title-block-header:empty {
   }
 
   .ai-project-gallery {
+    width: min(100%, 28rem);
     grid-template-columns: 1fr;
   }
 
