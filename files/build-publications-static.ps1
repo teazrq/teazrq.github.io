@@ -297,6 +297,9 @@ function Add-PublicationItem($entry, $html, [int]$itemNumber) {
   if ($venueHtml) {
     $metaParts.Add($venueHtml)
   }
+  if ($entry.Venue -eq 'conference-abstract') {
+    $metaParts.Add('Conference abstract')
+  }
   $metaParts.Add('<span class="pub-year-meta">' + $entry.Year + '</span>')
   $html.Add('<p class="pub-venue-meta">' + ($metaParts -join '<span class="pub-meta-separator" aria-hidden="true"> &middot; </span>') + '</p>')
 
