@@ -266,7 +266,7 @@ $html.Add('<button id="pub-clear-filters" class="pub-clear-btn" type="button">Cl
 $html.Add('</div>')
 $html.Add('<div id="pub-results" class="pub-results">')
 
-function Add-PublicationItem($entry, $html, [int]$itemNumber) {
+function Add-PublicationItem($entry, $html, [int]$itemNumber, [string]$headingTag = 'h4') {
   $dataTopics = Escape-Html (($entry.Topics -join '|').ToLowerInvariant())
   $dataSearch = Escape-Html $entry.SearchText
   $displayTitle = CleanDisplayTitle $entry.Title $entry.Authors
@@ -279,9 +279,9 @@ function Add-PublicationItem($entry, $html, [int]$itemNumber) {
   $html.Add('<article class="pub-item" aria-labelledby="' + (Escape-Html $titleId) + '" data-pub-item data-topics="' + $dataTopics + '" data-search="' + $dataSearch + '">')
 
   if ($entry.Url) {
-    $html.Add('<h4 id="' + (Escape-Html $titleId) + '" class="pub-title"><a href="' + (Escape-Html $entry.Url) + '">' + (Escape-Html $displayTitle) + '</a></h4>')
+    $html.Add('<' + $headingTag + ' id="' + (Escape-Html $titleId) + '" class="pub-title"><a href="' + (Escape-Html $entry.Url) + '">' + (Escape-Html $displayTitle) + '</a></' + $headingTag + '>')
   } else {
-    $html.Add('<h4 id="' + (Escape-Html $titleId) + '" class="pub-title">' + (Escape-Html $displayTitle) + '</h4>')
+    $html.Add('<' + $headingTag + ' id="' + (Escape-Html $titleId) + '" class="pub-title">' + (Escape-Html $displayTitle) + '</' + $headingTag + '>')
   }
 
   if ($entry.Authors -and $entry.Authors.Count -gt 0) {
@@ -336,18 +336,12 @@ $itemNumber = 0
 if ($preprints.Count -gt 0) {
   $html.Add('<section class="pub-section-group" data-pub-section="preprints">')
   $html.Add('<h2 class="pub-section-heading">Preprints</h2>')
-  $preprintYears = $preprints | Group-Object -Property Year | Sort-Object { [int]$_.Name } -Descending
-  foreach ($yearGroup in $preprintYears) {
-    $html.Add('<div class="pub-year-group" data-year-group>')
-    $html.Add('<h3 class="pub-year-heading">' + (Escape-Html $yearGroup.Name) + '</h3>')
-    $html.Add('<div class="pub-year-items">')
-    foreach ($entry in $yearGroup.Group) {
-      $itemNumber += 1
-      Add-PublicationItem $entry $html $itemNumber
-    }
-    $html.Add('</div>')
-    $html.Add('</div>')
+  $html.Add('<div class="pub-year-items">')
+  foreach ($entry in $preprints) {
+    $itemNumber += 1
+    Add-PublicationItem $entry $html $itemNumber 'h3'
   }
+  $html.Add('</div>')
   $html.Add('</section>')
 }
 
