@@ -676,6 +676,22 @@ main.content:has(> .home-page) > #title-block-header:empty {
   margin: 0 0 1rem;
 }
 
+.ai-project-version {
+  margin-left: 0.4rem;
+  color: var(--brand-orange);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.ai-project-version:hover {
+  color: var(--brand-orange);
+  text-decoration: underline;
+}
+
 .ai-project-content > p {
   max-width: var(--prose-width);
 }
@@ -772,6 +788,21 @@ main.content:has(> .home-page) > #title-block-header:empty {
   font-size: 0.82rem;
   line-height: 1.5;
   text-align: left;
+}
+
+.ai-project-gallery.ai-project-gallery-single {
+  width: 100%;
+  max-width: var(--prose-width);
+  grid-template-columns: minmax(0, 1fr);
+  margin-top: 1.5rem;
+}
+
+.ai-project-gallery-single .lightbox {
+  aspect-ratio: auto;
+}
+
+.ai-project-gallery-single .lightbox img {
+  height: auto;
 }
 
 @media (max-width: 899.98px) {

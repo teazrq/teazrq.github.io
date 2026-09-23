@@ -21,10 +21,27 @@ I am increasingly adapting my regular research and teaching workflows to make pr
 ## my recent projects
 
 <div class="ai-project-list">
+<article class="ai-project" aria-labelledby="proof-graphify-title">
+<div class="ai-project-kind">Research reading</div>
+<div class="ai-project-content">
+<h3 id="proof-graphify-title" class="ai-project-title">Proof Graphify <a class="ai-project-version" href="https://github.com/rqzhu-aide/proof-graphify/tree/v3.1.2" aria-label="Version 3.1.2 on GitHub">v3.1.2</a></h3>
+<p>Inspired by the <a href="https://github.com/tt-a1i/archify">Archify skill</a>, <a href="https://github.com/rqzhu-aide/proof-graphify">proof-graphify</a> helps researchers and students explore the structure of a mathematical paper through an interactive map of its main results, important prerequisites, and their connections. Readers can follow dependencies and inspect supporting source passages to understand how the results fit together. Each map is a standalone HTML file that can be opened in a browser and shared with collaborators. The goal is to support reading and navigation; the map does not reconstruct every proof step or verify mathematical correctness. A worked example illustrates the approach with the representer theorem.</p>
+<nav class="link-row" aria-label="Proof Graphify resources">
+<a href="https://github.com/rqzhu-aide/proof-graphify">View source on GitHub</a>
+<a href="https://github.com/rqzhu-aide/proof-graphify/tree/main/examples/representer-theorem">A toy example</a>
+</nav>
+<div class="ai-project-gallery ai-project-gallery-single">
+
+![A toy example: the representer theorem. Select the image to enlarge it.](images/proof-graphify/overview-browser.png){.lightbox group="proof-graphify" fig-alt="Proof Graphify map showing how assumptions, a definition, and a projection lemma connect to the representer theorem and kernel ridge regression."}
+
+</div>
+</div>
+</article>
+
 <article class="ai-project" aria-labelledby="causal-consultant-title">
 <div class="ai-project-kind">Research workflow</div>
 <div class="ai-project-content">
-<h3 id="causal-consultant-title" class="ai-project-title">Interactive causal consulting</h3>
+<h3 id="causal-consultant-title" class="ai-project-title">Interactive causal consulting <a class="ai-project-version" href="https://github.com/rqzhu-aide/causal-consultant/blob/main/README.md" aria-label="Version 4.2.5 on GitHub">v4.2.5</a></h3>
 <p>The <a href="https://github.com/rqzhu-aide/causal-consultant">causal-consultant</a> skill helps applied researchers, students, and collaborators move from an initial causal question to a defensible analysis plan, diagnostic workflow, interpretation, and report. It is deliberately not an automatic analysis pipeline: it consults with the user frequently, clarifies the estimand, examines whether the data support the intended claim, presents design choices and assumptions, and provides and asks for direction before the work expands. Persistent project state lets the consultation continue across stages while keeping the user in control. Built with Hermes, the <a href="https://github.com/rqzhu-aide/interactive-test-cc">interactive-test-cc</a> skill is a reproducible multi-turn testing harness for developers and maintainers who need to check that an interactive AI skill remains coherent across a full conversation.</p>
 <nav class="link-row" aria-label="Interactive causal consulting resources">
 <a href="https://github.com/rqzhu-aide/causal-consultant">Causal consultant on GitHub</a>
@@ -36,7 +53,7 @@ I am increasingly adapting my regular research and teaching workflows to make pr
 <article class="ai-project" aria-labelledby="popping-title">
 <div class="ai-project-kind">Teaching platform</div>
 <div class="ai-project-content">
-<h3 id="popping-title" class="ai-project-title">Popping</h3>
+<h3 id="popping-title" class="ai-project-title">Popping <a class="ai-project-version" href="https://github.com/rqzhu-aide/popping/blob/main/CHANGELOG.md" aria-label="Version 1.3.3 on GitHub">v1.3.3</a></h3>
 <p>Popping is an interactive classroom platform for instructors and students who use team-based discussion and presentation activities. Its Present and Challenge mode is a central feature: instructors can run timed team presentations and structured challenges, while students ask questions, respond to challenges, and submit peer ratings in real time. The platform also supports team selection, small-group discussion, peer recognition, and exportable participation and rating data. I currently deploy the Popping website on Render. Running a live instance requires a backend server and database to manage classroom sessions, teams, participation records, and ratings. Anyone can explore the classroom workflow through the private demo without creating an account.</p>
 <p class="ai-project-gallery-intro">The screenshots below follow the classroom workflow from team setup and discussion to presentation, rating, and challenge. Select any image to enlarge it.</p>
 <div class="ai-project-gallery-groups" role="group" aria-label="Popping classroom workflow screenshots">
