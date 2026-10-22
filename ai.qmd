@@ -23,37 +23,68 @@ I am increasingly adapting my regular research and teaching workflows to make pr
 <div class="ai-project-list">
 <article class="ai-project" aria-labelledby="proof-graphify-title">
 <div class="ai-project-kind">Research reading</div>
+<details class="ai-project-details">
+<summary class="ai-project-summary">
+<h3 id="proof-graphify-title" class="ai-project-title">Proof Graphify <a class="ai-project-version" href="https://github.com/rqzhu-aide/proof-graphify/tree/v3.3.5" aria-label="Version 3.3.5 on GitHub">v3.3.5</a><span class="ai-project-teaser">Graph style visualization of a proof and its dependencies.</span></h3>
+</summary>
 <div class="ai-project-content">
-<h3 id="proof-graphify-title" class="ai-project-title">Proof Graphify <a class="ai-project-version" href="https://github.com/rqzhu-aide/proof-graphify/tree/v3.1.2" aria-label="Version 3.1.2 on GitHub">v3.1.2</a></h3>
-<p>Inspired by the <a href="https://github.com/tt-a1i/archify">Archify skill</a>, <a href="https://github.com/rqzhu-aide/proof-graphify">proof-graphify</a> helps researchers and students explore the structure of a mathematical paper through an interactive map of its main results, important prerequisites, and their connections. Readers can follow dependencies and inspect supporting source passages to understand how the results fit together. Each map is a standalone HTML file that can be opened in a browser and shared with collaborators. The goal is to support reading and navigation; the map does not reconstruct every proof step or verify mathematical correctness. A worked example illustrates the approach with the representer theorem.</p>
+<p>Inspired by the <a href="https://github.com/tt-a1i/archify">Archify skill</a>, <a href="https://github.com/rqzhu-aide/proof-graphify">proof-graphify</a> turns TeX or PDF papers into interactive maps of main results, proof ideas, and important prerequisites. Readers can inspect source passages, follow dependencies, and share each map as a standalone HTML file. It shares the same backend core and interactive reader with <a href="https://github.com/rqzhu-aide/proof-graphify/tree/main/stat-proof-check">Proof Check</a>, a separate skill that examines written arguments using LLMs and independent review. Graphify supports reading and navigation; Proof Check records findings and unresolved limits. Neither provides formal proof verification. The toy example below illustrates the representer theorem.</p>
 <nav class="link-row" aria-label="Proof Graphify resources">
 <a href="https://github.com/rqzhu-aide/proof-graphify">View source on GitHub</a>
-<a href="https://github.com/rqzhu-aide/proof-graphify/tree/main/examples/representer-theorem">A toy example</a>
+<a href="https://github.com/rqzhu-aide/proof-graphify/tree/main/proof-graphify/examples/representer-theorem">A toy example</a>
 </nav>
 <div class="ai-project-gallery ai-project-gallery-single">
 
-![A toy example: the representer theorem. Select the image to enlarge it.](images/proof-graphify/overview-browser.png){.lightbox group="proof-graphify" fig-alt="Proof Graphify map showing how assumptions, a definition, and a projection lemma connect to the representer theorem and kernel ridge regression."}
+![A toy example: the representer theorem. Select the image to enlarge it.](images/proof-graphify/overview-browser.png){.lightbox group="proof-graphify" loading="lazy" fig-alt="Proof Graphify map showing how assumptions, a definition, and a projection lemma connect to the representer theorem and kernel ridge regression."}
 
 </div>
 </div>
+</details>
+</article>
+
+<article class="ai-project" aria-labelledby="stat-paper-skills-title">
+<div class="ai-project-kind">Writing and review</div>
+<details class="ai-project-details">
+<summary class="ai-project-summary">
+<h3 id="stat-paper-skills-title" class="ai-project-title">Statistical paper skills<span class="ai-project-teaser">Skills for writing manuscripts, developing clear mathematical proofs, and reviewing papers.</span></h3>
+</summary>
+<div class="ai-project-content">
+<p>This collection supports statistical and machine-learning papers through three complementary skills:</p>
+<ul>
+<li><a href="https://github.com/rqzhu-aide/stat-paper-skills/tree/main/stat-write-style">Manuscript writing <span class="ai-project-version">v1.6.5</span></a> drafts, restructures, and polishes exposition, notation, and presentation while preserving scientific claims.</li>
+<li><a href="https://github.com/rqzhu-aide/stat-paper-skills/tree/main/stat-proof-write">Proof writing <span class="ai-project-version">v0.3.1</span></a> develops or clarifies proofs by making derivations, assumptions, and the purpose of each step explicit.</li>
+<li><a href="https://github.com/rqzhu-aide/stat-paper-skills/tree/main/stat-paper-review">Paper review <span class="ai-project-version">v1.2.7</span></a> critically assesses contributions, methods, theory, and evidence, with priorities and recommendations for revision.</li>
+</ul>
+<nav class="link-row" aria-label="Statistical paper skills resources">
+<a href="https://github.com/rqzhu-aide/stat-paper-skills">View collection on GitHub</a>
+</nav>
+</div>
+</details>
 </article>
 
 <article class="ai-project" aria-labelledby="causal-consultant-title">
 <div class="ai-project-kind">Research workflow</div>
+<details class="ai-project-details">
+<summary class="ai-project-summary">
+<h3 id="causal-consultant-title" class="ai-project-title">Interactive causal consulting <a class="ai-project-version" href="https://github.com/rqzhu-aide/causal-consultant/blob/main/README.md" aria-label="Version 8.0.15 on GitHub">v8.0.15</a><span class="ai-project-teaser">A conversational skill for developing causal questions, planning studies, and interpreting evidence.</span></h3>
+</summary>
 <div class="ai-project-content">
-<h3 id="causal-consultant-title" class="ai-project-title">Interactive causal consulting <a class="ai-project-version" href="https://github.com/rqzhu-aide/causal-consultant/blob/main/README.md" aria-label="Version 4.2.5 on GitHub">v4.2.5</a></h3>
-<p>The <a href="https://github.com/rqzhu-aide/causal-consultant">causal-consultant</a> skill helps applied researchers, students, and collaborators move from an initial causal question to a defensible analysis plan, diagnostic workflow, interpretation, and report. It is deliberately not an automatic analysis pipeline: it consults with the user frequently, clarifies the estimand, examines whether the data support the intended claim, presents design choices and assumptions, and provides and asks for direction before the work expands. Persistent project state lets the consultation continue across stages while keeping the user in control. Built with Hermes, the <a href="https://github.com/rqzhu-aide/interactive-test-cc">interactive-test-cc</a> skill is a reproducible multi-turn testing harness for developers and maintainers who need to check that an interactive AI skill remains coherent across a full conversation.</p>
+<p>The <a href="https://github.com/rqzhu-aide/causal-consultant">causal-consultant</a> skill helps researchers, students, and collaborators develop causal questions, plan studies and analyses, and interpret evidence through conversation. It seeks context that could change a recommendation, compares defensible approaches and alternative explanations, and keeps assumptions and uncertainty beside causal claims. Users can provide partial answers, ask for explanations, and choose useful next steps. Saved project memory retains decisions, findings, and unresolved questions across sessions; users can change direction or pause, and reports are optional. The companion <a href="https://github.com/rqzhu-aide/interactive-test">interactive-test</a> skill uses adaptive conversations with simulated users and separate review to examine scientific reasoning, useful recommendations, and continuity.</p>
 <nav class="link-row" aria-label="Interactive causal consulting resources">
 <a href="https://github.com/rqzhu-aide/causal-consultant">Causal consultant on GitHub</a>
-<a href="https://github.com/rqzhu-aide/interactive-test-cc">Interactive testing skill</a>
+<a href="https://github.com/rqzhu-aide/interactive-test">Interactive testing skill</a>
 </nav>
 </div>
+</details>
 </article>
 
 <article class="ai-project" aria-labelledby="popping-title">
 <div class="ai-project-kind">Teaching platform</div>
+<details class="ai-project-details">
+<summary class="ai-project-summary">
+<h3 id="popping-title" class="ai-project-title">Popping <a class="ai-project-version" href="https://github.com/rqzhu-aide/popping/blob/main/CHANGELOG.md" aria-label="Version 1.3.3 on GitHub">v1.3.3</a><span class="ai-project-teaser">An interactive classroom platform for team discussions, presentations, and peer feedback.</span></h3>
+</summary>
 <div class="ai-project-content">
-<h3 id="popping-title" class="ai-project-title">Popping <a class="ai-project-version" href="https://github.com/rqzhu-aide/popping/blob/main/CHANGELOG.md" aria-label="Version 1.3.3 on GitHub">v1.3.3</a></h3>
 <p>Popping is an interactive classroom platform for instructors and students who use team-based discussion and presentation activities. Its Present and Challenge mode is a central feature: instructors can run timed team presentations and structured challenges, while students ask questions, respond to challenges, and submit peer ratings in real time. The platform also supports team selection, small-group discussion, peer recognition, and exportable participation and rating data. I currently deploy the Popping website on Render. Running a live instance requires a backend server and database to manage classroom sessions, teams, participation records, and ratings. Anyone can explore the classroom workflow through the private demo without creating an account.</p>
 <p class="ai-project-gallery-intro">The screenshots below follow the classroom workflow from team setup and discussion to presentation, rating, and challenge. Select any image to enlarge it.</p>
 <div class="ai-project-gallery-groups" role="group" aria-label="Popping classroom workflow screenshots">
@@ -61,9 +92,9 @@ I am increasingly adapting my regular research and teaching workflows to make pr
 <h4 id="popping-setup-heading" class="ai-project-gallery-heading">From team setup to discussion</h4>
 <div class="ai-project-gallery">
 
-![Instructor view: creating teams and monitoring participation.](images/popping/instructor-grouping.png){.lightbox group="popping" fig-alt="Popping instructor dashboard showing three assigned teams and student participation records."}
+![Instructor view: creating teams and monitoring participation.](images/popping/instructor-grouping.png){.lightbox group="popping" loading="lazy" fig-alt="Popping instructor dashboard showing three assigned teams and student participation records."}
 
-![Student view: working with an assigned team during group discussion.](images/popping/student-group-discussion.png){.lightbox group="popping" fig-alt="Popping student view showing discussion topics, an interactive team workspace, and the team roster."}
+![Student view: working with an assigned team during group discussion.](images/popping/student-group-discussion.png){.lightbox group="popping" loading="lazy" fig-alt="Popping student view showing discussion topics, an interactive team workspace, and the team roster."}
 
 </div>
 </section>
@@ -71,9 +102,9 @@ I am increasingly adapting my regular research and teaching workflows to make pr
 <h4 id="popping-presentation-heading" class="ai-project-gallery-heading">Presentation and challenge</h4>
 <div class="ai-project-gallery">
 
-![Instructor view: managing a timed presentation, live poll, and challenge.](images/popping/instructor-present-challenge.png){.lightbox group="popping" fig-alt="Popping instructor view showing a timed presentation, live poll, and challenge controls."}
+![Instructor view: managing a timed presentation, live poll, and challenge.](images/popping/instructor-present-challenge.png){.lightbox group="popping" loading="lazy" fig-alt="Popping instructor view showing a timed presentation, live poll, and challenge controls."}
 
-![Student view: rating a presentation and joining the challenge phase.](images/popping/student-present-challenge.png){.lightbox group="popping" fig-alt="Popping student view showing a timed presentation, rating form, and challenge participation."}
+![Student view: rating a presentation and joining the challenge phase.](images/popping/student-present-challenge.png){.lightbox group="popping" loading="lazy" fig-alt="Popping student view showing a timed presentation, rating form, and challenge participation."}
 
 </div>
 </section>
@@ -84,5 +115,24 @@ I am increasingly adapting my regular research and teaching workflows to make pr
 <a href="https://github.com/rqzhu-aide/popping">View source on GitHub</a>
 </nav>
 </div>
+</details>
 </article>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (!window.lightboxQuarto) return;
+  let imageLink = null;
+  document.querySelectorAll(".ai-project-gallery a.lightbox").forEach(function (link) {
+    link.addEventListener("click", function () {
+      imageLink = link;
+    }, true);
+  });
+  window.lightboxQuarto.on("close", function () {
+    if (imageLink && imageLink.isConnected) {
+      imageLink.focus({ preventScroll: true });
+    }
+    imageLink = null;
+  });
+});
+</script>

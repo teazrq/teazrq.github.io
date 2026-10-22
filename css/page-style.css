@@ -204,8 +204,7 @@ main.content:has(> .home-page) > #title-block-header:empty {
 }
 
 .interest-item h3::after,
-.research-theme h3::after,
-.ai-project-title::after {
+.research-theme h3::after {
   display: block;
   width: 1.8rem;
   height: 2px;
@@ -657,7 +656,7 @@ main.content:has(> .home-page) > #title-block-header:empty {
   display: grid;
   grid-template-columns: 8.5rem minmax(0, 1fr);
   gap: clamp(1.5rem, 4vw, 3rem);
-  padding: 1.75rem 0 2rem;
+  padding: 1.4rem 0;
   border-bottom: 1px solid var(--site-border);
 }
 
@@ -672,13 +671,68 @@ main.content:has(> .home-page) > #title-block-header:empty {
   text-transform: uppercase;
 }
 
+.ai-project-details {
+  min-width: 0;
+}
+
+.ai-project-summary {
+  position: relative;
+  display: block;
+  min-height: 2.75rem;
+  padding-right: 2rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+.ai-project-summary::-webkit-details-marker {
+  display: none;
+}
+
+.ai-project-summary::after {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.2rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-right: 2px solid var(--site-muted);
+  border-bottom: 2px solid var(--site-muted);
+  transform: rotate(45deg);
+  content: "";
+}
+
+.ai-project-details[open] > .ai-project-summary::after {
+  top: 0.7rem;
+  transform: rotate(225deg);
+}
+
+.ai-project-summary:hover::after {
+  border-color: var(--brand-orange);
+}
+
 .ai-project-title {
-  margin: 0 0 1rem;
+  margin: 0;
+}
+
+.ai-project-teaser {
+  display: block;
+  max-width: var(--prose-width);
+  margin-top: 0.5rem;
+  color: var(--site-muted);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.ai-project-content {
+  margin-top: 1.25rem;
 }
 
 .ai-project-version {
   margin-left: 0.4rem;
-  color: var(--brand-orange);
+  color: var(--brand-altgeld);
   font-family: var(--font-mono);
   font-size: 0.8rem;
   font-weight: 500;
@@ -688,8 +742,12 @@ main.content:has(> .home-page) > #title-block-header:empty {
 }
 
 .ai-project-version:hover {
-  color: var(--brand-orange);
+  color: var(--brand-altgeld);
   text-decoration: underline;
+}
+
+body.quarto-dark .ai-project-version {
+  color: var(--brand-orange);
 }
 
 .ai-project-content > p {
