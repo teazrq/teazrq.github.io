@@ -176,9 +176,9 @@ $entries = foreach ($match in $entryMatches) {
 
   $authors = @()
   if ($author) {
-    $authors = ($author -split '\sand\s') |
+    $authors = @(($author -split '\sand\s') |
       ForEach-Object { $_.Trim() } |
-      Where-Object { $_ }
+      Where-Object { $_ })
   }
 
   [pscustomobject]@{

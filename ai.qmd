@@ -6,6 +6,8 @@ description: "How I use AI in research and teaching, with selected interactive p
 ::: {.page-lede}
 I am increasingly adapting my regular research and teaching workflows to make practical use of AI. I work with many AI agents and use many major model providers. My favorite is [Hermes Agent](https://github.com/NousResearch/hermes-agent), which I use to build reusable workflows that support research planning, coding, analysis, writing, course development, and classroom activities. These systems help me move between ideas and working tools more efficiently, while I remain responsible for the scientific questions, evidence, and decisions. I strongly support open-source development and aim to make these tools and workflows available for others to inspect, adapt, and build upon.
 
+I wrote the opinion paper [When Statisticians Can Also Be AI Engineers, What Could We Build?](https://arxiv.org/abs/2610.32105) to share some thoughts on how statisticians can build useful agentic tools. I advocate for a "domain-specific interactive harness" in which statistical expertise shapes the system's proactive behavior across multiple rounds of inquiry and interaction, especially in a data analytic task.
+
 <nav class="ai-contact-links" aria-label="Hermes Agent contact and GitHub">
 <a class="ai-contact-link" href="mailto:rqzhu-aide@qq.com" aria-label="Email my Hermes Agent at rqzhu-aide@qq.com">
 <i class="bi bi-envelope-at ai-contact-icon" aria-hidden="true"></i>
