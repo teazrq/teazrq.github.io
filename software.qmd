@@ -91,10 +91,10 @@ This package implements NMF, ONMF, semi-NMF, semi-orthogonal NMF, and extensions
 
 The R package is planned for integration with RLT. The current implementation and example files are available below.
 
-::: {.link-row}
-[Example](files/RIST/RISTexample.r)
-[Main function](files/RIST/RIST.r)
-[Supporting functions](files/RIST/RISTfunctions.r)
-:::
+<nav class="link-row" aria-label="RIST resources">
+<a href="files/RIST/RISTexample.r">Example</a>
+<a href="files/RIST/RIST.r">Main function</a>
+<a href="files/RIST/RISTfunctions.r">Supporting functions</a>
+</nav>
 :::
 :::

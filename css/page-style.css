@@ -163,14 +163,14 @@ main.content:has(> .home-page) > #title-block-header:empty {
   }
 }
 
-.home-section-heading {
+h2.home-section-heading {
   display: flex;
   gap: 1.25rem;
   align-items: center;
   margin-top: 0;
 }
 
-.home-section-heading::after {
+h2.home-section-heading::after {
   flex: 1 1 auto;
   height: 1px;
   background: var(--site-border);
@@ -630,7 +630,7 @@ main.content:has(> .home-page) > #title-block-header:empty {
 }
 
 .ai-contact-label {
-  color: var(--site-muted);
+  color: color-mix(in srgb, var(--site-muted) 90%, var(--site-ink));
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.045em;

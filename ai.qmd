@@ -23,6 +23,34 @@ I wrote the opinion paper [When Statisticians Can Also Be AI Engineers, What Cou
 ## my recent projects
 
 <div class="ai-project-list">
+<article class="ai-project" aria-labelledby="model-forge-title">
+<div class="ai-project-kind">Model development</div>
+<details class="ai-project-details">
+<summary class="ai-project-summary">
+<h3 id="model-forge-title" class="ai-project-title">Model Forge <a class="ai-project-version" href="https://www.npmjs.com/package/@rqzhu-aide/model-forge-codex/v/0.9.2" aria-label="Version 0.9.2 prerelease on npm">v0.9.2</a><span class="ai-project-teaser">A local research workbench for developing statistical models and algorithms with an AI team.</span></h3>
+</summary>
+<div class="ai-project-content">
+<p>Model Forge is a standalone user interface that uses your ChatGPT subscription or a custom API provider to develop statistical models and algorithms with an AI research team. The system explicitly frames crucial model development decisions for you to make, presenting the reasoning and available options. You can ask targeted questions, explore alternatives, and select options directly in the interface to guide the research.</p>
+<div class="ai-project-gallery ai-project-gallery-single">
+
+![Model Forge's World of Warcraft-inspired workbench, shown with simulated example content. Select the image to enlarge it.](images/model-forge/workbench.jpg){.lightbox group="model-forge" width="1265" height="712" loading="lazy" fig-alt="Model Forge's World of Warcraft-inspired interface with a navy forge frame, orange research phase controls, a comparison of proposed methods, and a method selector."}
+
+</div>
+<p>The Codex edition is available on npm as a prerelease. Complete the <a href="https://github.com/rqzhu-aide/model-forge-codex/blob/main/docs/installation.md">one-time setup</a> for Node.js 22+, Python 3.11+, and the backend dependencies, then launch it with:</p>
+
+```{.bash .code-overflow-wrap}
+npx @rqzhu-aide/model-forge-codex@next web
+```
+
+<nav class="link-row" aria-label="Model Forge resources">
+<a href="https://www.npmjs.com/package/@rqzhu-aide/model-forge-codex">View package on npm</a>
+<a href="https://github.com/rqzhu-aide/model-forge-codex">View source on GitHub</a>
+<a href="https://github.com/rqzhu-aide/model-forge-codex/blob/main/docs/installation.md">Installation guide</a>
+</nav>
+</div>
+</details>
+</article>
+
 <article class="ai-project" aria-labelledby="proof-graphify-title">
 <div class="ai-project-kind">Research reading</div>
 <details class="ai-project-details">
@@ -37,7 +65,7 @@ I wrote the opinion paper [When Statisticians Can Also Be AI Engineers, What Cou
 </nav>
 <div class="ai-project-gallery ai-project-gallery-single">
 
-![A toy example: the representer theorem. Select the image to enlarge it.](images/proof-graphify/overview-browser.png){.lightbox group="proof-graphify" loading="lazy" fig-alt="Proof Graphify map showing how assumptions, a definition, and a projection lemma connect to the representer theorem and kernel ridge regression."}
+![A toy example: the representer theorem. Select the image to enlarge it.](images/proof-graphify/overview-browser.png){.lightbox group="proof-graphify" width="2800" height="1346" loading="lazy" fig-alt="Proof Graphify map showing how assumptions, a definition, and a projection lemma connect to the representer theorem and kernel ridge regression."}
 
 </div>
 </div>
@@ -88,8 +116,18 @@ I wrote the opinion paper [When Statisticians Can Also Be AI Engineers, What Cou
 </summary>
 <div class="ai-project-content">
 <p>Popping is an interactive classroom platform for instructors and students who use team-based discussion and presentation activities. Its Present and Challenge mode is a central feature: instructors can run timed team presentations and structured challenges, while students ask questions, respond to challenges, and submit peer ratings in real time. The platform also supports team selection, small-group discussion, peer recognition, and exportable participation and rating data. I currently deploy the Popping website on Render. Running a live instance requires a backend server and database to manage classroom sessions, teams, participation records, and ratings. Anyone can explore the classroom workflow through the private demo without creating an account.</p>
-<p class="ai-project-gallery-intro">The screenshots below follow the classroom workflow from team setup and discussion to presentation, rating, and challenge. Select any image to enlarge it.</p>
-<div class="ai-project-gallery-groups" role="group" aria-label="Popping classroom workflow screenshots">
+<p class="ai-project-gallery-intro">The classroom photos and screenshots below show Popping in use, from team discussion to presentation, rating, and challenge. Select any image to enlarge it.</p>
+<div class="ai-project-gallery-groups" role="group" aria-label="Popping classroom photos and workflow screenshots">
+<section class="ai-project-gallery-group" aria-labelledby="popping-classroom-heading">
+<h4 id="popping-classroom-heading" class="ai-project-gallery-heading">Popping in the classroom</h4>
+<div class="ai-project-gallery">
+
+![A classroom session with Popping, October 27, 2026.](images/popping-1.jpg){.lightbox group="popping" width="4032" height="3024" loading="lazy" fig-alt="Students seated at classroom tables while a team stands beside screens displaying Popping."}
+
+![Presentations and discussion with Popping, October 27, 2026.](images/popping-2.jpg){.lightbox group="popping" width="4096" height="3072" loading="lazy" fig-alt="A student team presenting at the front of the classroom with Popping's Present and Challenge interface projected above them."}
+
+</div>
+</section>
 <section class="ai-project-gallery-group" aria-labelledby="popping-setup-heading">
 <h4 id="popping-setup-heading" class="ai-project-gallery-heading">From team setup to discussion</h4>
 <div class="ai-project-gallery">
@@ -129,6 +167,16 @@ document.addEventListener("DOMContentLoaded", function () {
     link.addEventListener("click", function () {
       imageLink = link;
     }, true);
+  });
+  window.lightboxQuarto.on("open", function () {
+    const dialog = document.getElementById("glightbox-body");
+    if (!dialog) return;
+    dialog.setAttribute("aria-label", "Project image viewer");
+    dialog.setAttribute("aria-modal", "true");
+    const closeButton = dialog.querySelector(".gclose");
+    // Keep GLightbox's keyboard navigation in sync with the initial focus.
+    closeButton.classList.add("focused");
+    closeButton.focus({ preventScroll: true });
   });
   window.lightboxQuarto.on("close", function () {
     if (imageLink && imageLink.isConnected) {

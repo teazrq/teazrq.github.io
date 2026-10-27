@@ -341,8 +341,19 @@ body.quarto-dark .quarto-color-scheme-toggle .bi::before {
   .navbar-collapse {
     order: 4 !important;
     flex-basis: 100%;
+    max-height: calc(100vh - 4.25rem);
+    max-height: calc(100dvh - 4.25rem);
     padding: 0.6rem 0 1rem;
     border-top: 1px solid var(--site-border);
+  }
+
+  .navbar-collapse.show {
+    overflow-y: auto;
+  }
+
+  .navbar-collapse .navbar-nav-scroll {
+    max-height: none;
+    overflow: visible;
   }
 
   .navbar-nav {
@@ -353,6 +364,12 @@ body.quarto-dark .quarto-color-scheme-toggle .bi::before {
     display: flex;
     align-items: center;
     padding-inline: 0 !important;
+  }
+
+  .navbar-nav .nav-link:focus-visible {
+    outline: 3px solid var(--site-focus);
+    outline-offset: -3px;
+    box-shadow: none;
   }
 
   .navbar-nav .nav-link.active::after {

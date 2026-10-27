@@ -327,21 +327,6 @@ body.quarto-dark {
     scrollbar-width: thin;
   }
 
-  .pub-filter-group:not(.pub-search-group) {
-    position: relative;
-  }
-
-  .pub-filter-group:not(.pub-search-group)::after {
-    position: absolute;
-    right: 0;
-    bottom: 0.45rem;
-    width: 2rem;
-    height: 2.75rem;
-    background: linear-gradient(90deg, transparent, var(--pub-panel));
-    pointer-events: none;
-    content: "";
-  }
-
   .pub-topic-chip {
     flex: 0 0 auto;
     justify-content: center;
