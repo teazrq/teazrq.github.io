@@ -43,7 +43,7 @@ Students and collaborators working across statistics, machine learning, and biom
 ### PhD
 
 - [Mehrdad Mohammadi](https://mehrdadmhmdi.github.io/) (2026), Postdoc at the Beckman Institute, UIUC
-- Yuhan Li (2025), IMC Trading
+- [Yuhan Li](https://www.linkedin.com/in/yuhan-li-b5ba48124/) (2025), IMC Trading
 - [Tianning Xu](https://www.linkedin.com/in/tianning-xu/) (2024), Amazon → Waymo
 - [Wenzhuo Zhou](https://sites.google.com/view/wenzhuozhou/home/) (2022), Postdoc at UCI → AP at UCI
 - [Sarah E. Formentini](https://www.linkedin.com/in/sarah-formentini-43000563/) (2022), Bayer
