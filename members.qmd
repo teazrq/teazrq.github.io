@@ -14,7 +14,6 @@ Students and collaborators working across statistics, machine learning, and biom
 ### PhD
 
 - Eugene Han (2022-)
-- Mehrdad Mohammadi (2022-)
 - Zhiyu Wang (2023-)
 - Zexuan Zhang (2024-)
 - Zhaohao Su (2025-)
@@ -43,6 +42,7 @@ Students and collaborators working across statistics, machine learning, and biom
 ::: {.alumni-group}
 ### PhD
 
+- [Mehrdad Mohammadi](https://mehrdadmhmdi.github.io/) (2026), Postdoc at the Beckman Institute, UIUC
 - Yuhan Li (2025), IMC Trading
 - [Tianning Xu](https://www.linkedin.com/in/tianning-xu/) (2024), Amazon → Waymo
 - [Wenzhuo Zhou](https://sites.google.com/view/wenzhuozhou/home/) (2022), Postdoc at UCI → AP at UCI
