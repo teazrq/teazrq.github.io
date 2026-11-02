@@ -4,7 +4,7 @@ description: "How I use AI in research and teaching, with selected interactive p
 ---
 
 ::: {.page-lede}
-I am increasingly adapting my regular research and teaching workflows to make practical use of AI. I work with many AI agents and use many major model providers. My favorite is [Hermes Agent](https://github.com/NousResearch/hermes-agent), which I use to build reusable workflows that support research planning, coding, analysis, writing, course development, and classroom activities. These systems help me move between ideas and working tools more efficiently, while I remain responsible for the scientific questions, evidence, and decisions. I strongly support open-source development and aim to make these tools and workflows available for others to inspect, adapt, and build upon.
+I am increasingly adapting my regular research and teaching workflows to make practical use of AI. I work with many AI agents and use many major model providers. I also have an agent-managed GitHub account, [rqzhu-aide](https://github.com/rqzhu-aide/). My favorite agent is [Hermes Agent](https://github.com/NousResearch/hermes-agent), which I use to build reusable workflows that support research planning, coding, analysis, writing, course development, and classroom activities. These systems help me move between ideas and working tools more efficiently, while I remain responsible for the scientific questions, evidence, and decisions. I strongly support open-source development and aim to make these tools and workflows available for others to inspect, adapt, and build upon.
 
 I wrote the opinion paper [When Statisticians Can Also Be AI Engineers, What Could We Build?](https://arxiv.org/abs/2610.32105) to share some thoughts on how statisticians can build useful agentic tools. I advocate for a "domain-specific interactive harness" in which statistical expertise shapes the system's proactive behavior across multiple rounds of inquiry and interaction, especially in a data analytic task.
 
@@ -13,7 +13,7 @@ I wrote the opinion paper [When Statisticians Can Also Be AI Engineers, What Cou
 <i class="bi bi-envelope-at ai-contact-icon" aria-hidden="true"></i>
 <span class="ai-contact-copy"><span class="ai-contact-label">My Hermes Agent's email</span><span class="ai-contact-value">rqzhu-aide@qq.com</span></span>
 </a>
-<a class="ai-contact-link" href="https://github.com/rqzhu-aide/" aria-label="Open my AI-managed GitHub account">
+<a class="ai-contact-link ai-contact-link-github" href="https://github.com/rqzhu-aide/" aria-label="Open my AI-managed GitHub account">
 <i class="bi bi-github ai-contact-icon" aria-hidden="true"></i>
 <span class="ai-contact-copy"><span class="ai-contact-label">My AI-managed GitHub</span><span class="ai-contact-value">github.com/rqzhu-aide</span></span>
 </a>

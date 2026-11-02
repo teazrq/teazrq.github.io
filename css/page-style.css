@@ -647,6 +647,15 @@ h2.home-section-heading::after {
   overflow-wrap: anywhere;
 }
 
+.ai-contact-link-github {
+  border-top-color: var(--site-orange);
+  background: color-mix(in srgb, var(--site-orange) 12%, var(--site-bg));
+}
+
+.ai-contact-link-github:hover {
+  background: color-mix(in srgb, var(--site-orange) 18%, var(--site-bg));
+}
+
 .ai-project-list {
   max-width: 62rem;
   border-top: 1px solid var(--site-blue);
