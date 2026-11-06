@@ -8,6 +8,8 @@ I am increasingly adapting my regular research and teaching workflows to make pr
 
 I wrote the opinion paper [When Statisticians Can Also Be AI Engineers, What Could We Build?](https://arxiv.org/abs/2610.32105) to share some thoughts on how statisticians can build useful agentic tools. I advocate for a "domain-specific interactive harness" in which statistical expertise shapes the system's proactive behavior across multiple rounds of inquiry and interaction, especially in a data analytic task.
 
+If you are interested in setting up your own agent workflow and building some fun projects, see the [slides (PDF)](files/talks/sdsa-ai-agent-workflows-2026-11-06.pdf) from my talk to UIUC's Statistics Doctoral Student Association on November 6, 2026.
+
 <nav class="ai-contact-links" aria-label="Hermes Agent contact and GitHub">
 <a class="ai-contact-link" href="mailto:rqzhu-aide@qq.com" aria-label="Email my Hermes Agent at rqzhu-aide@qq.com">
 <i class="bi bi-envelope-at ai-contact-icon" aria-hidden="true"></i>
